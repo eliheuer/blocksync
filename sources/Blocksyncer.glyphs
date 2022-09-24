@@ -5,7 +5,9 @@ DisplayStrings = (
 "/space DIE/space GNU/space TYPOGRAFIE/space \012",
 "à",
 "/circumflex â",
-"Â"
+"Â",
+"/circumflexcomb.case",
+"/caron"
 );
 copyright = "Copyright 2019 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksyncer)";
 customParameters = (
@@ -279,6 +281,16 @@ width = 600;
 }
 );
 unicode = 0102;
+},
+{
+glyphname = Acaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 01CD;
 },
 {
 color = 4;
@@ -1322,6 +1334,16 @@ width = 220;
 leftKerningGroup = H;
 rightKerningGroup = H;
 unicode = 0049;
+},
+{
+glyphname = IJ;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0132;
 },
 {
 glyphname = Iacute;
@@ -3343,6 +3365,26 @@ width = 480;
 unicode = 015C;
 },
 {
+glyphname = Scommaaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0218;
+},
+{
+glyphname = Germandbls;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1E9E;
+},
+{
 color = 5;
 glyphname = T;
 layers = (
@@ -3413,6 +3455,16 @@ width = 600;
 }
 );
 unicode = 0162;
+},
+{
+glyphname = Tcommaaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 021A;
 },
 {
 color = 5;
@@ -4914,6 +4966,16 @@ width = 600;
 unicode = 0103;
 },
 {
+glyphname = acaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 01CE;
+},
+{
 glyphname = acircumflex;
 layers = (
 {
@@ -5486,6 +5548,16 @@ width = 600;
 }
 );
 unicode = 00EC;
+},
+{
+glyphname = ij;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0133;
 },
 {
 glyphname = imacron;
@@ -8507,6 +8579,16 @@ width = 600;
 unicode = 0024;
 },
 {
+glyphname = euro;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 20AC;
+},
+{
 glyphname = sterling;
 layers = (
 {
@@ -8681,6 +8763,156 @@ width = 600;
 }
 );
 unicode = 0025;
+},
+{
+glyphname = dieresiscomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0308;
+},
+{
+glyphname = dotaccentcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0307;
+},
+{
+glyphname = gravecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0300;
+},
+{
+glyphname = acutecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0301;
+},
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 030B;
+},
+{
+glyphname = circumflexcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0302;
+},
+{
+glyphname = caroncomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 030C;
+},
+{
+glyphname = brevecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0306;
+},
+{
+glyphname = ringcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 030A;
+},
+{
+glyphname = tildecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0303;
+},
+{
+glyphname = macroncomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0304;
+},
+{
+glyphname = commaturnedabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0312;
+},
+{
+glyphname = commaaccentcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0326;
+},
+{
+glyphname = cedillacomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0327;
+},
+{
+glyphname = ogonekcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0328;
 },
 {
 color = 5;
@@ -9079,6 +9311,16 @@ y = 0;
 };
 },
 {
+glyphname = dotaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 02D9;
+},
+{
 color = 5;
 glyphname = grave;
 layers = (
@@ -9188,6 +9430,16 @@ y = 595;
 };
 },
 {
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 02DD;
+},
+{
 color = 5;
 glyphname = circumflex;
 layers = (
@@ -9246,6 +9498,61 @@ y = 595;
 }
 );
 };
+},
+{
+color = 5;
+glyphname = caron;
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"390 660 LINE SMOOTH",
+"375 660 OFFCURVE",
+"367 651 OFFCURVE",
+"350 640 CURVE SMOOTH",
+"310 615 LINE SMOOTH",
+"301 609 OFFCURVE",
+"296 606 OFFCURVE",
+"290 606 CURVE SMOOTH",
+"284 606 OFFCURVE",
+"277 609 OFFCURVE",
+"270 614 CURVE SMOOTH",
+"230 640 LINE SMOOTH",
+"214 650 OFFCURVE",
+"205 660 OFFCURVE",
+"190 660 CURVE SMOOTH",
+"175 660 LINE SMOOTH",
+"162 660 OFFCURVE",
+"155 655 OFFCURVE",
+"155 646 CURVE SMOOTH",
+"155 634 OFFCURVE",
+"163 621 OFFCURVE",
+"175 605 CURVE SMOOTH",
+"216 550 LINE SMOOTH",
+"232 529 OFFCURVE",
+"243 520 OFFCURVE",
+"260 520 CURVE SMOOTH",
+"320 520 LINE SMOOTH",
+"337 520 OFFCURVE",
+"354 529 OFFCURVE",
+"368 550 CURVE SMOOTH",
+"406 605 LINE SMOOTH",
+"417 621 OFFCURVE",
+"425 633 OFFCURVE",
+"425 646 CURVE SMOOTH",
+"425 655 OFFCURVE",
+"418 660 OFFCURVE",
+"405 660 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 02C7;
 },
 {
 color = 5;
@@ -9383,6 +9690,26 @@ width = 600;
 }
 );
 unicode = 00AF;
+},
+{
+glyphname = cedilla;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00B8;
+},
+{
+glyphname = ogonek;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 02DB;
 }
 );
 instances = (
