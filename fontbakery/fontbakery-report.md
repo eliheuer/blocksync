@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[13] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[11] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -73,22 +73,7 @@ Fontbakery version: 0.8.10
 	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
 
 
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
 	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
 
 
 	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
@@ -148,22 +133,10 @@ Fontbakery version: 0.8.10
 	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
 
 
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
 	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
 
 
 	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
 
 
 	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
@@ -214,25 +187,7 @@ Fontbakery version: 0.8.10
 	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
 
 
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
 	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-	- 0x00FE (LATIN SMALL LETTER THORN)
 
 
 	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
@@ -256,82 +211,13 @@ Fontbakery version: 0.8.10
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
 	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
 
 
 	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
 
 
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
 	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -378,25 +264,14 @@ Fontbakery version: 0.8.10
 
 	- And 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+* 🔥 **FAIL** OS/2 usWeightClass is '700' when it should be '400'. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.100; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | Blocksyncer | Blocksyncer |
-| Subfamily Name | Regular | Regular |
-| Full Name | Blocksyncer Regular | Blocksyncer Regular |
-| Poscript Name | PrintShoppe-Regular | Blocksyncer-Regular | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -487,9 +362,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: section	Contours detected: 0	Expected: 2
+
+	- Glyph name: copyright	Contours detected: 0	Expected: 3
+
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+
+	- Glyph name: registered	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -516,6 +405,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
+
+	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
 
@@ -544,6 +435,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: divide	Contours detected: 0	Expected: 3
+
+	- Glyph name: oslash	Contours detected: 0	Expected: 3
+
+	- Glyph name: thorn	Contours detected: 0	Expected: 2
 
 	- Glyph name: Amacron	Contours detected: 0	Expected: 3
 
@@ -587,9 +482,49 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
 
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 2	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 2	Expected: 3
+
+	- Glyph name: Obreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: obreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
 	- Glyph name: OE	Contours detected: 0	Expected: 2
 
 	- Glyph name: oe	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -633,6 +568,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
@@ -641,9 +578,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: OE	Contours detected: 0	Expected: 2
 
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 2	Expected: 3
+
+	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -683,6 +632,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: copyright	Contours detected: 0	Expected: 3
+
+	- Glyph name: currency	Contours detected: 0	Expected: 2
+
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
 	- Glyph name: divide	Contours detected: 0	Expected: 3
@@ -712,6 +667,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: emdash	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
@@ -759,13 +716,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
 	- Glyph name: oe	Contours detected: 0	Expected: 3
 
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 2	Expected: 3
+
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -797,13 +762,39 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
+	- Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: section	Contours detected: 0	Expected: 2
+
 	- Glyph name: slash	Contours detected: 0	Expected: 1
+
+	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: thorn	Contours detected: 0	Expected: 2
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
 
-	- Glyph name: underscore	Contours detected: 0	Expected: 1 
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni2215	Contours detected: 0	Expected: 1
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -848,156 +839,34 @@ The following glyphs do not have the recommended number of contours:
 
 	* Yacute (U+00DD): X=169.0,Y=742.0 (should be at ascender 740?)
 
-	* Cacute (U+0106): X=169.0,Y=742.0 (should be at ascender 740?) 
+	* Cacute (U+0106): X=169.0,Y=742.0 (should be at ascender 740?)
 
-	* And Nacute (U+0143): X=169.0,Y=742.0 (should be at ascender 740?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+	* Nacute (U+0143): X=169.0,Y=742.0 (should be at ascender 740?)
 
+	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
+	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
 
-	* three (U+0033) contains a short segment B<<381.0,359.0>-<381.0,355.0>-<384.0,353.0>>
+	* Zacute (U+0179): X=169.0,Y=742.0 (should be at ascender 740?)
 
-	* three (U+0033) contains a short segment B<<384.0,353.0>-<387.0,351.0>-<397.0,344.0>>
+	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* six (U+0036) contains a short segment B<<190.0,423.0>-<190.0,417.0>-<197.0,417.0>>
+	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
 
-	* eight (U+0038) contains a short segment B<<75.0,376.0>-<80.0,382.0>-<80.0,386.0>>
+	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* eight (U+0038) contains a short segment B<<80.0,386.0>-<80.0,391.0>-<77.5,393.5>>
+	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
 
-	* eight (U+0038) contains a short segment B<<401.5,394.5>-<400.0,391.0>-<400.0,386.0>>
+	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
-	* eight (U+0038) contains a short segment B<<400.0,386.0>-<400.0,382.0>-<404.0,377.0>>
-
-	* nine (U+0039) contains a short segment B<<280.0,277.0>-<280.0,283.0>-<273.0,283.0>>
-
-	* K (U+004B) contains a short segment B<<200.0,460.0>-<200.0,450.0>-<210.0,450.0>>
-
-	* K (U+004B) contains a short segment B<<375.0,418.5>-<371.0,408.0>-<371.0,400.0>>
-
-	* K (U+004B) contains a short segment B<<225.0,280.0>-<221.0,293.0>-<217.5,296.5>>
-
-	* K (U+004B) contains a short segment B<<217.5,296.5>-<214.0,300.0>-<210.0,300.0>>
-
-	* K (U+004B) contains a short segment B<<210.0,300.0>-<200.0,300.0>-<200.0,290.0>>
-
-	* M (U+004D) contains a short segment B<<430.0,350.0>-<424.0,350.0>-<419.5,340.5>>
-
-	* M (U+004D) contains a short segment B<<347.0,156.5>-<341.0,150.0>-<330.0,150.0>>
-
-	* M (U+004D) contains a short segment B<<310.0,150.0>-<299.0,150.0>-<293.0,156.5>>
-
-	* M (U+004D) contains a short segment B<<219.5,341.0>-<216.0,350.0>-<209.0,350.0>>
-
-	* N (U+004E) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
-
-	* N (U+004E) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
-
-	* R (U+0052) contains a short segment B<<394.0,347.0>-<391.0,344.0>-<391.0,340.0>>
-
-	* R (U+0052) contains a short segment B<<391.0,340.0>-<391.0,336.0>-<394.5,332.5>>
-
-	* R (U+0052) contains a short segment B<<462.5,53.5>-<465.0,45.0>-<467.5,40.0>>
-
-	* R (U+0052) contains a short segment B<<467.5,40.0>-<470.0,35.0>-<470.0,26.0>>
-
-	* W (U+0057) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
-
-	* W (U+0057) contains a short segment B<<286.5,685.5>-<291.0,694.0>-<301.0,698.0>>
-
-	* W (U+0057) contains a short segment B<<301.0,698.0>-<309.0,700.0>-<315.0,700.0>>
-
-	* W (U+0057) contains a short segment B<<365.0,700.0>-<371.0,700.0>-<379.0,698.0>>
-
-	* W (U+0057) contains a short segment B<<379.0,698.0>-<390.0,694.0>-<394.0,685.5>>
-
-	* W (U+0057) contains a short segment B<<670.0,670.0>-<670.0,663.0>-<668.0,651.0>>
-
-	* W (U+0057) contains a short segment B<<350.0,240.0>-<347.0,258.0>-<340.0,258.0>>
-
-	* W (U+0057) contains a short segment B<<340.0,258.0>-<333.0,258.0>-<330.0,240.0>>
-
-	* X (U+0058) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
-
-	* Z (U+005A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
-
-	* Z (U+005A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>>
-
-	* k (U+006B) contains a short segment B<<200.0,460.0>-<200.0,450.0>-<210.0,450.0>>
-
-	* k (U+006B) contains a short segment B<<375.0,418.5>-<371.0,408.0>-<371.0,400.0>>
-
-	* k (U+006B) contains a short segment B<<225.0,280.0>-<221.0,293.0>-<217.5,296.5>>
-
-	* k (U+006B) contains a short segment B<<217.5,296.5>-<214.0,300.0>-<210.0,300.0>>
-
-	* k (U+006B) contains a short segment B<<210.0,300.0>-<200.0,300.0>-<200.0,290.0>>
-
-	* m (U+006D) contains a short segment B<<430.0,350.0>-<424.0,350.0>-<419.5,340.5>>
-
-	* m (U+006D) contains a short segment B<<347.0,156.5>-<341.0,150.0>-<330.0,150.0>>
-
-	* m (U+006D) contains a short segment B<<310.0,150.0>-<299.0,150.0>-<293.0,156.5>>
-
-	* m (U+006D) contains a short segment B<<219.5,341.0>-<216.0,350.0>-<209.0,350.0>>
-
-	* n (U+006E) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
-
-	* n (U+006E) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
-
-	* r (U+0072) contains a short segment B<<394.0,347.0>-<391.0,344.0>-<391.0,340.0>>
-
-	* r (U+0072) contains a short segment B<<391.0,340.0>-<391.0,336.0>-<394.5,332.5>>
-
-	* r (U+0072) contains a short segment B<<462.5,53.5>-<465.0,45.0>-<467.5,40.0>>
-
-	* r (U+0072) contains a short segment B<<467.5,40.0>-<470.0,35.0>-<470.0,26.0>>
-
-	* w (U+0077) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
-
-	* w (U+0077) contains a short segment B<<286.5,685.5>-<291.0,694.0>-<301.0,698.0>>
-
-	* w (U+0077) contains a short segment B<<301.0,698.0>-<309.0,700.0>-<315.0,700.0>>
-
-	* w (U+0077) contains a short segment B<<365.0,700.0>-<371.0,700.0>-<379.0,698.0>>
-
-	* w (U+0077) contains a short segment B<<379.0,698.0>-<390.0,694.0>-<394.0,685.5>>
-
-	* w (U+0077) contains a short segment B<<670.0,670.0>-<670.0,663.0>-<668.0,651.0>>
-
-	* w (U+0077) contains a short segment B<<350.0,240.0>-<347.0,258.0>-<340.0,258.0>>
-
-	* w (U+0077) contains a short segment B<<340.0,258.0>-<333.0,258.0>-<330.0,240.0>>
-
-	* x (U+0078) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
-
-	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
-
-	* z (U+007A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>>
-
-	* Ntilde (U+00D1) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
-
-	* Ntilde (U+00D1) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
-
-	* ntilde (U+00F1) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
-
-	* ntilde (U+00F1) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
-
-	* Nacute (U+0143) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
-
-	* Nacute (U+0143) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
-
-	* nacute (U+0144) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>> 
-
-	* And nacute (U+0144) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>> [code: found-short-segments]
+	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 5 | 115 | 7 | 92 | 0 |
-| 0% | 4% | 2% | 51% | 3% | 41% | 0% |
+| 0 | 7 | 4 | 114 | 7 | 95 | 0 |
+| 0% | 3% | 2% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
