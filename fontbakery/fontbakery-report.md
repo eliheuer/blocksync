@@ -2,38 +2,10 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[15] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
-
-
-* 🔥 **FAIL** In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.
-
-No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[13] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00A0 (NO-BREAK SPACE)
-
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x0025 (PERCENT SIGN)
-
 
 	- 0x0308 (COMBINING DIAERESIS)
 
@@ -53,34 +25,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x02D9 (DOT ABOVE)
 
 
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
 	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
 
 
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x00C6 (LATIN CAPITAL LETTER AE)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
 	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x00D0 (LATIN CAPITAL LETTER ETH)
 
 
 	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
@@ -92,22 +40,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
 
 
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
 	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
 
 
 	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
@@ -116,19 +49,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
 
 
-	- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
-
-
-	- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
-
-
-	- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
-
-
 	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
 
 
 	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
@@ -152,31 +73,13 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
 
 
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
 	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
 
 
 	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
 
 
-	- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
-
-
 	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
-
-
-	- 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
-
-
-	- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
-	- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
 
 
 	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
@@ -186,15 +89,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 	- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
-
-
-	- 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
-
-
-	- 0x0152 (LATIN CAPITAL LIGATURE OE)
-
-
-	- 0x00DE (LATIN CAPITAL LETTER THORN)
 
 
 	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
@@ -227,19 +121,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
 
 
-	- 0x00DA (LATIN CAPITAL LETTER U WITH ACUTE)
-
-
 	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-	- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
-
-
-	- 0x00D9 (LATIN CAPITAL LETTER U WITH GRAVE)
 
 
 	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
@@ -266,9 +148,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
 
 
-	- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
-
-
 	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
 
 
@@ -287,52 +166,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
 
 
-	- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
 	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
 
 
-	- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
-
-
-	- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
-
-
-	- 0x00E0 (LATIN SMALL LETTER A WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
-
-
-	- 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-	- 0x00E6 (LATIN SMALL LETTER AE)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
 	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x00F0 (LATIN SMALL LETTER ETH)
 
 
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
@@ -341,55 +178,13 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
 
 
-	- 0x00E9 (LATIN SMALL LETTER E WITH ACUTE)
-
-
 	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
-
-
-	- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x00E8 (LATIN SMALL LETTER E WITH GRAVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
 
 
 	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
 
 
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
 	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
-
-
-	- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
-
-
-	- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
-
-
-	- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
-
-
-	- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
 
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
@@ -419,31 +214,13 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
 
 
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
 	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
 
 
 	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
 
 
-	- 0x00F1 (LATIN SMALL LETTER N WITH TILDE)
-
-
 	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x00F3 (LATIN SMALL LETTER O WITH ACUTE)
-
-
-	- 0x00F4 (LATIN SMALL LETTER O WITH CIRCUMFLEX)
-
-
-	- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
-	- 0x00F2 (LATIN SMALL LETTER O WITH GRAVE)
 
 
 	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
@@ -453,12 +230,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 	- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-	- 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
-
-
-	- 0x0153 (LATIN SMALL LIGATURE OE)
 
 
 	- 0x00FE (LATIN SMALL LETTER THORN)
@@ -485,28 +256,13 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
 	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
 
 
-	- 0x00FA (LATIN SMALL LETTER U WITH ACUTE)
-
-
 	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-	- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
-
-
-	- 0x00F9 (LATIN SMALL LETTER U WITH GRAVE)
 
 
 	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
@@ -533,13 +289,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
 
 
-	- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
-
-
 	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
 
 
 	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
@@ -572,13 +322,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x2122 (TRADE MARK SIGN)
 
 
-	- 0x00B0 (DEGREE SIGN)
-
-
 	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
 
 
 	- 0x20AC (EURO SIGN)
@@ -588,15 +332,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
-
-
-	- 0x005E (CIRCUMFLEX ACCENT)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -638,9 +373,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x02D8 (BREVE)
 
 
-	- 0x00AF (MACRON)
-
-
 	- 0x00B8 (CEDILLA)
  
 
@@ -669,18 +401,14 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "235" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Blocksyncer-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (740) and hhea ascent (975) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 120 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -701,6 +429,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: percent	Contours detected: 0	Expected: 5
+
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
 
 	- Glyph name: quotesingle	Contours detected: 0	Expected: 1
@@ -711,7 +443,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
+	- Glyph name: plus	Contours detected: 0	Expected: 1
+
 	- Glyph name: slash	Contours detected: 0	Expected: 1
+
+	- Glyph name: less	Contours detected: 0	Expected: 1
+
+	- Glyph name: equal	Contours detected: 0	Expected: 2
 
 	- Glyph name: question	Contours detected: 0	Expected: 2
 
@@ -722,6 +460,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: backslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: bracketright	Contours detected: 0	Expected: 1
+
+	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
@@ -743,11 +483,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 0	Expected: 1
 
+	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
+
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+
+	- Glyph name: macron	Contours detected: 0	Expected: 1
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -755,7 +501,95 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
 
+	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: onehalf	Contours detected: 0	Expected: 3
+
+	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: AE	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Eth	Contours detected: 0	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 0	Expected: 1
+
+	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: germandbls	Contours detected: 0	Expected: 1
+
+	- Glyph name: ae	Contours detected: 0	Expected: 3
+
+	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: egrave	Contours detected: 2	Expected: 3
+
+	- Glyph name: eacute	Contours detected: 2	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: igrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: eth	Contours detected: 0	Expected: 2
+
+	- Glyph name: divide	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ebreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ebreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
+
+	- Glyph name: OE	Contours detected: 0	Expected: 2
+
+	- Glyph name: oe	Contours detected: 0	Expected: 3
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -775,7 +609,55 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
+	- Glyph name: fraction	Contours detected: 0	Expected: 1
+
+	- Glyph name: minus	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1
+
+	- Glyph name: AE	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ebreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Eth	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: OE	Contours detected: 0	Expected: 2
+
+	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: ae	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
+
+	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
 
 	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
@@ -797,17 +679,57 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: degree	Contours detected: 0	Expected: 2
+
+	- Glyph name: divide	Contours detected: 0	Expected: 3
+
+	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
+
 	- Glyph name: e	Contours detected: 1	Expected: 2
 
+	- Glyph name: eacute	Contours detected: 2	Expected: 3
+
+	- Glyph name: ebreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 2	Expected: 3
+
 	- Glyph name: ellipsis	Contours detected: 5	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: emdash	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: equal	Contours detected: 0	Expected: 2
+
+	- Glyph name: eth	Contours detected: 0	Expected: 2
+
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
+	- Glyph name: fraction	Contours detected: 0	Expected: 1
+
 	- Glyph name: g	Contours detected: 1	Expected: 2 or 3
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: germandbls	Contours detected: 0	Expected: 1
 
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
 
@@ -819,9 +741,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
+	- Glyph name: iacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: idieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: igrave	Contours detected: 0	Expected: 2
+
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
+	- Glyph name: less	Contours detected: 0	Expected: 1
+
+	- Glyph name: macron	Contours detected: 0	Expected: 1
+
+	- Glyph name: minus	Contours detected: 0	Expected: 1
+
+	- Glyph name: multiply	Contours detected: 0	Expected: 1
+
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
+
+	- Glyph name: oe	Contours detected: 0	Expected: 3
+
+	- Glyph name: onehalf	Contours detected: 0	Expected: 3
+
+	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -829,7 +773,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: parenright	Contours detected: 0	Expected: 1
 
+	- Glyph name: percent	Contours detected: 0	Expected: 5
+
 	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
+
+	- Glyph name: plus	Contours detected: 0	Expected: 1
 
 	- Glyph name: question	Contours detected: 0	Expected: 2
 
@@ -849,9 +797,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
-	- Glyph name: slash	Contours detected: 0	Expected: 1 
+	- Glyph name: slash	Contours detected: 0	Expected: 1
 
-	- And Glyph name: underscore	Contours detected: 0	Expected: 1
+	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uni2215	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -884,9 +836,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
-	* Aacute (U+00C1): X=289.0,Y=742.0 (should be at ascender 740?) 
+	* Aacute (U+00C1): X=289.0,Y=742.0 (should be at ascender 740?)
 
-	* And Eacute (U+00C9): X=240.0,Y=742.0 (should be at ascender 740?) [code: found-misalignments]
+	* Eacute (U+00C9): X=240.0,Y=742.0 (should be at ascender 740?)
+
+	* Iacute (U+00CD): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Oacute (U+00D3): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Uacute (U+00DA): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Yacute (U+00DD): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Cacute (U+0106): X=169.0,Y=742.0 (should be at ascender 740?) 
+
+	* And Nacute (U+0143): X=169.0,Y=742.0 (should be at ascender 740?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1008,16 +972,32 @@ The following glyphs do not have the recommended number of contours:
 
 	* x (U+0078) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
 
-	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>> 
+	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
 
-	* And z (U+007A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>> [code: found-short-segments]
+	* z (U+007A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>>
+
+	* Ntilde (U+00D1) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
+
+	* Ntilde (U+00D1) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
+
+	* ntilde (U+00F1) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
+
+	* ntilde (U+00F1) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
+
+	* Nacute (U+0143) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>>
+
+	* Nacute (U+0143) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
+
+	* nacute (U+0144) contains a short segment B<<203.0,390.0>-<198.0,390.0>-<194.0,386.0>> 
+
+	* And nacute (U+0144) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>> [code: found-short-segments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 5 | 117 | 7 | 88 | 0 |
-| 0% | 4% | 2% | 52% | 3% | 39% | 0% |
+| 0 | 8 | 5 | 115 | 7 | 92 | 0 |
+| 0% | 4% | 2% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
