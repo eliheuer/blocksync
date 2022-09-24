@@ -2,96 +2,12 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[11] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[12] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
 	- 0x02D8 (BREVE)
-
-
-	- 0x00B8 (CEDILLA)
- 
-
-	- And 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
@@ -217,6 +133,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
 
+	- Glyph name: cedilla	Contours detected: 0	Expected: 1
+
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -346,6 +264,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
@@ -443,11 +365,57 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
 
+	- Glyph name: uni01CD	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: gravecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -468,6 +436,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
+
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: minus	Contours detected: 0	Expected: 1
 
@@ -505,11 +475,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
+	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
@@ -591,6 +565,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: cedilla	Contours detected: 0	Expected: 1
+
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
@@ -606,6 +582,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: divide	Contours detected: 0	Expected: 3
 
 	- Glyph name: dollar	Contours detected: 0	Expected: 1, 3 or 5
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
 
@@ -663,6 +641,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
 	- Glyph name: iacute	Contours detected: 0	Expected: 2
@@ -674,6 +654,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: idieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: igrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
@@ -698,6 +680,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
 	- Glyph name: oe	Contours detected: 0	Expected: 3
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -793,11 +777,45 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
 
+	- Glyph name: uni01CD	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni01CE	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
@@ -809,6 +827,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
@@ -904,7 +926,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 4 | 114 | 7 | 95 | 0 |
+| 0 | 7 | 5 | 113 | 7 | 95 | 0 |
 | 0% | 3% | 2% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
