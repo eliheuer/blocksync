@@ -28,70 +28,7 @@ Fontbakery version: 0.8.10
 	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
 
 
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
 	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
 
 
 	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
@@ -100,121 +37,13 @@ Fontbakery version: 0.8.10
 	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
 
 
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
 	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
 
 
 	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
 
 
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
 
 
 	- 0x20AC (EURO SIGN)
@@ -456,6 +285,18 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
@@ -472,6 +313,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
 	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
@@ -480,7 +325,47 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ibreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
 	- Glyph name: dotlessi	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
@@ -506,15 +391,45 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 0	Expected: 3
 
+	- Glyph name: racute	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
+	- Glyph name: Umacron	Contours detected: 1	Expected: 2
+
 	- Glyph name: umacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
 
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
 	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
@@ -525,6 +440,14 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -558,11 +481,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: Ebreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
@@ -578,6 +509,18 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: OE	Contours detected: 0	Expected: 2
@@ -588,7 +531,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 1	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
@@ -628,6 +585,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
@@ -637,6 +596,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
 
 	- Glyph name: currency	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
@@ -651,6 +614,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: eacute	Contours detected: 2	Expected: 3
 
 	- Glyph name: ebreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
 
@@ -696,9 +661,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
 	- Glyph name: iacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ibreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: icircumflex	Contours detected: 0	Expected: 2
 
@@ -706,9 +675,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: igrave	Contours detected: 0	Expected: 2
 
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: less	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -762,7 +739,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
+	- Glyph name: racute	Contours detected: 3	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: section	Contours detected: 0	Expected: 2
 
@@ -784,7 +767,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
+
 	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
@@ -841,7 +854,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* Cacute (U+0106): X=169.0,Y=742.0 (should be at ascender 740?)
 
+	* Lacute (U+0139): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* lacute (U+013A): X=169.0,Y=742.0 (should be at ascender 740?)
+
 	* Nacute (U+0143): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Racute (U+0154): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Sacute (U+015A): X=169.0,Y=742.0 (should be at ascender 740?)
+
+	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
 
 	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -849,13 +874,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* Zacute (U+0179): X=169.0,Y=742.0 (should be at ascender 740?)
 
+	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
+
 	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
 
+	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wacute (U+1E82): X=169.0,Y=742.0 (should be at ascender 740?)
+
 	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
+
+	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
 
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
