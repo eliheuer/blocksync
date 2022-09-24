@@ -7,6 +7,7 @@ DisplayStrings = (
 "/circumflex â",
 "Â"
 );
+copyright = "Copyright 2019 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksyncer)";
 customParameters = (
 {
 name = fsType;
@@ -32,9 +33,19 @@ value = 0;
 {
 name = vendorID;
 value = GTL;
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 date = "2021-11-25 19:11:22 +0000";
+designer = "Eli Heuer";
+designerURL = "https://elih.blog";
 familyName = Blocksyncer;
 fontMaster = (
 {
@@ -580,6 +591,24 @@ width = 600;
 }
 );
 unicode = 00C7;
+},
+{
+glyphname = Ccircumflex;
+layers = (
+{
+components = (
+{
+name = C;
+},
+{
+name = circumflexcomb.case;
+}
+);
+layerId = m01;
+width = 470;
+}
+);
+unicode = 0108;
 },
 {
 glyphname = Cdotaccent;
@@ -2017,6 +2046,16 @@ width = 497;
 unicode = 0143;
 },
 {
+glyphname = Ncaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0147;
+},
+{
 glyphname = Ntilde;
 layers = (
 {
@@ -2033,6 +2072,16 @@ width = 497;
 }
 );
 unicode = 00D1;
+},
+{
+glyphname = Eng;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 014A;
 },
 {
 color = 5;
@@ -2106,6 +2155,16 @@ width = 474;
 unicode = 00D3;
 },
 {
+glyphname = Obreve;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 014E;
+},
+{
 glyphname = Ocircumflex;
 layers = (
 {
@@ -2158,6 +2217,45 @@ width = 474;
 }
 );
 unicode = 00D2;
+},
+{
+glyphname = Ohungarumlaut;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0150;
+},
+{
+glyphname = Omacron;
+layers = (
+{
+components = (
+{
+name = O;
+},
+{
+name = macron;
+transform = "{1, 0, 0, 1, 474, 0}";
+}
+);
+layerId = m01;
+width = 1074;
+}
+);
+unicode = 014C;
+},
+{
+glyphname = Oslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00D8;
 },
 {
 glyphname = Otilde;
@@ -4150,6 +4248,24 @@ width = 450;
 unicode = 00DD;
 },
 {
+glyphname = Ycircumflex;
+layers = (
+{
+components = (
+{
+name = Y;
+},
+{
+name = circumflexcomb.case;
+}
+);
+layerId = m01;
+width = 450;
+}
+);
+unicode = 0176;
+},
+{
 color = 5;
 glyphname = Z;
 layers = (
@@ -4214,6 +4330,44 @@ width = 434;
 leftKerningGroup = Z;
 rightKerningGroup = Z;
 unicode = 005A;
+},
+{
+glyphname = Zacute;
+layers = (
+{
+components = (
+{
+name = Z;
+},
+{
+name = acutecomb.case;
+}
+);
+layerId = m01;
+width = 434;
+}
+);
+unicode = 0179;
+},
+{
+glyphname = Zcaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 017D;
+},
+{
+glyphname = Zdotaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 017B;
 },
 {
 color = 4;
@@ -4876,6 +5030,16 @@ width = 808;
 unicode = 0144;
 },
 {
+glyphname = ncaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0148;
+},
+{
 glyphname = ntilde;
 layers = (
 {
@@ -4893,6 +5057,16 @@ width = 876;
 }
 );
 unicode = 00F1;
+},
+{
+glyphname = eng;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 014B;
 },
 {
 color = 4;
@@ -4930,6 +5104,16 @@ width = 785;
 }
 );
 unicode = 00F3;
+},
+{
+glyphname = obreve;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 014F;
 },
 {
 glyphname = ocircumflex;
@@ -4989,6 +5173,45 @@ width = 785;
 unicode = 00F2;
 },
 {
+glyphname = ohungarumlaut;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0151;
+},
+{
+glyphname = omacron;
+layers = (
+{
+components = (
+{
+name = o;
+},
+{
+name = macron;
+transform = "{1, 0, 0, 1, 474, 0}";
+}
+);
+layerId = m01;
+width = 1074;
+}
+);
+unicode = 014D;
+},
+{
+glyphname = oslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00F8;
+},
+{
 glyphname = otilde;
 layers = (
 {
@@ -5034,6 +5257,16 @@ width = 472;
 leftKerningGroup = H;
 rightKerningGroup = P;
 unicode = 0070;
+},
+{
+glyphname = thorn;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00FE;
 },
 {
 color = 4;
@@ -5118,6 +5351,26 @@ rightKerningGroup = T;
 unicode = 0074;
 },
 {
+glyphname = tcaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0165;
+},
+{
+glyphname = tcedilla;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0163;
+},
+{
 color = 4;
 glyphname = u;
 layers = (
@@ -5153,6 +5406,16 @@ width = 787;
 }
 );
 unicode = 00FA;
+},
+{
+glyphname = ubreve;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 016D;
 },
 {
 glyphname = ucircumflex;
@@ -5212,6 +5475,83 @@ width = 787;
 unicode = 00F9;
 },
 {
+glyphname = uhungarumlaut;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0171;
+},
+{
+glyphname = umacron;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = macron;
+transform = "{1, 0, 0, 1, 476, 0}";
+}
+);
+layerId = m01;
+width = 1076;
+}
+);
+unicode = 016B;
+},
+{
+glyphname = uogonek;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 0173;
+},
+{
+glyphname = uring;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = ring;
+transform = "{1, 0, 0, 1, 476, 0}";
+}
+);
+layerId = m01;
+width = 776;
+}
+);
+unicode = 016F;
+},
+{
+glyphname = utilde;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = tilde;
+transform = "{1, 0, 0, 1, 476, 0}";
+}
+);
+layerId = m01;
+width = 855;
+}
+);
+unicode = 0169;
+},
+{
 color = 4;
 glyphname = v;
 layers = (
@@ -5246,6 +5586,82 @@ width = 680;
 leftKerningGroup = W;
 rightKerningGroup = W;
 unicode = 0077;
+},
+{
+glyphname = wacute;
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = acute;
+transform = "{1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = m01;
+width = 991;
+}
+);
+unicode = 1E83;
+},
+{
+glyphname = wcircumflex;
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = circumflex;
+transform = "{1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = m01;
+width = 1092;
+}
+);
+unicode = 0175;
+},
+{
+glyphname = wdieresis;
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = dieresis;
+transform = "{1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = m01;
+width = 1056;
+}
+);
+unicode = 1E85;
+},
+{
+glyphname = wgrave;
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = grave;
+transform = "{1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = m01;
+width = 991;
+}
+);
+unicode = 1E81;
 },
 {
 color = 4;
@@ -5303,6 +5719,25 @@ width = 761;
 unicode = 00FD;
 },
 {
+glyphname = ycircumflex;
+layers = (
+{
+components = (
+{
+name = y;
+},
+{
+name = circumflex;
+transform = "{1, 0, 0, 1, 450, 0}";
+}
+);
+layerId = m01;
+width = 862;
+}
+);
+unicode = 0177;
+},
+{
 glyphname = ydieresis;
 layers = (
 {
@@ -5338,6 +5773,75 @@ width = 434;
 leftKerningGroup = Z;
 rightKerningGroup = Z;
 unicode = 007A;
+},
+{
+glyphname = zacute;
+layers = (
+{
+components = (
+{
+name = z;
+},
+{
+name = acute;
+transform = "{1, 0, 0, 1, 434, 0}";
+}
+);
+layerId = m01;
+width = 745;
+}
+);
+unicode = 017A;
+},
+{
+glyphname = zcaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 017E;
+},
+{
+glyphname = zdotaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 017C;
+},
+{
+glyphname = ordfeminine;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = m01;
+width = 480;
+}
+);
+unicode = 00AA;
+},
+{
+glyphname = ordmasculine;
+layers = (
+{
+components = (
+{
+name = o;
+}
+);
+layerId = m01;
+width = 474;
+}
+);
+unicode = 00BA;
 },
 {
 color = 5;
@@ -7084,6 +7588,55 @@ width = 600;
 unicode = 00B6;
 },
 {
+glyphname = section;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A7;
+},
+{
+glyphname = copyright;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A9;
+},
+{
+glyphname = registered;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00AE;
+},
+{
+glyphname = trademark;
+layers = (
+{
+components = (
+{
+name = T;
+},
+{
+name = M;
+transform = "{1, 0, 0, 1, 424, 0}";
+}
+);
+layerId = m01;
+width = 1064;
+}
+);
+unicode = 2122;
+},
+{
 glyphname = degree;
 layers = (
 {
@@ -7114,6 +7667,26 @@ width = 600;
 unicode = 00A6;
 },
 {
+glyphname = cent;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A2;
+},
+{
+glyphname = currency;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A4;
+},
+{
 glyphname = dollar;
 layers = (
 {
@@ -7122,6 +7695,26 @@ width = 600;
 }
 );
 unicode = 0024;
+},
+{
+glyphname = sterling;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A3;
+},
+{
+glyphname = yen;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 00A5;
 },
 {
 glyphname = divisionslash;
@@ -7984,16 +8577,11 @@ unicode = 00AF;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "PrintShoppe-Regular";
-}
-);
 instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+weightClass = Bold;
 }
 );
 kerning = {
@@ -8080,6 +8668,8 @@ m01 = {
 };
 };
 };
+manufacturer = GTL;
+manufacturerURL = "https://www.gtl.world";
 unitsPerEm = 1000;
 userData = {
 UFO.lib = {
