@@ -6,7 +6,8 @@ DisplayStrings = (
 1234567890   ",
 " DIE GNU TYPOGRAFIE 
 ",
-BLOCKSPACER
+BLOCKSPACER,
+H
 );
 axes = (
 {
@@ -48,7 +49,7 @@ value = 0;
 }
 );
 date = "2021-11-25 19:11:22 +0000";
-familyName = Blocksyncer;
+familyName = Blockspace;
 fontMaster = (
 {
 axesValues = (
@@ -117,7 +118,7 @@ pos = -225;
 {
 }
 );
-name = Bold;
+name = Regular;
 visible = 1;
 },
 {
@@ -187,7 +188,7 @@ pos = -225;
 {
 }
 );
-name = Black;
+name = Bold;
 }
 );
 glyphs = (
@@ -2105,22 +2106,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(195,0,ls),
-(225,0,o),
-(235,10,o),
-(235,40,cs),
-(235,260,ls),
-(235,275,o),
-(238,280,o),
-(243,280,cs),
-(247,280,ls),
-(252,280,o),
-(255,275,o),
-(255,260,cs),
-(255,40,ls),
-(255,10,o),
-(265,0,o),
-(295,0,cs),
+(190,0,ls),
+(220,0,o),
+(230,10,o),
+(230,40,cs),
+(230,260,ls),
+(230,275,o),
+(233,280,o),
+(238,280,cs),
+(242,280,ls),
+(247,280,o),
+(250,275,o),
+(250,260,cs),
+(250,40,ls),
+(250,10,o),
+(260,0,o),
+(290,0,cs),
 (430,0,ls),
 (455,0,o),
 (470,10,o),
@@ -2129,22 +2130,22 @@ nodes = (
 (470,690,o),
 (460,700,o),
 (430,700,cs),
-(295,700,ls),
-(265,700,o),
-(255,690,o),
-(255,660,cs),
-(255,470,ls),
-(255,455,o),
-(252,450,o),
-(247,450,cs),
-(243,450,ls),
-(238,450,o),
-(235,455,o),
-(235,470,cs),
-(235,660,ls),
-(235,690,o),
-(225,700,o),
-(195,700,cs),
+(290,700,ls),
+(260,700,o),
+(250,690,o),
+(250,660,cs),
+(250,470,ls),
+(250,455,o),
+(247,450,o),
+(242,450,cs),
+(238,450,ls),
+(233,450,o),
+(230,455,o),
+(230,470,cs),
+(230,660,ls),
+(230,690,o),
+(220,700,o),
+(190,700,cs),
 (50,700,ls),
 (20,700,o),
 (10,690,o),
@@ -15176,7 +15177,7 @@ unicode = 731;
 instances = (
 {
 axesValues = (
-0
+180
 );
 customParameters = (
 {
@@ -15187,30 +15188,31 @@ value = m01;
 instanceInterpolations = {
 m01 = 1;
 };
-name = VF;
-type = variable;
-},
-{
-axesValues = (
-180
-);
-instanceInterpolations = {
-m01 = 1;
-};
-name = Bold;
-weightClass = 700;
+name = Regular;
 widthClass = 3;
 },
 {
 axesValues = (
-200
+193
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.5;
-m01 = 0.5;
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.325;
+m01 = 0.675;
 };
-name = UltraBold;
-weightClass = 800;
+name = Medium;
+weightClass = 500;
+widthClass = 3;
+},
+{
+axesValues = (
+207
+);
+instanceInterpolations = {
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.675;
+m01 = 0.325;
+};
+name = SemiBold;
+weightClass = 600;
 widthClass = 3;
 },
 {
@@ -15220,8 +15222,10 @@ axesValues = (
 instanceInterpolations = {
 "6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 1;
 };
-name = Black;
-weightClass = 900;
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
 widthClass = 3;
 }
 );
