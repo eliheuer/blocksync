@@ -6,8 +6,7 @@ DisplayStrings = (
 1234567890   ",
 " DIE GNU TYPOGRAFIE 
 ",
-BLOCKSPACER,
-H
+BLOCKSPACER
 );
 axes = (
 {
@@ -20,9 +19,10 @@ customParameters = (
 name = "Axis Mappings";
 value = {
 wght = {
-700 = 180;
-800 = 200;
-900 = 220;
+400 = 180;
+500 = 200;
+600 = 210;
+700 = 220;
 };
 };
 },
@@ -11670,7 +11670,7 @@ width = 120;
 },
 {
 layerId = "6ABCF30A-460E-4EED-802C-9E4699B7E7F6";
-width = 600;
+width = 120;
 }
 );
 unicode = 32;
@@ -11680,11 +11680,11 @@ glyphname = nbspace;
 layers = (
 {
 layerId = m01;
-width = 600;
+width = 120;
 },
 {
 layerId = "6ABCF30A-460E-4EED-802C-9E4699B7E7F6";
-width = 600;
+width = 120;
 }
 );
 unicode = 160;
