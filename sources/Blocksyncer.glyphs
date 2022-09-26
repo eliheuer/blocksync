@@ -16,17 +16,6 @@ tag = wght;
 );
 customParameters = (
 {
-name = "Axis Mappings";
-value = {
-wght = {
-400 = 180;
-500 = 200;
-600 = 210;
-700 = 220;
-};
-};
-},
-{
 name = fsType;
 value = (
 );
