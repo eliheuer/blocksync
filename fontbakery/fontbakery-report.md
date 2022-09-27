@@ -590,7 +590,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
 
@@ -600,7 +600,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -622,35 +622,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wcircumflex (U+0174): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wcircumflex (U+0175): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wgrave (U+1E80): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wgrave (U+1E81): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wacute (U+1E82): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wacute (U+1E83): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wdieresis (U+1E84): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[4] Blocksyncer-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1239,7 +1239,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
 
@@ -1249,7 +1249,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -1271,35 +1271,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wcircumflex (U+0174): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wcircumflex (U+0175): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wgrave (U+1E80): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wgrave (U+1E81): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wacute (U+1E82): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wacute (U+1E83): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wdieresis (U+1E84): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[4] Blocksyncer-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1888,7 +1888,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
 
@@ -1898,7 +1898,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -1920,35 +1920,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wcircumflex (U+0174): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wcircumflex (U+0175): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wgrave (U+1E80): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wgrave (U+1E81): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wacute (U+1E82): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* wacute (U+1E83): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Wdieresis (U+1E84): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And wdieresis (U+1E85): X=369.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[4] Blocksyncer-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
