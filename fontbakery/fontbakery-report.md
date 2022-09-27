@@ -2,14 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[5] Blockspace-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+<details><summary><b>[4] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -160,6 +153,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
@@ -305,6 +300,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -654,14 +651,7 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blockspace-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -812,6 +802,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
@@ -957,6 +949,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -1306,14 +1300,7 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blockspace-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -1464,6 +1451,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
@@ -1609,6 +1598,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -1958,14 +1949,7 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blockspace-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -2116,6 +2100,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
@@ -2261,6 +2247,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -2615,8 +2603,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 16 | 446 | 25 | 372 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 43% | 0% |
+| 0 | 0 | 16 | 446 | 25 | 376 | 0 |
+| 0% | 0% | 2% | 52% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
