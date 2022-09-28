@@ -2,7 +2,11 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[4] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+<details><summary><b>[5] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 123 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -582,9 +586,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* G (U+0047): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* G (U+0047): X=286.0,Y=0.5 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -592,9 +594,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* g (U+0067): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* g (U+0067): X=286.0,Y=0.5 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -604,21 +604,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
-	* Gbreve (U+011E): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gbreve (U+011E): X=286.0,Y=0.5 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gbreve (U+011F): X=286.0,Y=0.5 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gdotaccent (U+0120): X=286.0,Y=0.5 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gdotaccent (U+0121): X=286.0,Y=0.5 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -651,7 +643,11 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Blocksyncer-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 127 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -1231,9 +1227,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* G (U+0047): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* G (U+0047): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1241,9 +1235,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* g (U+0067): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* g (U+0067): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1253,21 +1245,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
-	* Gbreve (U+011E): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gbreve (U+011E): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gbreve (U+011F): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gdotaccent (U+0120): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gdotaccent (U+0121): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -1300,7 +1284,11 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 130 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -1880,9 +1868,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* G (U+0047): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* G (U+0047): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1890,9 +1876,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* g (U+0067): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* g (U+0067): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1902,21 +1886,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
-	* Gbreve (U+011E): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gbreve (U+011E): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gbreve (U+011F): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Gdotaccent (U+0120): X=287.0,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* Gdotaccent (U+0120): X=313.5,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* gdotaccent (U+0121): X=287.0,Y=1.0 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2603,8 +2579,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 16 | 446 | 25 | 376 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 44% | 0% |
+| 0 | 3 | 16 | 446 | 25 | 373 | 0 |
+| 0% | 0% | 2% | 52% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
