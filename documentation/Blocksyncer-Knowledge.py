@@ -11,6 +11,7 @@
 # $ cd my-font
 # $ python3 documentation/image1.py --output documentation/image1.png
 
+
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
@@ -22,21 +23,20 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH = 2048
-HEIGHT = 2048
-MARGIN = 256
-FRAMES = 1
-UNIT = 64
-FONT_PATH = "documentation/specimen_fonts/Blocksyncer-Regular.ttf"
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 256, 1
+UNIT = MARGIN/4
+FONT_PATH = "documentation/specimen_fonts/GTL002-Regular.ttf"
 FONT_LICENSE = "OFLv1.1"
 AUXILIARY_FONT = "documentation/specimen_fonts/Hasubi-Mono[wght].ttf"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT_A = "ABCDEFGHIJKL"
-BIG_TEXT_B = "MNOPQRSTUV"
-BIG_TEXT_C = "WXYZ.,;:!-“”"
-BIG_TEXT_D = "1234567890"
-BIG_TEXT_E = "ÁĂǍÂÄÀĀÅÃ"
-BIG_TEXT_FONT_SIZE = 304
+BIG_TEXT_A = "Knowledge "
+BIG_TEXT_B = "Triumphant"
+BIG_TEXT_C = "The Concept of Knowledge"
+BIG_TEXT_D = "in Medieval Islam"
+BIG_TEXT_E = "By Franz Rosenthal"
+BIG_TEXT_O = ""
+BIG_TEXT_P = ""
+BIG_TEXT_FONT_SIZE = 128+(32*3.75)
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.9
 GRID_VIEW = True # Change this to "True" for a grid overlay
@@ -54,18 +54,18 @@ ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
-MY_URL = "https://github.com/eliheuer/blocksyncer "
+MY_URL = "https://github.com/eliheuer/GTL002 "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 FONT_NAME = FONT_NAME+FONT_VERSION
-FONT_NAME = "GTL002: Blocksyncer Alpha"
+FONT_NAME = "GTL002 Alpha NFT"
 ENS_NAME = "elih.eth"
 
 # Draws a grid
 def grid():
     stroke(1, 0, 0, 0.75)
-    strokeWidth(3)
+    strokeWidth(1)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 4, MARGIN / 4
     rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
@@ -111,52 +111,22 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-9, UNIT*23.0-25))
-    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*19.0-25))
-    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*15.0-25))
-    text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*11.0-25))
-    text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*6.5-25))
-    #text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.25))
-    #text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.00))
-    #text(BIG_TEXT_F, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.75))
-    #text(BIG_TEXT_G, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*4.50))
-
-
-# Divider lines/
-def draw_divider_lines():
-    stroke(1)
-    strokeWidth(4)
-    lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN * 1.25), (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25))
-    line((MARGIN, MARGIN + (MARGIN / 4)), (WIDTH - MARGIN, MARGIN + (MARGIN / 4)))
-    stroke(None)
-
-
-# Draw text describing the font and it's git status & repo URL
-def draw_auxiliary_text():
-    # Setup
-    font(AUXILIARY_FONT)
-    fontSize(AUXILIARY_FONT_SIZE)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.15)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.15)
-    POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.99, MARGIN)
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
-    GTL_URL = "https://gtl.world"
-    # Draw Text
-    text(FONT_NAME, POS_TOP_LEFT, align="left")
-    text(FONT_LICENSE, POS_TOP_RIGHT, align="right")
-    text("at commit f968f88", POS_BOTTOM_RIGHT, align="right")
-    text(MY_URL, POS_BOTTOM_LEFT, align="left")
+    #text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-2, UNIT*25.75))
+    fontSize(320)
+    text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-9, UNIT*24))
+    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-6, UNIT*20))
+    fontSize(140)
+    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN-6, UNIT*17))
+    text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN-6, UNIT*15))
+    text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN-6, UNIT*4))
+#    text("001", (BIG_TEXT_SIDE_MARGIN-9, UNIT*16))
+GRID_VIEW = False # Change this to "True" for a grid overlay
 
 
 # Build and save the image
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
-    draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     print("DrawBot: Done")
