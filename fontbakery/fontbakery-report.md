@@ -2,11 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[5] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 123 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+<details><summary><b>[4] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -117,10 +113,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
@@ -150,8 +142,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
@@ -298,12 +288,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: minus	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
@@ -586,7 +570,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=286.0,Y=0.5 (should be at baseline 0?)
+	* G (U+0047): X=285.5,Y=0.5 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -594,7 +578,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=286.0,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=46.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=156.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=350.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=447.0,Y=701.0 (should be at cap-height 700?)
+
+	* g (U+0067): X=285.5,Y=0.5 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -602,15 +594,23 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* x (U+0078): X=46.0,Y=701.0 (should be at cap-height 700?)
 
-	* Gbreve (U+011E): X=286.0,Y=0.5 (should be at baseline 0?)
+	* x (U+0078): X=156.0,Y=701.0 (should be at cap-height 700?)
 
-	* gbreve (U+011F): X=286.0,Y=0.5 (should be at baseline 0?)
+	* x (U+0078): X=350.0,Y=701.0 (should be at cap-height 700?)
 
-	* Gdotaccent (U+0120): X=286.0,Y=0.5 (should be at baseline 0?)
+	* x (U+0078): X=447.0,Y=701.0 (should be at cap-height 700?)
 
-	* gdotaccent (U+0121): X=286.0,Y=0.5 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=285.5,Y=0.5 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=285.5,Y=0.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=285.5,Y=0.5 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=285.5,Y=0.5 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -643,11 +643,7 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blocksyncer-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 127 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -758,10 +754,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
@@ -791,8 +783,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
@@ -939,12 +929,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: minus	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
@@ -1227,7 +1211,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=287.0,Y=1.0 (should be at baseline 0?)
+	* G (U+0047): X=285.0,Y=1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1235,7 +1219,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=287.0,Y=1.0 (should be at baseline 0?)
+	* X (U+0058): X=43.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=150.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=353.0,Y=701.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=454.0,Y=701.0 (should be at cap-height 700?)
+
+	* g (U+0067): X=285.0,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1243,15 +1235,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
 
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* x (U+0078): X=43.0,Y=701.0 (should be at cap-height 700?)
 
-	* Gbreve (U+011E): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=150.0,Y=701.0 (should be at cap-height 700?)
 
-	* gbreve (U+011F): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=353.0,Y=701.0 (should be at cap-height 700?)
 
-	* Gdotaccent (U+0120): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=454.0,Y=701.0 (should be at cap-height 700?)
 
-	* gdotaccent (U+0121): X=287.0,Y=1.0 (should be at baseline 0?)
+	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
+
+	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=285.0,Y=1.0 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -1284,11 +1286,7 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 130 font units wide, non-breaking space named (uni00A0) is 120 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -1399,10 +1397,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
@@ -1432,8 +1426,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
@@ -1580,12 +1572,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: minus	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
@@ -1868,15 +1854,19 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=287.0,Y=1.0 (should be at baseline 0?)
-
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=287.0,Y=1.0 (should be at baseline 0?)
+	* X (U+0058): X=39.0,Y=702.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=144.0,Y=702.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=357.0,Y=702.0 (should be at cap-height 700?)
+
+	* X (U+0058): X=460.0,Y=702.0 (should be at cap-height 700?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1884,15 +1874,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
 
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* x (U+0078): X=39.0,Y=702.0 (should be at cap-height 700?)
 
-	* Gbreve (U+011E): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=144.0,Y=702.0 (should be at cap-height 700?)
 
-	* gbreve (U+011F): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=357.0,Y=702.0 (should be at cap-height 700?)
 
-	* Gdotaccent (U+0120): X=287.0,Y=1.0 (should be at baseline 0?)
+	* x (U+0078): X=460.0,Y=702.0 (should be at cap-height 700?)
 
-	* gdotaccent (U+0121): X=287.0,Y=1.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2036,10 +2026,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: Eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
@@ -2069,8 +2055,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
@@ -2217,12 +2201,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: minus	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: AE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
@@ -2527,6 +2505,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
+	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
+
 	* Gbreve (U+011E): X=161.0,Y=699.5 (should be at cap-height 700?)
 
 	* Gbreve (U+011E): X=313.5,Y=699.5 (should be at cap-height 700?)
@@ -2579,8 +2559,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 16 | 446 | 25 | 373 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 43% | 0% |
+| 0 | 0 | 16 | 446 | 25 | 376 | 0 |
+| 0% | 0% | 2% | 52% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
