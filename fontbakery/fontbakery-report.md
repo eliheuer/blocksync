@@ -2,10 +2,21 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[4] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+<details><summary><b>[6] Blocksyncer-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1040, but got 989 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni030C.alt
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -113,19 +124,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: egrave	Contours detected: 2	Expected: 3
 
@@ -135,21 +136,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
 
-	- Glyph name: eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: divide	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
@@ -157,9 +144,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
 
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
 
@@ -167,85 +152,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: breve	Contours detected: 0	Expected: 1
 
@@ -255,15 +178,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -289,41 +206,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
@@ -351,8 +238,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
@@ -360,10 +245,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
 
 	- Glyph name: currency	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
@@ -395,13 +276,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
@@ -413,8 +290,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -423,7 +298,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
@@ -431,15 +306,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: less	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -449,15 +320,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -501,63 +370,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1 
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1 
 
 	- And Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
@@ -569,8 +396,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* G (U+0047): X=285.5,Y=0.5 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -585,8 +410,6 @@ The following glyphs do not have the recommended number of contours:
 	* X (U+0058): X=350.0,Y=701.0 (should be at cap-height 700?)
 
 	* X (U+0058): X=447.0,Y=701.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=285.5,Y=0.5 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -604,13 +427,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=285.5,Y=0.5 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=285.5,Y=0.5 (should be at baseline 0?)
+	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=285.5,Y=0.5 (should be at baseline 0?)
+	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=285.5,Y=0.5 (should be at baseline 0?)
+	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -643,10 +472,21 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Blocksyncer-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1040, but got 989 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni030C.alt
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -754,19 +594,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: egrave	Contours detected: 2	Expected: 3
 
@@ -776,21 +606,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
 
-	- Glyph name: eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: divide	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
@@ -798,9 +614,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
 
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
 
@@ -808,85 +622,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: breve	Contours detected: 0	Expected: 1
 
@@ -896,15 +648,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -930,41 +676,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
@@ -992,8 +708,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
@@ -1001,10 +715,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
 
 	- Glyph name: currency	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
@@ -1036,13 +746,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
@@ -1054,8 +760,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -1064,7 +768,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
@@ -1072,15 +776,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: less	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -1090,15 +790,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -1142,63 +840,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1 
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1 
 
 	- And Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
@@ -1210,8 +866,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* G (U+0047): X=285.0,Y=1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1226,8 +880,6 @@ The following glyphs do not have the recommended number of contours:
 	* X (U+0058): X=353.0,Y=701.0 (should be at cap-height 700?)
 
 	* X (U+0058): X=454.0,Y=701.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=285.0,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1247,13 +899,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=285.0,Y=1.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=285.0,Y=1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=285.0,Y=1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=285.0,Y=1.0 (should be at baseline 0?)
+	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -1286,10 +944,21 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Blocksyncer-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1040, but got 989 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni030C.alt
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1397,19 +1066,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: egrave	Contours detected: 2	Expected: 3
 
@@ -1419,21 +1078,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
 
-	- Glyph name: eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: divide	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
@@ -1441,9 +1086,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
 
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
 
@@ -1451,85 +1094,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: breve	Contours detected: 0	Expected: 1
 
@@ -1539,15 +1120,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -1573,41 +1148,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
@@ -1635,8 +1180,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
@@ -1644,10 +1187,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
 
 	- Glyph name: currency	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
@@ -1679,13 +1218,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
@@ -1697,8 +1232,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -1707,7 +1240,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
@@ -1715,15 +1248,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: less	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -1733,15 +1262,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -1785,63 +1312,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1 
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1 
 
 	- And Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
@@ -1884,6 +1369,20 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
+	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+
+	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=369.0,Y=698.0 (should be at cap-height 700?)
@@ -1915,10 +1414,21 @@ The following glyphs do not have the recommended number of contours:
 	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
 
 	* And wdieresis (U+1E85): X=369.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[4] Blocksyncer-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Blocksyncer-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1040, but got 989 instead [code: ascent]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni030C.alt
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2026,19 +1536,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
-
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: egrave	Contours detected: 2	Expected: 3
 
@@ -2048,21 +1548,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
 
-	- Glyph name: eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: divide	Contours detected: 0	Expected: 3
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
@@ -2070,9 +1556,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
 
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
 
@@ -2080,85 +1564,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
 	- Glyph name: breve	Contours detected: 0	Expected: 1
 
@@ -2168,15 +1590,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
@@ -2202,41 +1618,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2215	Contours detected: 0	Expected: 1
 
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Eth	Contours detected: 0	Expected: 2
-
 	- Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Hbar	Contours detected: 0	Expected: 2
-
-	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 0	Expected: 1
-
-	- Glyph name: OE	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: ae	Contours detected: 0	Expected: 3
+	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
@@ -2264,8 +1650,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
-	- Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
@@ -2273,10 +1657,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: copyright	Contours detected: 0	Expected: 3
 
 	- Glyph name: currency	Contours detected: 0	Expected: 2
-
-	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: degree	Contours detected: 0	Expected: 2
 
@@ -2308,13 +1688,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: endash	Contours detected: 0	Expected: 1
 
-	- Glyph name: eng	Contours detected: 0	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: eth	Contours detected: 0	Expected: 2
 
 	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
@@ -2326,8 +1702,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: germandbls	Contours detected: 0	Expected: 1
-
 	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -2336,7 +1710,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
 
-	- Glyph name: hbar	Contours detected: 0	Expected: 1
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
@@ -2344,15 +1718,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ij	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- Glyph name: lcaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: less	Contours detected: 0	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: macron	Contours detected: 0	Expected: 1
 
@@ -2362,15 +1732,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 0	Expected: 2
 
-	- Glyph name: oe	Contours detected: 0	Expected: 3
+	- Glyph name: oe	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: oslash	Contours detected: 0	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
@@ -2414,63 +1782,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: thorn	Contours detected: 0	Expected: 2
-
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: uni013B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0162	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni0163	Contours detected: 0	Expected: 1 or 2
+	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01C9	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2215	Contours detected: 0	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 0	Expected: 1 
+	- Glyph name: uni2215	Contours detected: 0	Expected: 1 
 
 	- And Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  [code: contour-count]
@@ -2483,19 +1809,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* G (U+0047): X=313.5,Y=699.5 (should be at cap-height 700?)
-
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* g (U+0067): X=313.5,Y=699.5 (should be at cap-height 700?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2507,21 +1825,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
-	* Gdotaccent (U+0120): X=161.0,Y=699.5 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* Gdotaccent (U+0120): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
 
-	* gdotaccent (U+0121): X=161.0,Y=699.5 (should be at cap-height 700?)
-
-	* gdotaccent (U+0121): X=313.5,Y=699.5 (should be at cap-height 700?)
+	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2559,8 +1875,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 16 | 446 | 25 | 376 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 44% | 0% |
+| 0 | 4 | 20 | 446 | 25 | 368 | 0 |
+| 0% | 0% | 2% | 52% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
