@@ -33,13 +33,13 @@ AUXILIARY_FONT = "documentation/specimen_fonts/Hasubi-Mono[wght].ttf"
 AUXILIARY_FONT_SIZE = 48
 BIG_TEXT_A = "ABCDEFGHIJKL"
 BIG_TEXT_B = "MNOPQRSTUV"
-BIG_TEXT_C = "WXYZ.,;:!-“”"
+BIG_TEXT_C = "WXYZ.,;:!?-“”"
 BIG_TEXT_D = "1234567890"
 BIG_TEXT_E = "ÁĂǍÂÄÀĀÅÃ"
 BIG_TEXT_FONT_SIZE = 304
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.9
-GRID_VIEW = True # Change this to "True" for a grid overlay
+GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -147,7 +147,7 @@ def draw_auxiliary_text():
     # Draw Text
     text(FONT_NAME, POS_TOP_LEFT, align="left")
     text(FONT_LICENSE, POS_TOP_RIGHT, align="right")
-    text("at commit f968f88", POS_BOTTOM_RIGHT, align="right")
+    text("f968f88", POS_BOTTOM_RIGHT, align="right")
     text(MY_URL, POS_BOTTOM_LEFT, align="left")
 
 
