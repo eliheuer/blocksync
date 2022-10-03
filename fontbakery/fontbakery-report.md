@@ -36,8 +36,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: parenright	Contours detected: 0	Expected: 1
 
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
 
 	- Glyph name: slash	Contours detected: 0	Expected: 1
@@ -45,8 +43,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: less	Contours detected: 0	Expected: 1
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -57,8 +53,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: bracketright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -79,8 +73,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: braceright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
 
@@ -106,8 +98,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -117,8 +107,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
@@ -178,10 +166,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
 	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
 
 	- Glyph name: quoteright	Contours detected: 0	Expected: 1
@@ -211,8 +195,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -268,15 +250,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
@@ -332,13 +308,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 0	Expected: 5
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
 
@@ -367,8 +337,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
@@ -502,8 +470,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: parenright	Contours detected: 0	Expected: 1
 
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
 
 	- Glyph name: slash	Contours detected: 0	Expected: 1
@@ -511,8 +477,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: less	Contours detected: 0	Expected: 1
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -523,8 +487,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: bracketright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -545,8 +507,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: braceright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
 
@@ -572,8 +532,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -583,8 +541,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
@@ -644,10 +600,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
 	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
 
 	- Glyph name: quoteright	Contours detected: 0	Expected: 1
@@ -677,8 +629,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -734,15 +684,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
@@ -798,13 +742,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 0	Expected: 5
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
 
@@ -833,8 +771,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
@@ -970,8 +906,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: parenright	Contours detected: 0	Expected: 1
 
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
 
 	- Glyph name: slash	Contours detected: 0	Expected: 1
@@ -979,8 +913,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: less	Contours detected: 0	Expected: 1
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -991,8 +923,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: bracketright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -1013,8 +943,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: braceright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
 
@@ -1040,8 +968,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -1051,8 +977,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
@@ -1112,10 +1036,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
 	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
 
 	- Glyph name: quoteright	Contours detected: 0	Expected: 1
@@ -1145,8 +1065,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -1202,15 +1120,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
@@ -1266,13 +1178,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 0	Expected: 5
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
 
@@ -1301,8 +1207,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
@@ -1436,8 +1340,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: parenright	Contours detected: 0	Expected: 1
 
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
 
 	- Glyph name: slash	Contours detected: 0	Expected: 1
@@ -1445,8 +1347,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: less	Contours detected: 0	Expected: 1
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -1457,8 +1357,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: bracketright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -1479,8 +1377,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: braceright	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: cent	Contours detected: 0	Expected: 1 or 2
 
@@ -1506,8 +1402,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: cedilla	Contours detected: 0	Expected: 1
 
 	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
@@ -1517,8 +1411,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onehalf	Contours detected: 0	Expected: 3
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: multiply	Contours detected: 0	Expected: 1
 
@@ -1578,10 +1470,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
 	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
 
 	- Glyph name: quoteright	Contours detected: 0	Expected: 1
@@ -1611,8 +1499,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: asciicircum	Contours detected: 0	Expected: 1
 
 	- Glyph name: asciitilde	Contours detected: 0	Expected: 1
-
-	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
 
 	- Glyph name: at	Contours detected: 0	Expected: 2
 
@@ -1668,15 +1554,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
 
-	- Glyph name: emdash	Contours detected: 0	Expected: 1
-
-	- Glyph name: endash	Contours detected: 0	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 1	Expected: 2
 
 	- Glyph name: equal	Contours detected: 0	Expected: 2
-
-	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
@@ -1732,13 +1612,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 0	Expected: 5
 
-	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
-
 	- Glyph name: plus	Contours detected: 0	Expected: 1
-
-	- Glyph name: question	Contours detected: 0	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 0	Expected: 2
 
 	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
 
@@ -1767,8 +1641,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
