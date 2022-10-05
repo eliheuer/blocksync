@@ -367,27 +367,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* X (U+0058): X=46.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=156.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=350.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=447.0,Y=701.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* x (U+0078): X=46.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=156.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=350.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=447.0,Y=701.0 (should be at cap-height 700?)
+	* x (U+0078): X=248.0,Y=528.0 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
@@ -801,27 +787,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
-	* X (U+0058): X=43.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=150.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=353.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=454.0,Y=701.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=43.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=150.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=353.0,Y=701.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=454.0,Y=701.0 (should be at cap-height 700?)
 
 	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
 
@@ -1237,27 +1207,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
 
-	* X (U+0058): X=39.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=144.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=357.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=460.0,Y=702.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=39.0,Y=702.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=144.0,Y=702.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=357.0,Y=702.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=460.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
