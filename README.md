@@ -1,4 +1,4 @@
-# Blocksyncer or Blockspacer
+# Blocksync
 
 [![][Fontbakery]](https://eliheuer.github.io/blocksyncer/fontbakery/fontbakery-report.html)
 [![][Universal]](https://eliheuer.github.io/blocksyncer/fontbakery/fontbakery-report.html)
@@ -12,15 +12,11 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
-
-Don't hesitate to create images!
-
 ![Sample Image](documentation/Blocksyncer-Alpha-NFT.png)
 
 ## About
 
-A Block-like typeface by Eli Heuer. Alpha NFT coming soon on https://gtl.world.
+A Block-like variable font by Eli Heuer. In-development, not ready for use.
 
 ## Building
 
@@ -41,9 +37,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
 
 ## Repository Layout
 
