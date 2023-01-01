@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="180"/>
+      <map input="500" output="193"/>
+      <map input="600" output="207"/>
+      <map input="700" output="220"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Blocksync-Regular.ufo" name="Blocksync Regular" familyname="Blocksync" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+    </source>
+    <source filename="Blocksync-Bold.ufo" name="Blocksync Bold" familyname="Blocksync" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Blocksync Regular" familyname="Blocksync" stylename="Regular" filename="../instance_ufo/Blocksync-Regular.ufo" stylemapfamilyname="Blocksync" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Variable Font Origin</string>
+              <string>m01</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Medium" familyname="Blocksync" stylename="Medium" filename="../instance_ufo/Blocksync-Medium.ufo" stylemapfamilyname="Blocksync Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="193"/>
+      </location>
+    </instance>
+    <instance name="Blocksync SemiBold" familyname="Blocksync" stylename="SemiBold" filename="../instance_ufo/Blocksync-SemiBold.ufo" stylemapfamilyname="Blocksync SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="207"/>
+      </location>
+    </instance>
+    <instance name="Blocksync Bold" familyname="Blocksync" stylename="Bold" filename="../instance_ufo/Blocksync-Bold.ufo" stylemapfamilyname="Blocksync" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>UFO.lib</key>
+      <dict>
+        <key>public.postscriptNames</key>
+        <dict>
+          <key>circumflexcomb.case</key>
+          <string>uni0302.case</string>
+          <key>dieresiscomb.case</key>
+          <string>uni0308.case</string>
+          <key>ringcomb.case</key>
+          <string>uni030A.case</string>
+        </dict>
+      </dict>
+      <key>UFOFormat</key>
+      <integer>3</integer>
+    </dict>
+  </lib>
+</designspace>

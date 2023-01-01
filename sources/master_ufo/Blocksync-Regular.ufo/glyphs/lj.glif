@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lj" format="2">
+  <advance width="655"/>
+  <unicode hex="01C9"/>
+  <anchor x="185" y="0" name="bottom"/>
+  <anchor x="195" y="700" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="j" xOffset="350"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

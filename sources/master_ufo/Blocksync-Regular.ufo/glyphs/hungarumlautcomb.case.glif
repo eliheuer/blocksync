@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb.case" format="2">
+  <anchor x="120" y="700" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-17" y="740" type="curve" smooth="yes"/>
+      <point x="53" y="740" type="line" smooth="yes"/>
+      <point x="63" y="740"/>
+      <point x="73" y="739"/>
+      <point x="90" y="760" type="curve" smooth="yes"/>
+      <point x="146" y="831" type="line" smooth="yes"/>
+      <point x="154" y="842"/>
+      <point x="160" y="849"/>
+      <point x="160" y="859" type="curve" smooth="yes"/>
+      <point x="160" y="873"/>
+      <point x="150" y="879"/>
+      <point x="130" y="879" type="curve" smooth="yes"/>
+      <point x="43" y="879" type="line" smooth="yes"/>
+      <point x="23" y="879"/>
+      <point x="18" y="880"/>
+      <point x="3" y="849" type="curve" smooth="yes"/>
+      <point x="-27" y="786" type="line" smooth="yes"/>
+      <point x="-34" y="771"/>
+      <point x="-37" y="765"/>
+      <point x="-37" y="760" type="curve" smooth="yes"/>
+      <point x="-37" y="750"/>
+      <point x="-32" y="740"/>
+    </contour>
+    <contour>
+      <point x="183" y="740" type="curve" smooth="yes"/>
+      <point x="253" y="740" type="line" smooth="yes"/>
+      <point x="263" y="740"/>
+      <point x="273" y="739"/>
+      <point x="290" y="760" type="curve" smooth="yes"/>
+      <point x="346" y="831" type="line" smooth="yes"/>
+      <point x="354" y="842"/>
+      <point x="360" y="849"/>
+      <point x="360" y="859" type="curve" smooth="yes"/>
+      <point x="360" y="873"/>
+      <point x="350" y="879"/>
+      <point x="330" y="879" type="curve" smooth="yes"/>
+      <point x="243" y="879" type="line" smooth="yes"/>
+      <point x="223" y="879"/>
+      <point x="218" y="880"/>
+      <point x="203" y="849" type="curve" smooth="yes"/>
+      <point x="173" y="786" type="line" smooth="yes"/>
+      <point x="166" y="771"/>
+      <point x="163" y="765"/>
+      <point x="163" y="760" type="curve" smooth="yes"/>
+      <point x="163" y="750"/>
+      <point x="168" y="740"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>240</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
