@@ -23298,7 +23298,7 @@ shapes = (
 ref = N;
 }
 );
-width = 497;
+width = 600;
 },
 {
 layerId = m004;
@@ -23353,7 +23353,7 @@ pos = (120,0);
 ref = acutecomb;
 }
 );
-width = 497;
+width = 600;
 },
 {
 layerId = m004;
@@ -23412,7 +23412,7 @@ pos = (110,0);
 ref = caroncomb;
 }
 );
-width = 497;
+width = 600;
 },
 {
 layerId = m004;
@@ -23471,7 +23471,7 @@ pos = (-65,1);
 ref = commaaccentcomb;
 }
 );
-width = 497;
+width = 600;
 },
 {
 layerId = m004;
@@ -23530,7 +23530,7 @@ pos = (115,0);
 ref = tildecomb;
 }
 );
-width = 497;
+width = 600;
 },
 {
 layerId = m004;
@@ -38463,7 +38463,60 @@ instances = (
 {
 axesValues = (
 180,
-0
+100
+);
+instanceInterpolations = {
+m003 = 0.5;
+m01 = 0.5;
+};
+name = Regular;
+},
+{
+axesValues = (
+193,
+100
+);
+instanceInterpolations = {
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.1625;
+m003 = 0.3375;
+m004 = 0.1625;
+m01 = 0.3375;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+207,
+100
+);
+instanceInterpolations = {
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.3375;
+m003 = 0.1625;
+m004 = 0.3375;
+m01 = 0.1625;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+220,
+100
+);
+instanceInterpolations = {
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.5;
+m004 = 0.5;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+180,
+75
 );
 customParameters = (
 {
@@ -38472,56 +38525,98 @@ value = m01;
 }
 );
 instanceInterpolations = {
-m003 = -1.5;
-m01 = 2.5;
+m01 = 1;
 };
-name = Regular;
+name = "Condensed Regular";
 widthClass = 3;
 },
 {
 axesValues = (
 193,
-0
+75
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.8125;
-m003 = -1.0125;
-m004 = -0.4875;
-m01 = 1.6875;
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.325;
+m01 = 0.675;
 };
-name = Medium;
+name = "Condensed Medium";
 weightClass = 500;
 widthClass = 3;
 },
 {
 axesValues = (
 207,
-0
+75
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 1.6875;
-m003 = -0.4875;
-m004 = -1.0125;
-m01 = 0.8125;
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.675;
+m01 = 0.325;
 };
-name = SemiBold;
+name = "Condensed SemiBold";
 weightClass = 600;
 widthClass = 3;
 },
 {
 axesValues = (
 220,
-0
+75
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 2.5;
-m004 = -1.5;
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 1;
 };
 isBold = 1;
-linkStyle = Regular;
-name = Bold;
+linkStyle = "Condensed Regular";
+name = "Condensed Bold";
 weightClass = 700;
 widthClass = 3;
+},
+{
+axesValues = (
+180,
+125
+);
+instanceInterpolations = {
+m003 = 1;
+};
+name = "Expanded Regular";
+widthClass = 7;
+},
+{
+axesValues = (
+193,
+125
+);
+instanceInterpolations = {
+m003 = 0.675;
+m004 = 0.325;
+};
+name = "Expanded Medium";
+widthClass = 7;
+},
+{
+axesValues = (
+207,
+125
+);
+instanceInterpolations = {
+m003 = 0.325;
+m004 = 0.675;
+};
+name = "Expanded SemiBold";
+weightClass = 600;
+widthClass = 7;
+},
+{
+axesValues = (
+220,
+125
+);
+instanceInterpolations = {
+m004 = 1;
+};
+name = "Expanded Bold";
+weightClass = 700;
+widthClass = 7;
 }
 );
 kerningLTR = {
