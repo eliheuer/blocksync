@@ -371,6 +371,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
+	* e (U+0065): X=411.5,Y=532.0 (should be at x-height 530?)
+
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
@@ -814,8 +816,6 @@ The following glyphs do not have the recommended number of contours:
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* d (U+0064): X=329.5,Y=531.0 (should be at x-height 530?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2547,6 +2547,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
+	* e (U+0065): X=361.5,Y=532.0 (should be at x-height 530?)
+
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
@@ -3434,6 +3436,8 @@ The following glyphs do not have the recommended number of contours:
 	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
+
+	* e (U+0065): X=461.5,Y=532.0 (should be at x-height 530?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
