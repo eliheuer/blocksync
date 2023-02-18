@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="auto">
 <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -23,11 +23,17 @@
 	}
 	.box{
 	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+		float: left;
 	}
 	
 	#nav{
 	  position: fixed;
 	  right: 20px;
+	  z-index: 100;
 	}
 	#font-toggle{
 	  display: block;
@@ -44,19 +50,127 @@
 	  display: block;
 	  padding: 10px;
 	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
 
 	  
 
 	  
 
 	  
-	    @font-face { src: url(fonts/Blocksyncer-Medium.ttf); font-family: Blocksyncer-Medium; font-weight: 500; font-stretch: 100%; font-style: normal; }
+	    @font-face{
+    src: url(Blocksyncer-Regular.ttf);
+    font-family: "Blocksyncer";
+    font-weight: 400;
+    
+    font-style: normal;
+}
 	  
-	    @font-face { src: url(fonts/Blocksyncer-Bold.ttf); font-family: Blocksyncer-Bold; font-weight: 700; font-stretch: 100%; font-style: normal; }
+	    @font-face{
+    src: url(Blocksyncer-SemiBold.ttf);
+    font-family: "Blocksyncer";
+    font-weight: 600;
+    
+    font-style: normal;
+}
 	  
-	    @font-face { src: url(fonts/Blocksyncer-SemiBold.ttf); font-family: Blocksyncer-SemiBold; font-weight: 600; font-stretch: 100%; font-style: normal; }
+	    @font-face{
+    src: url(Blocksyncer-Bold.ttf);
+    font-family: "Blocksyncer";
+    font-weight: 700;
+    
+    font-style: normal;
+}
 	  
-	    @font-face { src: url(fonts/Blocksyncer-Regular.ttf); font-family: Blocksyncer-Regular; font-weight: 400; font-stretch: 100%; font-style: normal; }
+	    @font-face{
+    src: url(Blocksyncer-Medium.ttf);
+    font-family: "Blocksyncer";
+    font-weight: 500;
+    
+    font-style: normal;
+}
 	  
 
 	  
@@ -64,13 +178,33 @@
 	  
 
 	  
-	    .Blocksyncer-Medium { font-family: Blocksyncer-Medium; font-weight: 500; font-style: normal; font-stretch: 100%; }
+	    .Blocksyncer-Regular{
+    font-family: "Blocksyncer";
+    font-weight: 400;
+    font-stretch: 100%;
+    font-style: normal;
+}
 	  
-	    .Blocksyncer-Bold { font-family: Blocksyncer-Bold; font-weight: 700; font-style: normal; font-stretch: 100%; }
+	    .Blocksyncer-SemiBold{
+    font-family: "Blocksyncer";
+    font-weight: 600;
+    font-stretch: 100%;
+    font-style: normal;
+}
 	  
-	    .Blocksyncer-SemiBold { font-family: Blocksyncer-SemiBold; font-weight: 600; font-style: normal; font-stretch: 100%; }
+	    .Blocksyncer-Bold{
+    font-family: "Blocksyncer";
+    font-weight: 700;
+    font-stretch: 100%;
+    font-style: normal;
+}
 	  
-	    .Blocksyncer-Regular { font-family: Blocksyncer-Regular; font-weight: 400; font-style: normal; font-stretch: 100%; }
+	    .Blocksyncer-Medium{
+    font-family: "Blocksyncer";
+    font-weight: 500;
+    font-stretch: 100%;
+    font-style: normal;
+}
 	  
 	
 .cell{
@@ -82,8 +216,8 @@
   text-align: center;
   padding: 5pt;
   margin: 5pt;
-  width: 21.0px;
-  line-height: 21.0px;
+  width: 30.0px;
+  line-height: 30.0px;
 }
 
     </style>
@@ -97,14 +231,14 @@
 	
   
       <div class="box">
-	<div class="box-title">Blocksyncer-Medium 14pt</div>
-	  <span class="Blocksyncer-Medium" style="font-size: 14pt">
+	<div class="box-title">Blocksyncer-Regular 20pt</div>
+	  <span class="Blocksyncer-Regular" style="font-size: 20pt">
 	    
 	      <div class="cell"> </div>
 	    
 	      <div class="cell">!</div>
 	    
-	      <div class="cell">&#34;</div>
+	      <div class="cell">"</div>
 	    
 	      <div class="cell">#</div>
 	    
@@ -112,9 +246,9 @@
 	    
 	      <div class="cell">%</div>
 	    
-	      <div class="cell">&amp;</div>
+	      <div class="cell">&</div>
 	    
-	      <div class="cell">&#39;</div>
+	      <div class="cell">'</div>
 	    
 	      <div class="cell">(</div>
 	    
@@ -156,11 +290,11 @@
 	    
 	      <div class="cell">;</div>
 	    
-	      <div class="cell">&lt;</div>
+	      <div class="cell"><</div>
 	    
 	      <div class="cell">=</div>
 	    
-	      <div class="cell">&gt;</div>
+	      <div class="cell">></div>
 	    
 	      <div class="cell">?</div>
 	    
@@ -808,14 +942,14 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Blocksyncer-Bold 14pt</div>
-	  <span class="Blocksyncer-Bold" style="font-size: 14pt">
+	<div class="box-title">Blocksyncer-SemiBold 20pt</div>
+	  <span class="Blocksyncer-SemiBold" style="font-size: 20pt">
 	    
 	      <div class="cell"> </div>
 	    
 	      <div class="cell">!</div>
 	    
-	      <div class="cell">&#34;</div>
+	      <div class="cell">"</div>
 	    
 	      <div class="cell">#</div>
 	    
@@ -823,9 +957,9 @@
 	    
 	      <div class="cell">%</div>
 	    
-	      <div class="cell">&amp;</div>
+	      <div class="cell">&</div>
 	    
-	      <div class="cell">&#39;</div>
+	      <div class="cell">'</div>
 	    
 	      <div class="cell">(</div>
 	    
@@ -867,11 +1001,11 @@
 	    
 	      <div class="cell">;</div>
 	    
-	      <div class="cell">&lt;</div>
+	      <div class="cell"><</div>
 	    
 	      <div class="cell">=</div>
 	    
-	      <div class="cell">&gt;</div>
+	      <div class="cell">></div>
 	    
 	      <div class="cell">?</div>
 	    
@@ -1519,14 +1653,14 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Blocksyncer-SemiBold 14pt</div>
-	  <span class="Blocksyncer-SemiBold" style="font-size: 14pt">
+	<div class="box-title">Blocksyncer-Bold 20pt</div>
+	  <span class="Blocksyncer-Bold" style="font-size: 20pt">
 	    
 	      <div class="cell"> </div>
 	    
 	      <div class="cell">!</div>
 	    
-	      <div class="cell">&#34;</div>
+	      <div class="cell">"</div>
 	    
 	      <div class="cell">#</div>
 	    
@@ -1534,9 +1668,9 @@
 	    
 	      <div class="cell">%</div>
 	    
-	      <div class="cell">&amp;</div>
+	      <div class="cell">&</div>
 	    
-	      <div class="cell">&#39;</div>
+	      <div class="cell">'</div>
 	    
 	      <div class="cell">(</div>
 	    
@@ -1578,11 +1712,11 @@
 	    
 	      <div class="cell">;</div>
 	    
-	      <div class="cell">&lt;</div>
+	      <div class="cell"><</div>
 	    
 	      <div class="cell">=</div>
 	    
-	      <div class="cell">&gt;</div>
+	      <div class="cell">></div>
 	    
 	      <div class="cell">?</div>
 	    
@@ -2230,14 +2364,14 @@
        </div>
     
       <div class="box">
-	<div class="box-title">Blocksyncer-Regular 14pt</div>
-	  <span class="Blocksyncer-Regular" style="font-size: 14pt">
+	<div class="box-title">Blocksyncer-Medium 20pt</div>
+	  <span class="Blocksyncer-Medium" style="font-size: 20pt">
 	    
 	      <div class="cell"> </div>
 	    
 	      <div class="cell">!</div>
 	    
-	      <div class="cell">&#34;</div>
+	      <div class="cell">"</div>
 	    
 	      <div class="cell">#</div>
 	    
@@ -2245,9 +2379,9 @@
 	    
 	      <div class="cell">%</div>
 	    
-	      <div class="cell">&amp;</div>
+	      <div class="cell">&</div>
 	    
-	      <div class="cell">&#39;</div>
+	      <div class="cell">'</div>
 	    
 	      <div class="cell">(</div>
 	    
@@ -2289,11 +2423,11 @@
 	    
 	      <div class="cell">;</div>
 	    
-	      <div class="cell">&lt;</div>
+	      <div class="cell"><</div>
 	    
 	      <div class="cell">=</div>
 	    
-	      <div class="cell">&gt;</div>
+	      <div class="cell">></div>
 	    
 	      <div class="cell">?</div>
 	    
@@ -2945,27 +3079,46 @@
 </body>
 	<script>
 
-	POSITION = "after"
+	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box")
+	  items = document.getElementsByClassName("box");
+	  console.log("Click from "+POSITION)
 	  
-	  if (POSITION === "before") {
-	  POSITION = "after"
+	  if (POSITION === "old") {
+	  POSITION = "new"
 	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("before", "after")
-            item.lastElementChild.className = item.lastElementChild.className.replace("before", "after")
-	    fontToggle.textContent = "After"
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
+            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	    fontToggle.textContent = "new"
 	  }
+
 	  } else {
-	  POSITION = "before"
+	  POSITION = "old"
 	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("after", "before")
-            item.lastElementChild.className = item.lastElementChild.className.replace("after", "before")
-	    fontToggle.textContent = "Before"
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
+            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	    fontToggle.textContent = "old"
 	  }
 	}
 	}
-	fontToggle.addEventListener("click", switchFonts);
-	</script>
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+	
+
+    </script>
 </html>
