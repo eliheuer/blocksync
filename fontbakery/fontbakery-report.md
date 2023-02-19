@@ -371,7 +371,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* e (U+0065): X=411.5,Y=532.0 (should be at x-height 530?)
+	* e (U+0065): X=409.5,Y=532.0 (should be at x-height 530?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -389,13 +389,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=253.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=353.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=253.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=353.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -817,7 +817,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
+	* f (U+0066): X=430.0,Y=531.0 (should be at x-height 530?)
+
+	* f (U+0066): X=220.0,Y=531.0 (should be at x-height 530?)
+
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -833,13 +839,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=254.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=354.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -1681,7 +1687,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
 
+	* c (U+0063): X=351.5,Y=531.5 (should be at x-height 530?)
+
+	* c (U+0063): X=217.5,Y=531.5 (should be at x-height 530?)
+
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* o (U+006F): X=353.0,Y=531.5 (should be at x-height 530?)
+
+	* o (U+006F): X=221.0,Y=531.5 (should be at x-height 530?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2103,7 +2117,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
+	* f (U+0066): X=380.0,Y=532.0 (should be at x-height 530?)
+
+	* f (U+0066): X=233.0,Y=532.0 (should be at x-height 530?)
+
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2119,13 +2139,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=262.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=362.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=262.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=362.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2547,7 +2567,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
 
-	* e (U+0065): X=361.5,Y=532.0 (should be at x-height 530?)
+	* e (U+0065): X=358.0,Y=532.0 (should be at x-height 530?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2994,6 +3014,8 @@ The following glyphs do not have the recommended number of contours:
 	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+
+	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
 	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -3455,13 +3477,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=236.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=336.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=236.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -3875,13 +3897,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=245.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=345.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=245.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=345.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
@@ -5177,13 +5199,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=220.0,Y=699.0 (should be at cap-height 700?)
 
-	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* Lcaron (U+013D): X=320.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=220.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?)
 
 	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
