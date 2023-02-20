@@ -365,69 +365,27 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* e (U+0065): X=409.5,Y=532.0 (should be at x-height 530?)
-
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=248.0,Y=528.0 (should be at x-height 530?)
+	* z (U+007A): X=189.0,Y=529.5 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=253.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=353.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=253.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=253.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=353.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=353.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -813,10 +771,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
-
 	* f (U+0066): X=430.0,Y=531.0 (should be at x-height 530?)
 
 	* f (U+0066): X=220.0,Y=531.0 (should be at x-height 530?)
@@ -824,10 +778,6 @@ The following glyphs do not have the recommended number of contours:
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
 
@@ -843,41 +793,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=354.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[6] Blocksync-CondensedRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1252,15 +1170,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
@@ -1274,41 +1184,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=369.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[6] Blocksync-ExpandedRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1683,10 +1561,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
-
 	* c (U+0063): X=351.5,Y=531.5 (should be at x-height 530?)
 
 	* c (U+0063): X=217.5,Y=531.5 (should be at x-height 530?)
@@ -1696,10 +1570,6 @@ The following glyphs do not have the recommended number of contours:
 	* o (U+006F): X=353.0,Y=531.5 (should be at x-height 530?)
 
 	* o (U+006F): X=221.0,Y=531.5 (should be at x-height 530?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
@@ -1713,41 +1583,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=369.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[6] Blocksync-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -2111,23 +1949,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=59.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* f (U+0066): X=380.0,Y=532.0 (should be at x-height 530?)
-
-	* f (U+0066): X=233.0,Y=532.0 (should be at x-height 530?)
-
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* k (U+006B): X=59.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
 
 	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
 
@@ -2135,50 +1961,18 @@ The following glyphs do not have the recommended number of contours:
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=59.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=59.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=262.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=362.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=262.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=262.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=362.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] Blocksync-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+	* And lcaron (U+013E): X=362.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '558' when it should be '600'. [code: bad-value]
@@ -2561,69 +2355,57 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=284.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): X=57.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
+	* e (U+0065): X=368.0,Y=529.0 (should be at x-height 530?)
 
-	* e (U+0065): X=358.0,Y=532.0 (should be at x-height 530?)
+	* f (U+0066): X=370.0,Y=529.0 (should be at x-height 530?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* g (U+0067): X=284.0,Y=1.0 (should be at baseline 0?)
 
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* x (U+0078): X=248.0,Y=528.0 (should be at x-height 530?)
+	* k (U+006B): X=57.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=284.0,Y=1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=284.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=284.0,Y=1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=284.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=284.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=284.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=57.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=57.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=376.0,Y=698.0 (should be at cap-height 700?)
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): L<<177.0,0.0>--<57.0,-1.0>>
 
-	* wcircumflex (U+0175): X=376.0,Y=698.0 (should be at cap-height 700?)
+	* k (U+006B): L<<177.0,0.0>--<57.0,-1.0>>
 
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* uni0136 (U+0136): L<<177.0,0.0>--<57.0,-1.0>> 
 
-	* Wgrave (U+1E80): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And uni0137 (U+0137): L<<177.0,0.0>--<57.0,-1.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[8] Blocksync-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -3007,69 +2789,35 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=372.0,Y=698.0 (should be at cap-height 700?)
-
 	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
+
+	* z (U+007A): X=192.5,Y=528.0 (should be at x-height 530?)
+
+	* z (U+007A): X=169.0,Y=531.0 (should be at x-height 530?)
+
+	* z (U+007A): X=50.0,Y=531.0 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=372.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=372.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -3455,17 +3203,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=376.0,Y=698.0 (should be at cap-height 700?)
-
 	* e (U+0065): X=461.5,Y=532.0 (should be at x-height 530?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=376.0,Y=698.0 (should be at cap-height 700?)
 
 	* x (U+0078): X=248.0,Y=528.0 (should be at x-height 530?)
 
@@ -3481,42 +3221,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=336.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=236.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=236.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=376.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=376.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] Blocksync-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+	* And lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><br></div></details><details><summary><b>[6] Blocksync-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -3875,67 +3583,53 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=284.5,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* g (U+0067): X=284.5,Y=1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=284.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=284.5,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=284.5,Y=1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=284.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=284.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=284.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=245.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=345.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=245.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=245.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=345.0,Y=699.0 (should be at cap-height 700?)
+	* And lcaron (U+013E): X=345.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): L<<173.0,0.0>--<58.0,-1.0>>
 
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* k (U+006B): L<<173.0,0.0>--<58.0,-1.0>>
 
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* uni0136 (U+0136): L<<173.0,0.0>--<58.0,-1.0>> 
 
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And uni0137 (U+0137): L<<173.0,0.0>--<58.0,-1.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[5] Blocksync-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4297,15 +3991,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=369.0,Y=698.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=369.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
@@ -4319,42 +4005,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=369.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=369.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] Blocksync-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -4737,67 +4391,87 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=285.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* g (U+0067): X=285.0,Y=1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* k (U+006B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=285.0,Y=1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=285.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=55.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=55.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=370.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?)
+	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
 
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): L<<250.0,470.0>--<251.0,660.0>>
 
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* M (U+004D): L<<350.0,355.0>--<351.0,40.0>>
 
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Y (U+0059): L<<240.0,530.0>--<241.0,670.0>>
 
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* Yacute (U+00DD): L<<240.0,530.0>--<241.0,670.0>>
 
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Ycircumflex (U+0176): L<<240.0,530.0>--<241.0,670.0>>
 
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* Ydieresis (U+0178): L<<240.0,530.0>--<241.0,670.0>>
 
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* Ygrave (U+1EF2): L<<240.0,530.0>--<241.0,670.0>>
 
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* k (U+006B): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* k (U+006B): L<<250.0,470.0>--<251.0,660.0>>
 
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
+	* m (U+006D): L<<350.0,355.0>--<351.0,40.0>>
 
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
+	* trademark (U+2122): L<<730.0,355.0>--<731.0,40.0>>
 
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
+	* uni0136 (U+0136): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* uni0136 (U+0136): L<<250.0,470.0>--<251.0,660.0>>
+
+	* uni0137 (U+0137): L<<185.0,0.0>--<55.0,-1.0>>
+
+	* uni0137 (U+0137): L<<250.0,470.0>--<251.0,660.0>>
+
+	* y (U+0079): L<<240.0,530.0>--<241.0,670.0>>
+
+	* yacute (U+00FD): L<<240.0,530.0>--<241.0,670.0>>
+
+	* ycircumflex (U+0177): L<<240.0,530.0>--<241.0,670.0>>
+
+	* ydieresis (U+00FF): L<<240.0,530.0>--<241.0,670.0>> 
+
+	* And ygrave (U+1EF3): L<<240.0,530.0>--<241.0,670.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] Blocksync-ExpandedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -5179,15 +4853,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=379.0,Y=698.0 (should be at cap-height 700?)
-
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* w (U+0077): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* w (U+0077): X=379.0,Y=698.0 (should be at cap-height 700?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -5203,48 +4869,16 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=320.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=220.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=220.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wcircumflex (U+0174): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wcircumflex (U+0175): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wgrave (U+1E80): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wgrave (U+1E81): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wacute (U+1E82): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* wacute (U+1E83): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=301.0,Y=698.0 (should be at cap-height 700?)
-
-	* Wdieresis (U+1E84): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=301.0,Y=698.0 (should be at cap-height 700?) 
-
-	* And wdieresis (U+1E85): X=379.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 66 | 1366 | 73 | 1039 | 0 |
-| 0% | 1% | 3% | 53% | 3% | 41% | 0% |
+| 0 | 15 | 69 | 1366 | 73 | 1036 | 0 |
+| 0% | 1% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
