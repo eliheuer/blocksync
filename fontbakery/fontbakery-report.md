@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[6] Blocksync-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[7] Blocksync-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '558' when it should be '600'. [code: bad-value]
@@ -365,15 +365,31 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
+	* G (U+0047): X=314.5,Y=1.5 (should be at baseline 0?)
+
 	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* b (U+0062): X=291.0,Y=529.0 (should be at x-height 530?)
 
-	* z (U+007A): X=189.0,Y=529.5 (should be at x-height 530?)
+	* g (U+0067): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=314.5,Y=1.5 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=314.5,Y=1.5 (should be at baseline 0?)
 
 	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
 
@@ -386,7 +402,27 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=253.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=353.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<195.0,0.0>--<58.0,-1.0>>
+
+	* K (U+004B): L<<233.0,287.0>--<235.0,40.0>>
+
+	* k (U+006B): L<<195.0,0.0>--<58.0,-1.0>>
+
+	* k (U+006B): L<<233.0,287.0>--<235.0,40.0>>
+
+	* uni0136 (U+0136): L<<195.0,0.0>--<58.0,-1.0>>
+
+	* uni0136 (U+0136): L<<233.0,287.0>--<235.0,40.0>>
+
+	* uni0137 (U+0137): L<<195.0,0.0>--<58.0,-1.0>> 
+
+	* And uni0137 (U+0137): L<<233.0,287.0>--<235.0,40.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] Blocksync-ExpandedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '465' when it should be '500'. [code: bad-value]
@@ -769,33 +805,83 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=65.0,Y=-1.0 (should be at baseline 0?)
+
+	* S (U+0053): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* e (U+0065): X=420.0,Y=531.0 (should be at x-height 530?)
+
+	* e (U+0065): X=253.0,Y=531.0 (should be at x-height 530?)
 
 	* f (U+0066): X=430.0,Y=531.0 (should be at x-height 530?)
 
-	* f (U+0066): X=220.0,Y=531.0 (should be at x-height 530?)
+	* f (U+0066): X=253.0,Y=531.0 (should be at x-height 530?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* k (U+006B): X=65.0,Y=-1.0 (should be at baseline 0?)
+
+	* s (U+0073): X=381.5,Y=0.5 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
-	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
+	* y (U+0079): X=235.0,Y=528.0 (should be at x-height 530?)
+
+	* y (U+0079): X=265.0,Y=528.0 (should be at x-height 530?)
+
+	* z (U+007A): X=249.5,Y=528.0 (should be at x-height 530?)
+
+	* z (U+007A): X=226.0,Y=531.0 (should be at x-height 530?)
+
+	* z (U+007A): X=50.0,Y=531.0 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=65.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=65.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=254.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=354.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?) 
+	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?)
 
-	* And lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+	* lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?)
+
+	* Sacute (U+015A): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* sacute (U+015B): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* Scircumflex (U+015C): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* Scaron (U+0160): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=381.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0218 (U+0218): X=381.5,Y=0.5 (should be at baseline 0?) 
+
+	* And uni0219 (U+0219): X=381.5,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<191.0,0.0>--<65.0,-1.0>>
+
+	* K (U+004B): L<<230.0,300.0>--<231.0,40.0>>
+
+	* k (U+006B): L<<191.0,0.0>--<65.0,-1.0>>
+
+	* k (U+006B): L<<230.0,300.0>--<231.0,40.0>>
+
+	* uni0136 (U+0136): L<<191.0,0.0>--<65.0,-1.0>>
+
+	* uni0136 (U+0136): L<<230.0,300.0>--<231.0,40.0>>
+
+	* uni0137 (U+0137): L<<191.0,0.0>--<65.0,-1.0>> 
+
+	* And uni0137 (U+0137): L<<230.0,300.0>--<231.0,40.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[6] Blocksync-CondensedRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1559,25 +1645,49 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=336.5,Y=-1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=351.5,Y=531.5 (should be at x-height 530?)
+	* K (U+004B): X=70.0,Y=-1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=217.5,Y=531.5 (should be at x-height 530?)
+	* c (U+0063): X=346.5,Y=531.5 (should be at x-height 530?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* c (U+0063): X=222.5,Y=531.5 (should be at x-height 530?)
 
-	* o (U+006F): X=353.0,Y=531.5 (should be at x-height 530?)
+	* g (U+0067): X=351.5,Y=531.5 (should be at x-height 530?)
 
-	* o (U+006F): X=221.0,Y=531.5 (should be at x-height 530?)
+	* g (U+0067): X=217.5,Y=531.5 (should be at x-height 530?)
+
+	* g (U+0067): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* k (U+006B): X=70.0,Y=-1.0 (should be at baseline 0?)
+
+	* o (U+006F): X=357.5,Y=531.5 (should be at x-height 530?)
+
+	* o (U+006F): X=222.5,Y=531.5 (should be at x-height 530?)
+
+	* q (U+0071): X=352.5,Y=531.5 (should be at x-height 530?)
+
+	* q (U+0071): X=227.5,Y=531.5 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=336.5,Y=-1.5 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=336.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=70.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=70.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1586,7 +1696,7 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[6] Blocksync-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Blocksync-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '465' when it should be '500'. [code: bad-value]
@@ -1949,21 +2059,41 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=59.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=316.5,Y=2.0 (should be at baseline 0?)
 
-	* k (U+006B): X=59.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=62.0,Y=-1.0 (should be at baseline 0?)
+
+	* g (U+0067): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* k (U+006B): X=62.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
-	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
+	* z (U+007A): X=220.5,Y=528.0 (should be at x-height 530?)
+
+	* z (U+007A): X=197.0,Y=531.0 (should be at x-height 530?)
+
+	* z (U+007A): X=50.0,Y=531.0 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=59.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=316.5,Y=2.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=59.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=316.5,Y=2.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=62.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=62.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=262.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1972,6 +2102,26 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=262.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=362.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<180.0,0.0>--<62.0,-1.0>>
+
+	* K (U+004B): L<<219.0,294.0>--<220.0,40.0>>
+
+	* k (U+006B): L<<180.0,0.0>--<62.0,-1.0>>
+
+	* k (U+006B): L<<219.0,294.0>--<220.0,40.0>>
+
+	* uni0136 (U+0136): L<<180.0,0.0>--<62.0,-1.0>>
+
+	* uni0136 (U+0136): L<<219.0,294.0>--<220.0,40.0>>
+
+	* uni0137 (U+0137): L<<180.0,0.0>--<62.0,-1.0>> 
+
+	* And uni0137 (U+0137): L<<219.0,294.0>--<220.0,40.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
@@ -2401,12 +2551,20 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): L<<177.0,0.0>--<57.0,-1.0>>
 
+	* K (U+004B): L<<215.0,283.0>--<217.0,40.0>>
+
 	* k (U+006B): L<<177.0,0.0>--<57.0,-1.0>>
 
-	* uni0136 (U+0136): L<<177.0,0.0>--<57.0,-1.0>> 
+	* k (U+006B): L<<215.0,283.0>--<217.0,40.0>>
 
-	* And uni0137 (U+0137): L<<177.0,0.0>--<57.0,-1.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Blocksync-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+	* uni0136 (U+0136): L<<177.0,0.0>--<57.0,-1.0>>
+
+	* uni0136 (U+0136): L<<215.0,283.0>--<217.0,40.0>>
+
+	* uni0137 (U+0137): L<<177.0,0.0>--<57.0,-1.0>> 
+
+	* And uni0137 (U+0137): L<<215.0,283.0>--<217.0,40.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '465' when it should be '500'. [code: bad-value]
@@ -2818,7 +2976,19 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<207.0,287.0>--<208.0,40.0>>
+
+	* k (U+006B): L<<207.0,287.0>--<208.0,40.0>>
+
+	* uni0136 (U+0136): L<<207.0,287.0>--<208.0,40.0>> 
+
+	* And uni0137 (U+0137): L<<207.0,287.0>--<208.0,40.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] Blocksync-ExpandedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '558' when it should be '600'. [code: bad-value]
@@ -3201,17 +3371,37 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
+	* G (U+0047): X=345.0,Y=2.0 (should be at baseline 0?)
+
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* e (U+0065): X=461.5,Y=532.0 (should be at x-height 530?)
+	* S (U+0053): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* g (U+0067): X=345.0,Y=2.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* x (U+0078): X=248.0,Y=528.0 (should be at x-height 530?)
+	* s (U+0073): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* y (U+0079): X=235.0,Y=529.0 (should be at x-height 530?)
+
+	* y (U+0079): X=265.0,Y=529.0 (should be at x-height 530?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=345.0,Y=2.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=345.0,Y=2.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=345.0,Y=2.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=345.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=345.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=345.0,Y=2.0 (should be at baseline 0?)
 
 	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -3221,9 +3411,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=336.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=236.0,Y=699.0 (should be at cap-height 700?) 
+	* lcaron (U+013E): X=236.0,Y=699.0 (should be at cap-height 700?)
 
-	* And lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+	* lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?)
+
+	* Sacute (U+015A): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* sacute (U+015B): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* Scircumflex (U+015C): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* Scaron (U+0160): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=382.0,Y=0.5 (should be at baseline 0?)
+
+	* uni0218 (U+0218): X=382.0,Y=0.5 (should be at baseline 0?) 
+
+	* And uni0219 (U+0219): X=382.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<214.0,0.0>--<60.0,-1.0>>
+
+	* K (U+004B): L<<252.0,290.0>--<254.0,40.0>>
+
+	* k (U+006B): L<<214.0,0.0>--<60.0,-1.0>>
+
+	* k (U+006B): L<<252.0,290.0>--<254.0,40.0>>
+
+	* uni0136 (U+0136): L<<214.0,0.0>--<60.0,-1.0>>
+
+	* uni0136 (U+0136): L<<252.0,290.0>--<254.0,40.0>>
+
+	* uni0137 (U+0137): L<<214.0,0.0>--<60.0,-1.0>> 
+
+	* And uni0137 (U+0137): L<<252.0,290.0>--<254.0,40.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[6] Blocksync-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3583,33 +3807,33 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=284.5,Y=1.0 (should be at baseline 0?)
+	* G (U+0047): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=284.5,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* k (U+006B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=284.5,Y=1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=284.5,Y=1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=284.5,Y=1.0 (should be at baseline 0?)
+	* Gdotaccent (U+0120): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=284.5,Y=1.0 (should be at baseline 0?)
+	* gdotaccent (U+0121): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0122 (U+0122): X=284.5,Y=1.0 (should be at baseline 0?)
+	* uni0122 (U+0122): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0123 (U+0123): X=284.5,Y=1.0 (should be at baseline 0?)
+	* uni0123 (U+0123): X=312.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=55.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=245.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3623,13 +3847,39 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* K (U+004B): L<<173.0,0.0>--<58.0,-1.0>>
+	* K (U+004B): L<<210.0,0.0>--<55.0,-1.0>>
 
-	* k (U+006B): L<<173.0,0.0>--<58.0,-1.0>>
+	* M (U+004D): L<<395.0,355.0>--<396.0,40.0>>
 
-	* uni0136 (U+0136): L<<173.0,0.0>--<58.0,-1.0>> 
+	* Y (U+0059): L<<253.0,530.0>--<254.0,670.0>>
 
-	* And uni0137 (U+0137): L<<173.0,0.0>--<58.0,-1.0>> [code: found-semi-vertical]
+	* Yacute (U+00DD): L<<253.0,530.0>--<254.0,670.0>>
+
+	* Ycircumflex (U+0176): L<<253.0,530.0>--<254.0,670.0>>
+
+	* Ydieresis (U+0178): L<<253.0,530.0>--<254.0,670.0>>
+
+	* Ygrave (U+1EF2): L<<253.0,530.0>--<254.0,670.0>>
+
+	* k (U+006B): L<<210.0,0.0>--<55.0,-1.0>>
+
+	* m (U+006D): L<<395.0,355.0>--<396.0,40.0>>
+
+	* trademark (U+2122): L<<800.0,355.0>--<801.0,40.0>>
+
+	* uni0136 (U+0136): L<<210.0,0.0>--<55.0,-1.0>>
+
+	* uni0137 (U+0137): L<<210.0,0.0>--<55.0,-1.0>>
+
+	* y (U+0079): L<<253.0,530.0>--<254.0,670.0>>
+
+	* yacute (U+00FD): L<<253.0,530.0>--<254.0,670.0>>
+
+	* ycircumflex (U+0177): L<<253.0,530.0>--<254.0,670.0>>
+
+	* ydieresis (U+00FF): L<<253.0,530.0>--<254.0,670.0>> 
+
+	* And ygrave (U+1EF3): L<<253.0,530.0>--<254.0,670.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[5] Blocksync-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3989,17 +4239,17 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=65.0,Y=-1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* k (U+006B): X=65.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0136 (U+0136): X=65.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* uni0137 (U+0137): X=65.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=270.0,Y=699.0 (should be at cap-height 700?)
 
@@ -4433,8 +4683,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* K (U+004B): L<<250.0,470.0>--<251.0,660.0>>
-
 	* M (U+004D): L<<350.0,355.0>--<351.0,40.0>>
 
 	* Y (U+0059): L<<240.0,530.0>--<241.0,670.0>>
@@ -4449,19 +4697,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* k (U+006B): L<<250.0,470.0>--<251.0,660.0>>
-
 	* m (U+006D): L<<350.0,355.0>--<351.0,40.0>>
 
 	* trademark (U+2122): L<<730.0,355.0>--<731.0,40.0>>
 
 	* uni0136 (U+0136): L<<185.0,0.0>--<55.0,-1.0>>
 
-	* uni0136 (U+0136): L<<250.0,470.0>--<251.0,660.0>>
-
 	* uni0137 (U+0137): L<<185.0,0.0>--<55.0,-1.0>>
-
-	* uni0137 (U+0137): L<<250.0,470.0>--<251.0,660.0>>
 
 	* y (U+0079): L<<240.0,530.0>--<241.0,670.0>>
 
@@ -4472,7 +4714,7 @@ The following glyphs do not have the recommended number of contours:
 	* ydieresis (U+00FF): L<<240.0,530.0>--<241.0,670.0>> 
 
 	* And ygrave (U+1EF3): L<<240.0,530.0>--<241.0,670.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Blocksync-ExpandedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -4851,33 +5093,121 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=340.0,Y=1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+	* S (U+0053): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* S (U+0053): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* g (U+0067): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* k (U+006B): X=55.0,Y=-1.0 (should be at baseline 0?)
+
+	* s (U+0073): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* s (U+0073): X=382.5,Y=1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0136 (U+0136): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=340.0,Y=1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=340.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0136 (U+0136): X=55.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0137 (U+0137): X=55.0,Y=-1.0 (should be at baseline 0?)
 
 	* Lcaron (U+013D): X=220.0,Y=699.0 (should be at cap-height 700?)
 
 	* Lcaron (U+013D): X=320.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=220.0,Y=699.0 (should be at cap-height 700?) 
+	* lcaron (U+013E): X=220.0,Y=699.0 (should be at cap-height 700?)
 
-	* And lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+	* lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?)
+
+	* Sacute (U+015A): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* Sacute (U+015A): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* sacute (U+015B): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* Scircumflex (U+015C): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* Scircumflex (U+015C): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* Scaron (U+0160): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* Scaron (U+0160): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0218 (U+0218): X=179.5,Y=0.5 (should be at baseline 0?)
+
+	* uni0218 (U+0218): X=382.5,Y=1.0 (should be at baseline 0?)
+
+	* uni0219 (U+0219): X=179.5,Y=0.5 (should be at baseline 0?) 
+
+	* And uni0219 (U+0219): X=382.5,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* K (U+004B): L<<235.0,0.0>--<55.0,-1.0>>
+
+	* M (U+004D): L<<440.0,355.0>--<441.0,40.0>>
+
+	* Y (U+0059): L<<265.0,530.0>--<266.0,670.0>>
+
+	* Yacute (U+00DD): L<<265.0,530.0>--<266.0,670.0>>
+
+	* Ycircumflex (U+0176): L<<265.0,530.0>--<266.0,670.0>>
+
+	* Ydieresis (U+0178): L<<265.0,530.0>--<266.0,670.0>>
+
+	* Ygrave (U+1EF2): L<<265.0,530.0>--<266.0,670.0>>
+
+	* k (U+006B): L<<235.0,0.0>--<55.0,-1.0>>
+
+	* m (U+006D): L<<440.0,355.0>--<441.0,40.0>>
+
+	* trademark (U+2122): L<<870.0,355.0>--<871.0,40.0>>
+
+	* uni0136 (U+0136): L<<235.0,0.0>--<55.0,-1.0>>
+
+	* uni0137 (U+0137): L<<235.0,0.0>--<55.0,-1.0>>
+
+	* y (U+0079): L<<265.0,530.0>--<266.0,670.0>>
+
+	* yacute (U+00FD): L<<265.0,530.0>--<266.0,670.0>>
+
+	* ycircumflex (U+0177): L<<265.0,530.0>--<266.0,670.0>>
+
+	* ydieresis (U+00FF): L<<265.0,530.0>--<266.0,670.0>> 
+
+	* And ygrave (U+1EF3): L<<265.0,530.0>--<266.0,670.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 69 | 1366 | 73 | 1036 | 0 |
+| 0 | 15 | 75 | 1366 | 73 | 1030 | 0 |
 | 0% | 1% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
