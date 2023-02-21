@@ -12,11 +12,11 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FUniversal.json
 
-![Sample Image](documentation/Blocksyncer-Alpha-NFT.png)
+![Sample Image](documentation/drawbot/wide-image-001.png)
 
 ## About
 
-A Block-like variable font by Eli Heuer. In-development, not ready for use.
+A blocky variable font designed and engineered by Eli Heuer. In-development, not ready for use.
 
 ## Building
 
