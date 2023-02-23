@@ -427,8 +427,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=65.0,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=381.5,Y=0.5 (should be at baseline 0?)
-
 	* e (U+0065): X=420.0,Y=531.0 (should be at x-height 530?)
 
 	* e (U+0065): X=253.0,Y=531.0 (should be at x-height 530?)
@@ -438,8 +436,6 @@ The following glyphs do not have the recommended number of contours:
 	* f (U+0066): X=253.0,Y=531.0 (should be at x-height 530?)
 
 	* k (U+006B): X=65.0,Y=-1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=381.5,Y=0.5 (should be at baseline 0?)
 
 	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
 
@@ -465,23 +461,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Lcaron (U+013D): X=354.0,Y=699.0 (should be at cap-height 700?)
 
-	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?)
+	* lcaron (U+013E): X=254.0,Y=699.0 (should be at cap-height 700?) 
 
-	* lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?)
-
-	* Sacute (U+015A): X=381.5,Y=0.5 (should be at baseline 0?)
-
-	* sacute (U+015B): X=381.5,Y=0.5 (should be at baseline 0?)
-
-	* Scircumflex (U+015C): X=381.5,Y=0.5 (should be at baseline 0?)
-
-	* Scaron (U+0160): X=381.5,Y=0.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=381.5,Y=0.5 (should be at baseline 0?)
-
-	* uni0218 (U+0218): X=381.5,Y=0.5 (should be at baseline 0?) 
-
-	* And uni0219 (U+0219): X=381.5,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+	* And lcaron (U+013E): X=354.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1847,13 +1829,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=382.0,Y=0.5 (should be at baseline 0?)
+	* S (U+0053): X=383.5,Y=-0.5 (should be at baseline 0?)
 
 	* g (U+0067): X=345.0,Y=2.0 (should be at baseline 0?)
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* s (U+0073): X=382.0,Y=0.5 (should be at baseline 0?)
+	* s (U+0073): X=383.5,Y=-0.5 (should be at baseline 0?)
 
 	* y (U+0079): X=235.0,Y=529.0 (should be at x-height 530?)
 
@@ -1887,19 +1869,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* lcaron (U+013E): X=336.0,Y=699.0 (should be at cap-height 700?)
 
-	* Sacute (U+015A): X=382.0,Y=0.5 (should be at baseline 0?)
+	* Sacute (U+015A): X=383.5,Y=-0.5 (should be at baseline 0?)
 
-	* sacute (U+015B): X=382.0,Y=0.5 (should be at baseline 0?)
+	* sacute (U+015B): X=383.5,Y=-0.5 (should be at baseline 0?)
 
-	* Scircumflex (U+015C): X=382.0,Y=0.5 (should be at baseline 0?)
+	* Scircumflex (U+015C): X=383.5,Y=-0.5 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=382.0,Y=0.5 (should be at baseline 0?)
+	* Scaron (U+0160): X=383.5,Y=-0.5 (should be at baseline 0?)
 
-	* scaron (U+0161): X=382.0,Y=0.5 (should be at baseline 0?)
+	* scaron (U+0161): X=383.5,Y=-0.5 (should be at baseline 0?)
 
-	* uni0218 (U+0218): X=382.0,Y=0.5 (should be at baseline 0?) 
+	* uni0218 (U+0218): X=383.5,Y=-0.5 (should be at baseline 0?) 
 
-	* And uni0219 (U+0219): X=382.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+	* And uni0219 (U+0219): X=383.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2801,17 +2783,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=179.5,Y=0.5 (should be at baseline 0?)
+	* S (U+0053): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=382.5,Y=1.0 (should be at baseline 0?)
+	* S (U+0053): X=382.5,Y=-0.5 (should be at baseline 0?)
 
 	* g (U+0067): X=340.0,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=55.0,Y=-1.0 (should be at baseline 0?)
 
-	* s (U+0073): X=179.5,Y=0.5 (should be at baseline 0?)
+	* s (U+0073): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* s (U+0073): X=382.5,Y=1.0 (should be at baseline 0?)
+	* s (U+0073): X=382.5,Y=-0.5 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=339.0,Y=2.0 (should be at baseline 0?)
 
@@ -2841,33 +2823,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* lcaron (U+013E): X=320.0,Y=699.0 (should be at cap-height 700?)
 
-	* Sacute (U+015A): X=179.5,Y=0.5 (should be at baseline 0?)
+	* Sacute (U+015A): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* Sacute (U+015A): X=382.5,Y=1.0 (should be at baseline 0?)
+	* Sacute (U+015A): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* sacute (U+015B): X=179.5,Y=0.5 (should be at baseline 0?)
+	* sacute (U+015B): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* sacute (U+015B): X=382.5,Y=1.0 (should be at baseline 0?)
+	* sacute (U+015B): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* Scircumflex (U+015C): X=179.5,Y=0.5 (should be at baseline 0?)
+	* Scircumflex (U+015C): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* Scircumflex (U+015C): X=382.5,Y=1.0 (should be at baseline 0?)
+	* Scircumflex (U+015C): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=179.5,Y=0.5 (should be at baseline 0?)
+	* Scaron (U+0160): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=382.5,Y=1.0 (should be at baseline 0?)
+	* Scaron (U+0160): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* scaron (U+0161): X=179.5,Y=0.5 (should be at baseline 0?)
+	* scaron (U+0161): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* scaron (U+0161): X=382.5,Y=1.0 (should be at baseline 0?)
+	* scaron (U+0161): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* uni0218 (U+0218): X=179.5,Y=0.5 (should be at baseline 0?)
+	* uni0218 (U+0218): X=179.5,Y=-1.0 (should be at baseline 0?)
 
-	* uni0218 (U+0218): X=382.5,Y=1.0 (should be at baseline 0?)
+	* uni0218 (U+0218): X=382.5,Y=-0.5 (should be at baseline 0?)
 
-	* uni0219 (U+0219): X=179.5,Y=0.5 (should be at baseline 0?) 
+	* uni0219 (U+0219): X=179.5,Y=-1.0 (should be at baseline 0?) 
 
-	* And uni0219 (U+0219): X=382.5,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+	* And uni0219 (U+0219): X=382.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
