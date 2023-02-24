@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FUniversal.json
 
-![Sample Image](documentation/drawbot/wide-image-001.png)
+![Sample Image](documentation/drawbot/image-005.png)
 
 ## About
 
