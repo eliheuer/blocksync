@@ -2,10 +2,14 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[7] Blocksync-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+<details><summary><b>[8] Blocksync-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '558' when it should be '600'. [code: bad-value]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 135 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -173,13 +177,13 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=314.5,Y=1.5 (should be at baseline 0?)
+	* G (U+0047): X=315.0,Y=1.5 (should be at baseline 0?)
 
 	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* b (U+0062): X=291.0,Y=529.0 (should be at x-height 530?)
 
-	* g (U+0067): X=314.5,Y=1.5 (should be at baseline 0?)
+	* g (U+0067): X=315.0,Y=1.5 (should be at baseline 0?)
 
 	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
@@ -191,17 +195,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=314.5,Y=1.5 (should be at baseline 0?)
+	* Gbreve (U+011E): X=315.0,Y=1.5 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=314.5,Y=1.5 (should be at baseline 0?)
+	* gbreve (U+011F): X=315.0,Y=1.5 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=314.5,Y=1.5 (should be at baseline 0?)
+	* Gdotaccent (U+0120): X=315.0,Y=1.5 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=314.5,Y=1.5 (should be at baseline 0?)
+	* gdotaccent (U+0121): X=315.0,Y=1.5 (should be at baseline 0?)
 
-	* uni0122 (U+0122): X=314.5,Y=1.5 (should be at baseline 0?)
+	* uni0122 (U+0122): X=315.0,Y=1.5 (should be at baseline 0?)
 
-	* uni0123 (U+0123): X=314.5,Y=1.5 (should be at baseline 0?)
+	* uni0123 (U+0123): X=315.0,Y=1.5 (should be at baseline 0?)
 
 	* uni0136 (U+0136): X=58.0,Y=-1.0 (should be at baseline 0?)
 
@@ -484,7 +488,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0137 (U+0137): L<<191.0,0.0>--<65.0,-1.0>> 
 
 	* And uni0137 (U+0137): L<<230.0,300.0>--<231.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] Blocksync-CondensedRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Blocksync-CondensedRegular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -497,6 +501,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Blocksync-CondensedRegular | BlocksyncCondensed-Regular |
 | Typographic Family Name | Blocksync | N/A |
 | Typographic Subfamily Name | Condensed Regular | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 140 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -916,10 +924,14 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[7] Blocksync-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Blocksync-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '465' when it should be '500'. [code: bad-value]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 135 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1087,15 +1099,19 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=316.5,Y=2.0 (should be at baseline 0?)
+	* G (U+0047): X=318.0,Y=2.0 (should be at baseline 0?)
 
 	* K (U+004B): X=62.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=316.5,Y=2.0 (should be at baseline 0?)
+	* e (U+0065): X=372.0,Y=529.0 (should be at x-height 530?)
+
+	* e (U+0065): X=244.0,Y=529.0 (should be at x-height 530?)
+
+	* g (U+0067): X=318.0,Y=2.0 (should be at baseline 0?)
 
 	* k (U+006B): X=62.0,Y=-1.0 (should be at baseline 0?)
 
-	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
+	* t (U+0074): X=445.0,Y=531.0 (should be at x-height 530?)
 
 	* z (U+007A): X=220.5,Y=528.0 (should be at x-height 530?)
 
@@ -1107,17 +1123,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=316.5,Y=2.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=318.0,Y=2.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=316.5,Y=2.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=318.0,Y=2.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=316.5,Y=2.0 (should be at baseline 0?)
+	* Gdotaccent (U+0120): X=318.0,Y=2.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=316.5,Y=2.0 (should be at baseline 0?)
+	* gdotaccent (U+0121): X=318.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0122 (U+0122): X=316.5,Y=2.0 (should be at baseline 0?)
+	* uni0122 (U+0122): X=318.0,Y=2.0 (should be at baseline 0?)
 
-	* uni0123 (U+0123): X=316.5,Y=2.0 (should be at baseline 0?)
+	* uni0123 (U+0123): X=318.0,Y=2.0 (should be at baseline 0?)
 
 	* uni0136 (U+0136): X=62.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1150,7 +1166,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0137 (U+0137): L<<180.0,0.0>--<62.0,-1.0>> 
 
 	* And uni0137 (U+0137): L<<219.0,294.0>--<220.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] Blocksync-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '558' when it should be '600'. [code: bad-value]
@@ -1167,6 +1183,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Blocksync-CondensedSemiBold | BlocksyncCondensed-SemiBold |
 | Typographic Family Name | Blocksync | Blocksync Condensed |
 | Typographic Subfamily Name | Condensed SemiBold | SemiBold | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 140 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1341,15 +1361,13 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=284.0,Y=1.0 (should be at baseline 0?)
+	* G (U+0047): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=57.0,Y=-1.0 (should be at baseline 0?)
 
-	* e (U+0065): X=368.0,Y=529.0 (should be at x-height 530?)
-
 	* f (U+0066): X=370.0,Y=529.0 (should be at x-height 530?)
 
-	* g (U+0067): X=284.0,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=57.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1357,17 +1375,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* ccedilla (U+00E7): X=339.0,Y=2.0 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=284.0,Y=1.0 (should be at baseline 0?)
+	* Gbreve (U+011E): X=285.5,Y=1.0 (should be at baseline 0?)
 
-	* gbreve (U+011F): X=284.0,Y=1.0 (should be at baseline 0?)
+	* gbreve (U+011F): X=285.5,Y=1.0 (should be at baseline 0?)
 
-	* Gdotaccent (U+0120): X=284.0,Y=1.0 (should be at baseline 0?)
+	* Gdotaccent (U+0120): X=285.5,Y=1.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=284.0,Y=1.0 (should be at baseline 0?)
+	* gdotaccent (U+0121): X=285.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0122 (U+0122): X=284.0,Y=1.0 (should be at baseline 0?)
+	* uni0122 (U+0122): X=285.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0123 (U+0123): X=284.0,Y=1.0 (should be at baseline 0?)
+	* uni0123 (U+0123): X=285.5,Y=1.0 (should be at baseline 0?)
 
 	* uni0136 (U+0136): X=57.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1400,7 +1418,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0137 (U+0137): L<<177.0,0.0>--<57.0,-1.0>> 
 
 	* And uni0137 (U+0137): L<<215.0,283.0>--<217.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] Blocksync-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 usWeightClass is '465' when it should be '500'. [code: bad-value]
@@ -1417,6 +1435,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Blocksync-CondensedMedium | BlocksyncCondensed-Medium |
 | Typographic Family Name | Blocksync | Blocksync Condensed |
 | Typographic Subfamily Name | Condensed Medium | Medium | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 140 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1596,10 +1618,6 @@ The following glyphs do not have the recommended number of contours:
 	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
-
-	* t (U+0074): X=19.0,Y=528.5 (should be at x-height 530?)
-
-	* y (U+0079): X=225.0,Y=531.0 (should be at x-height 530?)
 
 	* z (U+007A): X=192.5,Y=528.0 (should be at x-height 530?)
 
@@ -1902,7 +1920,11 @@ The following glyphs do not have the recommended number of contours:
 	* uni0137 (U+0137): L<<214.0,0.0>--<60.0,-1.0>> 
 
 	* And uni0137 (U+0137): L<<252.0,290.0>--<254.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] Blocksync-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Blocksync-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 135 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -2113,36 +2135,20 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D): L<<395.0,355.0>--<396.0,40.0>>
 
-	* Y (U+0059): L<<253.0,530.0>--<254.0,670.0>>
-
-	* Yacute (U+00DD): L<<253.0,530.0>--<254.0,670.0>>
-
-	* Ycircumflex (U+0176): L<<253.0,530.0>--<254.0,670.0>>
-
-	* Ydieresis (U+0178): L<<253.0,530.0>--<254.0,670.0>>
-
-	* Ygrave (U+1EF2): L<<253.0,530.0>--<254.0,670.0>>
-
 	* k (U+006B): L<<210.0,0.0>--<55.0,-1.0>>
 
 	* m (U+006D): L<<395.0,355.0>--<396.0,40.0>>
 
-	* trademark (U+2122): L<<795.0,355.0>--<796.0,40.0>>
+	* trademark (U+2122): L<<815.0,355.0>--<816.0,40.0>>
 
-	* uni0136 (U+0136): L<<210.0,0.0>--<55.0,-1.0>>
+	* uni0136 (U+0136): L<<210.0,0.0>--<55.0,-1.0>> 
 
-	* uni0137 (U+0137): L<<210.0,0.0>--<55.0,-1.0>>
+	* And uni0137 (U+0137): L<<210.0,0.0>--<55.0,-1.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[6] Blocksync-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
-	* y (U+0079): L<<253.0,530.0>--<254.0,670.0>>
 
-	* yacute (U+00FD): L<<253.0,530.0>--<254.0,670.0>>
-
-	* ycircumflex (U+0177): L<<253.0,530.0>--<254.0,670.0>>
-
-	* ydieresis (U+00FF): L<<253.0,530.0>--<254.0,670.0>> 
-
-	* And ygrave (U+1EF3): L<<253.0,530.0>--<254.0,670.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] Blocksync-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 135 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -2328,7 +2334,7 @@ The following glyphs do not have the recommended number of contours:
 	* lcaron (U+013E): X=270.0,Y=699.0 (should be at cap-height 700?) 
 
 	* And lcaron (U+013E): X=370.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[9] Blocksync-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] Blocksync-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -2341,6 +2347,10 @@ The following glyphs do not have the recommended number of contours:
 | Poscript Name | Blocksync-CondensedBold | BlocksyncCondensed-Bold |
 | Typographic Family Name | Blocksync | N/A |
 | Typographic Subfamily Name | Condensed Bold | N/A | [code: bad-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 140 font units wide, non-breaking space named (uni00A0) is 130 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -2563,35 +2573,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D): L<<350.0,355.0>--<351.0,40.0>>
 
-	* Y (U+0059): L<<240.0,530.0>--<241.0,670.0>>
-
-	* Yacute (U+00DD): L<<240.0,530.0>--<241.0,670.0>>
-
-	* Ycircumflex (U+0176): L<<240.0,530.0>--<241.0,670.0>>
-
-	* Ydieresis (U+0178): L<<240.0,530.0>--<241.0,670.0>>
-
-	* Ygrave (U+1EF2): L<<240.0,530.0>--<241.0,670.0>>
-
 	* k (U+006B): L<<185.0,0.0>--<55.0,-1.0>>
 
 	* m (U+006D): L<<350.0,355.0>--<351.0,40.0>>
 
-	* trademark (U+2122): L<<730.0,355.0>--<731.0,40.0>>
+	* trademark (U+2122): L<<770.0,355.0>--<771.0,40.0>>
 
-	* uni0136 (U+0136): L<<185.0,0.0>--<55.0,-1.0>>
+	* uni0136 (U+0136): L<<185.0,0.0>--<55.0,-1.0>> 
 
-	* uni0137 (U+0137): L<<185.0,0.0>--<55.0,-1.0>>
-
-	* y (U+0079): L<<240.0,530.0>--<241.0,670.0>>
-
-	* yacute (U+00FD): L<<240.0,530.0>--<241.0,670.0>>
-
-	* ycircumflex (U+0177): L<<240.0,530.0>--<241.0,670.0>>
-
-	* ydieresis (U+00FF): L<<240.0,530.0>--<241.0,670.0>> 
-
-	* And ygrave (U+1EF3): L<<240.0,530.0>--<241.0,670.0>> [code: found-semi-vertical]
+	* And uni0137 (U+0137): L<<185.0,0.0>--<55.0,-1.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[8] Blocksync-ExpandedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2893,7 +2883,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 75 | 1366 | 73 | 1030 | 0 |
+| 0 | 23 | 75 | 1366 | 73 | 1022 | 0 |
 | 0% | 1% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
