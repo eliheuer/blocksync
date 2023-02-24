@@ -77,7 +77,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0.04)
+    fill(0.02)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
