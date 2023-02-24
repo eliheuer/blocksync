@@ -2139,7 +2139,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D): L<<395.0,355.0>--<396.0,40.0>>
 
-	* trademark (U+2122): L<<815.0,355.0>--<816.0,40.0>>
+	* trademark (U+2122): L<<825.0,355.0>--<826.0,40.0>>
 
 	* uni0136 (U+0136): L<<210.0,0.0>--<55.0,-1.0>> 
 
@@ -2577,7 +2577,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D): L<<350.0,355.0>--<351.0,40.0>>
 
-	* trademark (U+2122): L<<770.0,355.0>--<771.0,40.0>>
+	* trademark (U+2122): L<<790.0,355.0>--<791.0,40.0>>
 
 	* uni0136 (U+0136): L<<185.0,0.0>--<55.0,-1.0>> 
 
