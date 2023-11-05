@@ -38,7 +38,7 @@ value = 1;
 },
 {
 name = "Variable Font Origin";
-value = m005;
+value = m01;
 }
 );
 date = "2021-11-25 19:11:22 +0000";
@@ -73091,6 +73091,45 @@ unicode = 731;
 instances = (
 {
 axesValues = (
+100,
+100
+);
+instanceInterpolations = {
+m005 = 0.5;
+m006 = 0.5;
+};
+name = Regular;
+},
+{
+axesValues = (
+130,
+100
+);
+instanceInterpolations = {
+m003 = 0.1875;
+m005 = 0.3125;
+m006 = 0.3125;
+m01 = 0.1875;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+160,
+100
+);
+instanceInterpolations = {
+m003 = 0.375;
+m005 = 0.125;
+m006 = 0.125;
+m01 = 0.375;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
 180,
 100
 );
@@ -73098,35 +73137,24 @@ instanceInterpolations = {
 m003 = 0.5;
 m01 = 0.5;
 };
-name = Regular;
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
 },
 {
 axesValues = (
-193,
+200,
 100
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.1625;
-m003 = 0.3375;
-m004 = 0.1625;
-m01 = 0.3375;
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.25;
+m003 = 0.25;
+m004 = 0.25;
+m01 = 0.25;
 };
-name = Medium;
-weightClass = 500;
-},
-{
-axesValues = (
-207,
-100
-);
-instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.3375;
-m003 = 0.1625;
-m004 = 0.3375;
-m01 = 0.1625;
-};
-name = SemiBold;
-weightClass = 600;
+name = ExtraBold;
+weightClass = 800;
 },
 {
 axesValues = (
@@ -73137,36 +73165,28 @@ instanceInterpolations = {
 "6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.5;
 m004 = 0.5;
 };
-isBold = 1;
-linkStyle = Regular;
-name = Bold;
-weightClass = 700;
+name = Black;
+weightClass = 900;
 },
 {
 axesValues = (
-180,
+100,
 75
 );
-customParameters = (
-{
-name = "Variable Font Origin";
-value = m01;
-}
-);
 instanceInterpolations = {
-m01 = 1;
+m005 = 1;
 };
 name = "Condensed Regular";
 widthClass = 3;
 },
 {
 axesValues = (
-193,
+130,
 75
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.325;
-m01 = 0.675;
+m005 = 0.625;
+m01 = 0.375;
 };
 name = "Condensed Medium";
 weightClass = 500;
@@ -73174,15 +73194,42 @@ widthClass = 3;
 },
 {
 axesValues = (
-207,
+160,
 75
 );
 instanceInterpolations = {
-"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.675;
-m01 = 0.325;
+m005 = 0.25;
+m01 = 0.75;
 };
 name = "Condensed SemiBold";
 weightClass = 600;
+widthClass = 3;
+},
+{
+axesValues = (
+180,
+75
+);
+instanceInterpolations = {
+m01 = 1;
+};
+isBold = 1;
+linkStyle = "Condensed Regular";
+name = "Condensed Bold";
+weightClass = 700;
+widthClass = 3;
+},
+{
+axesValues = (
+200,
+75
+);
+instanceInterpolations = {
+"6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 0.5;
+m01 = 0.5;
+};
+name = "Condensed ExtraBold";
+weightClass = 800;
 widthClass = 3;
 },
 {
@@ -73193,11 +73240,45 @@ axesValues = (
 instanceInterpolations = {
 "6ABCF30A-460E-4EED-802C-9E4699B7E7F6" = 1;
 };
-isBold = 1;
-linkStyle = "Condensed Regular";
-name = "Condensed Bold";
-weightClass = 700;
+name = "Condensed Black";
+weightClass = 900;
 widthClass = 3;
+},
+{
+axesValues = (
+100,
+125
+);
+instanceInterpolations = {
+m006 = 1;
+};
+name = "Expanded Regular";
+widthClass = 7;
+},
+{
+axesValues = (
+130,
+125
+);
+instanceInterpolations = {
+m003 = 0.375;
+m006 = 0.625;
+};
+name = "Expanded Medium";
+widthClass = 7;
+},
+{
+axesValues = (
+160,
+125
+);
+instanceInterpolations = {
+m003 = 0.75;
+m006 = 0.25;
+};
+name = "Expanded SemiBold";
+weightClass = 600;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -73207,33 +73288,23 @@ axesValues = (
 instanceInterpolations = {
 m003 = 1;
 };
-name = "Expanded Regular";
+isBold = 1;
+linkStyle = "Expanded Regular";
+name = "Expanded Bold";
+weightClass = 700;
 widthClass = 7;
 },
 {
 axesValues = (
-193,
+200,
 125
 );
 instanceInterpolations = {
-m003 = 0.675;
-m004 = 0.325;
+m003 = 0.5;
+m004 = 0.5;
 };
-name = "Expanded Medium";
-widthClass = 7;
-},
-{
-axesValues = (
-207,
-125
-);
-instanceInterpolations = {
-m003 = 0.325;
-m004 = 0.675;
-};
-name = "Expanded SemiBold";
-weightClass = 600;
-widthClass = 7;
+name = "Expanded ExtraBold";
+weightClass = 800;
 },
 {
 axesValues = (
@@ -73243,9 +73314,8 @@ axesValues = (
 instanceInterpolations = {
 m004 = 1;
 };
-name = "Expanded Bold";
-weightClass = 700;
-widthClass = 7;
+name = "Expanded Black";
+weightClass = 900;
 }
 );
 kerningLTR = {
