@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <anchor x="114" y="800" name="_top"/>
+  <outline>
+    <contour>
+      <point x="171" y="1040" type="curve" smooth="yes"/>
+      <point x="143" y="1040" type="line" smooth="yes"/>
+      <point x="126" y="1040"/>
+      <point x="120" y="1046"/>
+      <point x="120" y="1063" type="curve" smooth="yes"/>
+      <point x="120" y="1079"/>
+      <point x="128" y="1097"/>
+      <point x="150" y="1112" type="curve" smooth="yes"/>
+      <point x="163" y="1121"/>
+      <point x="177" y="1128"/>
+      <point x="177" y="1148" type="curve" smooth="yes"/>
+      <point x="177" y="1166" type="line" smooth="yes"/>
+      <point x="177" y="1181"/>
+      <point x="170" y="1189"/>
+      <point x="154" y="1189" type="curve" smooth="yes"/>
+      <point x="71" y="1189"/>
+      <point x="11" y="1081"/>
+      <point x="11" y="994" type="curve" smooth="yes"/>
+      <point x="11" y="892" type="line" smooth="yes"/>
+      <point x="11" y="857"/>
+      <point x="23" y="846"/>
+      <point x="57" y="846" type="curve" smooth="yes"/>
+      <point x="171" y="846" type="line" smooth="yes"/>
+      <point x="206" y="846"/>
+      <point x="217" y="857"/>
+      <point x="217" y="892" type="curve" smooth="yes"/>
+      <point x="217" y="994" type="line" smooth="yes"/>
+      <point x="217" y="1029"/>
+      <point x="206" y="1040"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>229</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

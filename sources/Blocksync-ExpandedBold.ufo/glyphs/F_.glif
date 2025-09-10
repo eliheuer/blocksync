@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F" format="2">
+  <advance width="549"/>
+  <unicode hex="0046"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="curve" smooth="yes"/>
+      <point x="194" y="0" type="line" smooth="yes"/>
+      <point x="229" y="0"/>
+      <point x="240" y="11"/>
+      <point x="240" y="46" type="curve" smooth="yes"/>
+      <point x="240" y="309" type="line" smooth="yes"/>
+      <point x="240" y="326"/>
+      <point x="246" y="331"/>
+      <point x="263" y="331" type="curve" smooth="yes"/>
+      <point x="446" y="331" type="line" smooth="yes"/>
+      <point x="480" y="331"/>
+      <point x="491" y="343"/>
+      <point x="491" y="377" type="curve" smooth="yes"/>
+      <point x="491" y="446" type="line" smooth="yes"/>
+      <point x="491" y="480"/>
+      <point x="480" y="491"/>
+      <point x="446" y="491" type="curve" smooth="yes"/>
+      <point x="263" y="491" type="line" smooth="yes"/>
+      <point x="246" y="491"/>
+      <point x="240" y="497"/>
+      <point x="240" y="514" type="curve" smooth="yes"/>
+      <point x="240" y="606" type="line" smooth="yes"/>
+      <point x="240" y="623"/>
+      <point x="246" y="629"/>
+      <point x="263" y="629" type="curve" smooth="yes"/>
+      <point x="491" y="629" type="line" smooth="yes"/>
+      <point x="526" y="629"/>
+      <point x="537" y="640"/>
+      <point x="537" y="674" type="curve" smooth="yes"/>
+      <point x="537" y="754" type="line" smooth="yes"/>
+      <point x="537" y="789"/>
+      <point x="526" y="800"/>
+      <point x="491" y="800" type="curve" smooth="yes"/>
+      <point x="80" y="800" type="line" smooth="yes"/>
+      <point x="46" y="800"/>
+      <point x="34" y="789"/>
+      <point x="34" y="754" type="curve" smooth="yes"/>
+      <point x="34" y="46" type="line" smooth="yes"/>
+      <point x="34" y="11"/>
+      <point x="46" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

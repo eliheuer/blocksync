@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>lib</key>
+    <dict>
+      <key>com.schriftgestaltung.layerId</key>
+      <string>E42547C1-08DC-46FF-AED6-6A0271E1F7D1</string>
+      <key>com.schriftgestaltung.layerOrderInGlyph.W</key>
+      <integer>10</integer>
+    </dict>
+  </dict>
+</plist>

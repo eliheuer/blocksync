@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>846</integer>
+    <key>capHeight</key>
+    <integer>800</integer>
+    <key>copyright</key>
+    <string>Copyright 2023 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksyncer)</string>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Blocksync</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2021/11/25 19:11:22</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1069</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-424</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Eli Heuer</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https://elih.blog</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Eli Heuer</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https://elih.blog</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1069</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-424</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>EHDS</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1189</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>474</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-11</integer>
+      <integer>0</integer>
+      <integer>600</integer>
+      <integer>611</integer>
+      <integer>800</integer>
+      <integer>811</integer>
+      <integer>846</integer>
+      <integer>857</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-211</integer>
+      <integer>-200</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-113</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleName</key>
+    <string>Condensed Regular</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>600</integer>
+  </dict>
+</plist>

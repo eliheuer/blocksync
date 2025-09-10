@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="594"/>
+  <unicode hex="006E"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="309" y="800" name="top"/>
+  <outline>
+    <component base="N"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

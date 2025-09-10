@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="700">
+      <map input="400" output="130"/>
+      <map input="500" output="130"/>
+      <map input="600" output="160"/>
+      <map input="700" output="180"/>
+      <map input="800" output="200"/>
+      <map input="900" output="220"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="125" default="75">
+      <map input="75" output="75"/>
+      <map input="100" output="125"/>
+      <map input="125" output="125"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Blocksync-CondensedRegular.ufo" name="Blocksync Condensed Regular" familyname="Blocksync" stylename="Condensed Regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="Blocksync-CondensedBold.ufo" name="Blocksync Condensed Bold" familyname="Blocksync" stylename="Condensed Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="Blocksync-CondensedBlack.ufo" name="Blocksync Condensed Black" familyname="Blocksync" stylename="Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="Blocksync-ExpandedRegular.ufo" name="Blocksync Expanded Regular" familyname="Blocksync" stylename="Expanded Regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+    </source>
+    <source filename="Blocksync-ExpandedBold.ufo" name="Blocksync Expanded Bold" familyname="Blocksync" stylename="Expanded Bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+    </source>
+    <source filename="Blocksync-ExpandedBlack.ufo" name="Blocksync Expanded Black" familyname="Blocksync" stylename="Expanded Black">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Blocksync Regular" familyname="Blocksync" stylename="Regular" filename="instance_ufos/Blocksync-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <real>0.5</real>
+            <key>m006</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Medium" familyname="Blocksync" stylename="Medium" filename="instance_ufos/Blocksync-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.1875</real>
+            <key>m005</key>
+            <real>0.3125</real>
+            <key>m006</key>
+            <real>0.3125</real>
+            <key>m01</key>
+            <real>0.1875</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>500</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync SemiBold" familyname="Blocksync" stylename="SemiBold" filename="instance_ufos/Blocksync-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.375</real>
+            <key>m005</key>
+            <real>0.125</real>
+            <key>m006</key>
+            <real>0.125</real>
+            <key>m01</key>
+            <real>0.375</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>600</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Bold" familyname="Blocksync" stylename="Bold" filename="instance_ufos/Blocksync-Bold.ufo" stylemapfamilyname="Blocksync" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.5</real>
+            <key>m01</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>700</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync ExtraBold" familyname="Blocksync" stylename="ExtraBold" filename="instance_ufos/Blocksync-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>6ABCF30A-460E-4EED-802C-9E4699B7E7F6</key>
+            <real>0.25</real>
+            <key>m003</key>
+            <real>0.25</real>
+            <key>m004</key>
+            <real>0.25</real>
+            <key>m01</key>
+            <real>0.25</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>800</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Black" familyname="Blocksync" stylename="Black" filename="instance_ufos/Blocksync-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>6ABCF30A-460E-4EED-802C-9E4699B7E7F6</key>
+            <real>0.5</real>
+            <key>m004</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>900</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed Regular" familyname="Blocksync" stylename="Condensed Regular" filename="instance_ufos/Blocksync-CondensedRegular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed Medium" familyname="Blocksync" stylename="Condensed Medium" filename="instance_ufos/Blocksync-CondensedMedium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <real>0.625</real>
+            <key>m01</key>
+            <real>0.375</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>500</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed SemiBold" familyname="Blocksync" stylename="Condensed SemiBold" filename="instance_ufos/Blocksync-CondensedSemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <real>0.25</real>
+            <key>m01</key>
+            <real>0.75</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>600</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed Bold" familyname="Blocksync" stylename="Condensed Bold" filename="instance_ufos/Blocksync-CondensedBold.ufo" stylemapfamilyname="Blocksync Condensed Regular" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m01</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>700</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed ExtraBold" familyname="Blocksync" stylename="Condensed ExtraBold" filename="instance_ufos/Blocksync-CondensedExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>6ABCF30A-460E-4EED-802C-9E4699B7E7F6</key>
+            <real>0.5</real>
+            <key>m01</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>800</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Condensed Black" familyname="Blocksync" stylename="Condensed Black" filename="instance_ufos/Blocksync-CondensedBlack.ufo">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>6ABCF30A-460E-4EED-802C-9E4699B7E7F6</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>900</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded Regular" familyname="Blocksync" stylename="Expanded Regular" filename="instance_ufos/Blocksync-ExpandedRegular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m006</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>7</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded Medium" familyname="Blocksync" stylename="Expanded Medium" filename="instance_ufos/Blocksync-ExpandedMedium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.375</real>
+            <key>m006</key>
+            <real>0.625</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>7</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded SemiBold" familyname="Blocksync" stylename="Expanded SemiBold" filename="instance_ufos/Blocksync-ExpandedSemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.75</real>
+            <key>m006</key>
+            <real>0.25</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>600</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>7</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded Bold" familyname="Blocksync" stylename="Expanded Bold" filename="instance_ufos/Blocksync-ExpandedBold.ufo" stylemapfamilyname="Blocksync Expanded Regular" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>700</integer>
+          <key>com.schriftgestaltung.width</key>
+          <integer>7</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded ExtraBold" familyname="Blocksync" stylename="Expanded ExtraBold" filename="instance_ufos/Blocksync-ExpandedExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m003</key>
+            <real>0.5</real>
+            <key>m004</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>800</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Blocksync Expanded Black" familyname="Blocksync" stylename="Expanded Black" filename="instance_ufos/Blocksync-ExpandedBlack.ufo">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="125"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m004</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>900</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>6ABCF30A-460E-4EED-802C-9E4699B7E7F6</key>
+        <dict>
+          <key>HH</key>
+          <string>170</string>
+          <key>HV</key>
+          <string>220</string>
+          <key>OH</key>
+          <string>150</string>
+          <key>OV</key>
+          <string>220</string>
+        </dict>
+      </dict>
+      <key>UFO.lib</key>
+      <dict>
+        <key>public.postscriptNames</key>
+        <dict>
+          <key>circumflexcomb.case</key>
+          <string>uni0302.case</string>
+          <key>dieresiscomb.case</key>
+          <string>uni0308.case</string>
+          <key>ringcomb.case</key>
+          <string>uni030A.case</string>
+        </dict>
+      </dict>
+      <key>UFOFormat</key>
+      <integer>3</integer>
+    </dict>
+  </lib>
+</designspace>
