@@ -2,7 +2,6 @@
 <glyph name="E" format="2">
   <advance width="434"/>
   <unicode hex="0045"/>
-  <image fileName="../../../../Desktop/Screenshot 2023-02-24 at 11.51.48 PM.png" xScale="7.5389" yScale="7.5389" xOffset="-1058" yOffset="-301"/>
   <anchor x="230" y="800" name="top"/>
   <outline>
     <contour>
