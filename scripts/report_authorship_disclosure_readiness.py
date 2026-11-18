@@ -62,9 +62,9 @@ def main() -> int:
     ai_answer = row_final_answer("AI-use disclosure", decisions)
     designer_answer = row_final_answer("Designer string", decisions)
     authorship_answer = row_final_answer("Authorship/CLA/RFN status", decisions)
-    ai_final = ai_answer not in {"Confirm wording", "unknown"}
+    ai_final = ai_answer not in {"Confirm wording", "unknown"} and not ai_answer.lower().startswith("pending")
     designer_final = designer_answer not in {"Confirm or replace", "unknown"}
-    authorship_final = authorship_answer not in {"Confirm", "unknown"}
+    authorship_final = authorship_answer not in {"Confirm", "unknown"} and not authorship_answer.lower().startswith("pending")
     local_ready = (
         authors == ["Eli Heuer"]
         and contributors == ["Eli Heuer"]

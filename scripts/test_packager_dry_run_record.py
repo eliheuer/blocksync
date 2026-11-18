@@ -4,8 +4,6 @@
 from __future__ import annotations
 
 from pathlib import Path
-import re
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -19,23 +17,33 @@ def run(command: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(command, cwd=ROOT, check=False, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 
-def final_metadata_copy(path: Path) -> None:
-    text = (ROOT / "documentation" / "google-fonts-downstream-metadata-draft.md").read_text(encoding="utf-8")
-    text = text.replace('date_added: "PENDING-YYYY-MM-DD"', 'date_added: "2026-05-30"')
-    text = text.replace(
-        'commit: "PENDING_FINAL_40_CHARACTER_COMMIT"',
-        'commit: "0123456789abcdef0123456789abcdef01234567"',
-    )
-    path.write_text(text, encoding="utf-8")
+def write_metadata_fixture(path: Path) -> None:
+    path.write_text("""```textproto
+name: "Blocksync"
+designer: "Fixture Designer"
+date_added: "2026-05-30"
+copyright: "Copyright 2023 The Blocksyncer Project Authors (https://github.com/example/blocksync)"
+source {
+  repository_url: "https://github.com/example/blocksync"
+  branch: "main"
+  commit: "0123456789abcdef0123456789abcdef01234567"
+  config_yaml: "sources/config.yaml"
+  files {
+    source_file: "fonts/variable/Blocksync[wdth,wght].ttf"
+    dest_file: "Blocksync[wdth,wght].ttf"
+  }
+}
+```
+""", encoding="utf-8")
 
 
 def main() -> int:
     with tempfile.TemporaryDirectory(prefix="blocksync-packager-record.") as tmp:
         work = Path(tmp)
         metadata = work / "metadata.md"
+        write_metadata_fixture(metadata)
         record = work / "record.json"
         report = work / "record.md"
-        final_metadata_copy(metadata)
 
         gf_repo = work / "fonts"
         subprocess.run(["git", "init", "-q", "-b", "main", str(gf_repo)], check=True)
@@ -85,12 +93,10 @@ def main() -> int:
             return 1
 
         changed_metadata = work / "metadata-changed.md"
-        shutil.copyfile(metadata, changed_metadata)
         changed_metadata.write_text(
-            re.sub(
-                r'commit: "[0-9a-f]{40}"',
-                'commit: "1111111111111111111111111111111111111111"',
-                changed_metadata.read_text(encoding="utf-8"),
+            metadata.read_text(encoding="utf-8").replace(
+                "0123456789abcdef0123456789abcdef01234567",
+                "1111111111111111111111111111111111111111",
             ),
             encoding="utf-8",
         )
@@ -133,4 +139,7 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    if len(sys.argv) == 3 and sys.argv[1] == "--write-fixture":
+        write_metadata_fixture(Path(sys.argv[2]))
+    else:
+        raise SystemExit(main())

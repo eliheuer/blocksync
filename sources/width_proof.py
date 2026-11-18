@@ -5,6 +5,7 @@ import shutil
 import tomllib
 
 from fgtools import project
+from design_proof import write as write_design_proof
 
 family = project.load()
 out = family.root / "output/proof"
@@ -29,3 +30,5 @@ p {{font:clamp(1.35rem,2.5vw,2rem)/1.3 Blocksync;margin:.5em 0;
 font-variation-settings:"wght" var(--wght),"wdth" var(--wdth)}}
 </style><h1>Blocksync</h1><main>{''.join(sections)}</main></html>""")
 print(out / "widths.html")
+
+write_design_proof(font, out)

@@ -22,8 +22,8 @@ not mix the designspace/UFO source policy with a binary-only package path.
 The Google Fonts metadata guide describes `source` as the upstream repository
 and version trace, and its variable-font example maps package files from
 `source.files`. The package guide says Packager uses the `source` block in
-`METADATA.pb` for packaging. Treat the draft as a Packager preview, not as a
-final downstream file, until the public commit and package date are known.
+`METADATA.pb` for packaging. The four-file candidate was built from the public revision recorded in the
+metadata draft and verified against an independent clean build.
 
 ## Source Files Preview
 
@@ -43,13 +43,12 @@ If Google Fonts accepts the reproducible build path, keep
 `source.config_yaml: "sources/config.yaml"` and make sure the public commit
 contains every build input required by `build.sh`.
 
-## Current Blockers
+## Submission hold
 
-- Final public source commit hash.
-- Final package `date_added`.
-- Maintainer confirmation of package strategy: build from source with
-  designspace/UFO, or generated-font release/archive fallback.
-- Human review of proof output and remaining Fontspector WARN groups.
+Eli requested design review before the Add Font issue. The package uses
+`sources/config.yaml`, candidate date 2026-11-18, and source revision
+`46cd53e51744630b4f92e2a2e5957b41e6bd9294`. The submission handoff
+records the remaining font and Google Fonts web-subset findings.
 
 ## Verification Commands
 

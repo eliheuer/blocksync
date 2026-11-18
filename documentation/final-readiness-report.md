@@ -8,19 +8,15 @@ reviewer-accepted warnings.
 ## Verdict
 
 - Final-ready for Google Fonts submission: no
-- Blocking items: 10
+- Blocking items: 6
 
 ## Blocking Items
 
-- metadata `date_added` is still `PENDING-YYYY-MM-DD`
-- metadata `source.commit` is still pending
-- AI-use disclosure is still pending maintainer answer
-- final decision sheet still has unresolved answer cells: 13
+- final decision sheet still has unresolved answer cells: 3
+- package-context Fontspector report has FAIL/FATAL/ERROR results
+- Fontspector warning floor is not resolved or accepted: release 3 WARN, package 3 WARN
 - zero-warning worklist says true zero is not currently achieved
-- visual proof review is still marked maintainer-required
 - generated composite review glyphs are not finally accepted/revised/deferred
-- no-PR Packager dry run is not ready to start
-- final no-PR Packager dry run has not been recorded
 - downstream Google Fonts PR readiness is not complete
 
 ## Required Final Gate

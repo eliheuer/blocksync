@@ -6,6 +6,8 @@ from __future__ import annotations
 from pathlib import Path
 import re
 
+from check_final_readiness import fontspector_counts
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "documentation" / "submission-handoff-readiness.md"
@@ -59,21 +61,8 @@ def scalar(proto: str, key: str) -> str:
 
 
 def report_summary(text: str) -> tuple[int, int, int, int]:
-    match = re.search(
-        r"Summary:\s+SKIP:\s+\d+\s+INFO:\s+\d+\s+PASS:\s+\d+\s+WARN:\s+(\d+)\s+FAIL:\s+(\d+)\s+FATAL:\s+(\d+)\s+ERROR:\s+(\d+)",
-        text,
-    )
-    if match:
-        return tuple(int(value) for value in match.groups())
-    table = re.search(
-        r"\| ⚠️ WARN \| ℹ️ INFO \| ✅ PASS \| ⏩ SKIP \|\s*\n"
-        r"\|[-| ]+\|\s*\n"
-        r"\| (?P<warn>\d+) \| (?P<info>\d+) \| (?P<pass>\d+) \| (?P<skip>\d+) \|",
-        text,
-    )
-    if table:
-        return int(table.group("warn")), 0, 0, 0
-    return 0, 0, 0, 0
+    counts = fontspector_counts(text)
+    return tuple(counts[name] for name in ("WARN", "FAIL", "FATAL", "ERROR"))
 
 
 def status_row(label: str, ready: bool) -> str:
@@ -114,8 +103,8 @@ def main() -> int:
             and namecheck_date in issue
             and "needs final browser check" not in issue
         ),
-        "Issue includes current Fontspector zero-fail status": (
-            "0 FAIL" in issue and "0 ERROR" in issue and "0 FATAL" in issue
+        "Issue includes current package-context QA outcome": (
+            f"{package_fail} FAIL, {package_fatal} FATAL, {package_error} ERROR" in issue
         ),
         "Handoff includes current repository URL": bool(repository_url and repository_url in handoff),
         "Handoff includes current branch": bool(branch and branch in handoff),
@@ -127,13 +116,13 @@ def main() -> int:
         "Handoff includes current metadata placeholders": (
             date_added in handoff and commit in handoff
         ),
-        "Handoff includes current Fontspector status": (
-            f"{release_warn} WARN" in handoff
-            and "0 FAIL" in handoff
-            and "0 ERROR" in handoff
-            and "0 FATAL" in handoff
+        "Handoff includes current Fontspector status": all(
+            summary in handoff for summary in (
+                f"{release_warn} WARN, {release_fail} FAIL, {release_fatal} FATAL, {release_error} ERROR",
+                f"{package_warn} WARN, {package_fail} FAIL, {package_fatal} FATAL, {package_error} ERROR",
+            )
         ),
-        "Handoff includes current final blocker count": f"blockers: {blocker_count}" in handoff,
+        "Handoff links the generated final readiness report": "documentation/final-readiness-report.md" in handoff,
         "Handoff includes expected downstream branch": "gftools_packager_ofl_blocksync" in handoff,
         "Handoff includes expected downstream PR title": "Blocksync : 1.000 added" in handoff,
         "Handoff includes provenance line template": "Taken from the upstream repo <repo-url> at commit <commit-url>." in handoff,

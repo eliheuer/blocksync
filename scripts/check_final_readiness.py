@@ -39,15 +39,27 @@ def read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
 
 
+def fontspector_counts(text: str) -> dict[str, int]:
+    """Read severity names from the summary. Missing or malformed evidence blocks release."""
+    names = ("SKIP", "INFO", "PASS", "WARN", "FAIL", "FATAL", "ERROR")
+    console = re.search(r"Summary:\s*((?:(?:SKIP|INFO|PASS|WARN|FAIL|FATAL|ERROR):\s*\d+\s*)+)", text)
+    if console:
+        counts = dict(re.findall(r"(\w+):\s*(\d+)", console[1]))
+        if set(counts) == set(names):
+            return {key: int(value) for key, value in counts.items()}
+    table = re.search(r"^#+ Summary\s*\n(\|[^\n]+)\n\|[-: |]+\n(\|[^\n]+)", text, re.MULTILINE)
+    if table:
+        headings = [cell.strip().split()[-1] for cell in table[1].strip().strip("|").split("|")]
+        values = [cell.strip() for cell in table[2].strip().strip("|").split("|")]
+        if (len(headings) == len(values) == len(set(headings))
+                and set(headings) <= set(names) and all(value.isdigit() for value in values)):
+            return dict.fromkeys(names, 0) | dict(zip(headings, map(int, values)))
+    raise ValueError("Fontspector report is missing a recognized severity summary")
+
+
 def report_summary(text: str) -> tuple[int, int, int]:
-    match = re.search(
-        r"Summary:\s+SKIP:\s+\d+\s+INFO:\s+\d+\s+PASS:\s+\d+\s+WARN:\s+(\d+)\s+FAIL:\s+(\d+)\s+FATAL:\s+(\d+)\s+ERROR:\s+(\d+)",
-        text,
-    )
-    if not match:
-        return 0, 0, 0
-    warn, fail, fatal, error = (int(value) for value in match.groups())
-    return warn, fail + fatal + error, error
+    counts = fontspector_counts(text)
+    return counts["WARN"], sum(counts[name] for name in ("FAIL", "FATAL", "ERROR")), counts["ERROR"]
 
 
 def final_answer_cells(decision_text: str) -> list[str]:
@@ -88,6 +100,7 @@ def is_unresolved_answer(answer: str) -> bool:
         }
         or answer.startswith("Confirm ")
         or answer.startswith("Maintainer review")
+        or answer.lower().startswith("pending")
     )
 
 
@@ -236,12 +249,17 @@ def blocker_lines() -> list[str]:
             f"final decision sheet still has unresolved answer cells: {len(unresolved_answers)}"
         )
 
-    release_warn, release_bad, _ = report_summary(release_report)
-    package_warn, package_bad, _ = report_summary(package_report)
-    if release_bad:
-        blockers.append("release Fontspector report has FAIL/FATAL/ERROR results")
-    if package_bad:
-        blockers.append("package-context Fontspector report has FAIL/FATAL/ERROR results")
+    warning_counts = []
+    for label, report in (("release", release_report), ("package-context", package_report)):
+        try:
+            warn, bad, _ = report_summary(report)
+        except ValueError as exc:
+            blockers.append(f"{label} {exc}")
+            warn, bad = 0, 0
+        warning_counts.append(warn)
+        if bad:
+            blockers.append(f"{label} Fontspector report has FAIL/FATAL/ERROR results")
+    release_warn, package_warn = warning_counts
     warnings_accepted = accepted_answer(answers.get("Fontspector warning floor", ""))
     if (release_warn or package_warn) and not warnings_accepted:
         blockers.append(
@@ -254,7 +272,7 @@ def blocker_lines() -> list[str]:
         blockers.append("proof index is missing; run `make proof`")
     if "Maintainer review required" in decisions:
         blockers.append("visual proof review is still marked maintainer-required")
-    if "review glyphs" in decisions and ("Accept, revise, or defer" in decisions):
+    if is_unresolved_answer(answers.get("Generated Latin Extended and Vietnamese composites", "")):
         blockers.append("generated composite review glyphs are not finally accepted/revised/deferred")
 
     if "Local release archive hashes match source files: yes" not in archive_manifest:
@@ -266,9 +284,9 @@ def blocker_lines() -> list[str]:
         blockers.append("fallback release archive URL is pending if release/archive strategy is used")
 
     packager_readiness = read(PACKAGER_READINESS)
-    if "Ready to run final no-PR Packager dry run: yes" not in packager_readiness:
-        blockers.append("no-PR Packager dry run is not ready to start")
     if "Final no-PR Packager dry run recorded: yes" not in read(PACKAGER_DRY_RUN_RECORD):
+        if "Ready to run final no-PR Packager dry run: yes" not in packager_readiness:
+            blockers.append("no-PR Packager dry run is not ready to start")
         blockers.append("final no-PR Packager dry run has not been recorded")
     downstream_pr_readiness = read(DOWNSTREAM_PR_READINESS)
     if "Ready to open downstream PR: yes" not in downstream_pr_readiness:

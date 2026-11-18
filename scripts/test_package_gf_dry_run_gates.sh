@@ -5,6 +5,18 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TMPDIR="$(mktemp -d "${TMPDIR:-/tmp}/blocksync-packager-gates.XXXXXX")"
 trap 'rm -rf "$TMPDIR"' EXIT
 
+FINAL_METADATA="$TMPDIR/final-metadata.md"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/test_packager_dry_run_record.py" --write-fixture "$FINAL_METADATA"
+PENDING_METADATA="$TMPDIR/pending-metadata.md"
+sed -e 's/date_added: "[^"]*"/date_added: "PENDING-YYYY-MM-DD"/' \
+    -e 's/commit: "[^"]*"/commit: "PENDING_FINAL_40_CHARACTER_COMMIT"/' \
+    "$FINAL_METADATA" > "$PENDING_METADATA"
+export PACKAGE_METADATA_PATH="$PENDING_METADATA"
+export PACKAGER_WORK_DIR="$TMPDIR/packager-work"
+export PACKAGER_DRY_RUN_RECORD_PATH="$TMPDIR/packager-record.json"
+export PACKAGER_DRY_RUN_RECORD_OUTPUT="$TMPDIR/packager-record.md"
+export GFTOOLS_BIN=false
+
 expect_blocked() {
     local label="$1"
     local expected="$2"
@@ -94,12 +106,9 @@ assert_contains "package report clean checkout" "Clean checkout avoids shared di
 assert_contains "package report effective checkout" "Effective checkout path for final dry run: \`$CLEAN_REPO_DISPLAY\`" "$PACKAGE_REPORT"
 assert_not_contains "package report dirty outside blocker" "- google/fonts checkout has dirty paths outside ofl/blocksync" "$PACKAGE_REPORT"
 
-FINAL_METADATA="$TMPDIR/final-metadata.md"
 FINAL_ARCHIVE="$TMPDIR/final-archive.md"
 FINAL_FONT="$TMPDIR/Blocksync[wdth,wght].ttf"
 FINAL_PACKAGE_REPORT="$TMPDIR/final-package-readiness.md"
-cp "$ROOT/documentation/google-fonts-downstream-metadata-draft.md" "$FINAL_METADATA"
-LC_ALL=C LANG=C perl -0pi -e 's/PENDING-YYYY-MM-DD/2026-05-30/g; s/PENDING_FINAL_40_CHARACTER_COMMIT/0123456789abcdef0123456789abcdef01234567/g' "$FINAL_METADATA"
 printf 'Local release archive hashes match source files: yes\n' >"$FINAL_ARCHIVE"
 touch "$FINAL_FONT"
 env \
@@ -120,6 +129,7 @@ DOWNSTREAM_REPORT="$TMPDIR/downstream-readiness.md"
 env \
     GF_REPO_PATH="$GF_REPO" \
     GF_CLEAN_REPO_PATH="$CLEAN_REPO" \
+    DOWNSTREAM_METADATA_PATH="$FINAL_METADATA" \
     DOWNSTREAM_PR_READINESS_OUTPUT="$DOWNSTREAM_REPORT" \
     "$ROOT/.venv/bin/python" "$ROOT/scripts/report_downstream_pr_readiness.py" >/dev/null
 assert_contains "downstream report clean base" "Suggested clean checkout base ready: yes" "$DOWNSTREAM_REPORT"
@@ -133,22 +143,18 @@ FAKE_GFTOOLS="$TMPDIR/fake-gftools"
     printf '#!/usr/bin/env bash\n'
     printf 'set -euo pipefail\n'
     printf 'if [[ "${1:-}" != "packager" ]]; then exit 99; fi\n'
+    printf '[[ "$#" -eq 4 && "$4" == "--build-from-source" ]]\n'
     printf 'mkdir -p "$3/ofl/blocksync"\n'
     printf 'cp "$2" "$3/ofl/blocksync/METADATA.pb"\n'
 } >"$FAKE_GFTOOLS"
 chmod +x "$FAKE_GFTOOLS"
-PACKAGER_RECORD_JSON="$TMPDIR/packager-record.json"
-PACKAGER_RECORD_MD="$TMPDIR/packager-record.md"
 env \
     GF_REPO_PATH="$GF_REPO" \
     PACKAGE_METADATA_PATH="$FINAL_METADATA" \
-    PACKAGER_WORK_DIR="$TMPDIR/packager-work" \
     GFTOOLS_BIN="$FAKE_GFTOOLS" \
-    PACKAGER_DRY_RUN_RECORD_PATH="$PACKAGER_RECORD_JSON" \
-    PACKAGER_DRY_RUN_RECORD_OUTPUT="$PACKAGER_RECORD_MD" \
     bash "$ROOT/scripts/package_gf_dry_run.sh" >/dev/null
-assert_contains "wrapper records final dry run" "Final no-PR Packager dry run recorded: yes" "$PACKAGER_RECORD_MD"
-assert_contains "wrapper passes metadata override" '"metadata_date_added": "2026-05-30"' "$PACKAGER_RECORD_JSON"
+assert_contains "wrapper records final dry run" "Final no-PR Packager dry run recorded: yes" "$PACKAGER_DRY_RUN_RECORD_OUTPUT"
+assert_contains "wrapper passes metadata override" '"metadata_date_added": "2026-05-30"' "$PACKAGER_DRY_RUN_RECORD_PATH"
 
 mkdir -p "$GF_REPO/ofl/blocksync"
 printf 'allowed dirty\n' >"$GF_REPO/ofl/blocksync/METADATA.pb"

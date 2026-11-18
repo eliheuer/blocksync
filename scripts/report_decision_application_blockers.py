@@ -88,6 +88,7 @@ def is_unresolved(answer: str) -> bool:
         or answer in UNRESOLVED_VALUES
         or answer.startswith("Confirm ")
         or answer.startswith("Maintainer review")
+        or answer.lower().startswith("pending")
     )
 
 

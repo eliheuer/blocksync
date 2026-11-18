@@ -1,24 +1,22 @@
 # Release Metadata Readiness
 
-This generated report ties the Google Fonts metadata placeholders to
-the current source version, built font version, and git state. It
-documents why `date_added` and `source.commit` cannot be final while
-the release tree is still under review.
+The candidate revision identifies the reviewed font and package inputs. Later handoff documentation can refer to that revision.
 
 ## Summary
 
 - Release metadata local evidence ready: yes
-- Release metadata final-ready for submission: no
-- Current git HEAD: `eadeb6a445d79cd79e5d6365dc782744db11a75f`
+- Release metadata final-ready for submission: yes
+- Current git HEAD: `46cd53e51744630b4f92e2a2e5957b41e6bd9294`
 - Working tree clean: no
-- Dirty paths total: 2230
-- Dirty modified paths: 554
-- Dirty untracked paths: 1676
-- Metadata repository_url: `https://github.com/eliheuer/blocksyncer`
+- Dirty paths total: 60
+- Dirty modified paths: 58
+- Dirty untracked paths: 2
+- Metadata repository_url: `https://github.com/eliheuer/blocksync`
 - Metadata branch: `main`
-- Metadata date_added final-looking: no
-- Metadata source.commit final-looking: no
-- Metadata source.commit equals current HEAD: no
+- Metadata date_added final-looking: yes
+- Metadata source.commit final-looking: yes
+- Packaged revision matches current build and package inputs: yes
+- Metadata source.commit equals current HEAD: yes
 - Source UFO version: `1.000`
 - Built variable font matches source version: yes
 

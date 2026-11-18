@@ -2,16 +2,16 @@
 
 Font: `fonts/variable/Blocksync[wdth,wght].ttf`
 
-This report records the remaining warning floor after the release gate
-passes. It is a worklist for real cleanup and reviewer decisions, not
+This report records the remaining warning floor in both checked profiles.
+It is a worklist for real cleanup and reviewer decisions, not
 a recommendation to hide supported codepoints or narrow the package
 scope just to reduce warning count.
 
 ## Current Warning Floor
 
 - Honest zero-warning state possible with current scope: no
-- Release variable Fontspector summary: 0 FAIL, 3 WARN, 8 INFO, 129 PASS, 59 SKIP
-- Package-context Fontspector summary: 0 FAIL, 3 WARN, 10 INFO, 155 PASS, 46 SKIP
+- Release variable Fontspector summary: 0 FAIL, 3 WARN, 8 INFO, 131 PASS, 60 SKIP
+- Package-context Fontspector summary: 6 FAIL, 3 WARN, 10 INFO, 157 PASS, 46 SKIP
 - Package-context warning checks: `googlefonts/metadata/unreachable_subsetting`: 1, `contour_count`: 1, `outline_alignment_miss`: 1
 
 ## Zero-Warning Verdict
@@ -62,6 +62,7 @@ Current package-context list:
 - `U+0315 COMBINING COMMA ABOVE RIGHT`
 - `U+0326 COMBINING COMMA BELOW`
 - `U+0327 COMBINING CEDILLA`
+- `U+0331 COMBINING MACRON BELOW`
 - `U+25CC DOTTED CIRCLE`
 
 ### Contour Count

@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 from pathlib import Path
+
+from report_google_fonts_reference_refresh import EXPECTED_LAST_CHECKED, RECENT_PR_MARKERS
 import re
 
 
@@ -31,9 +33,7 @@ REFERENCE_URLS = [
     "https://googlefonts.github.io/gf-guide/article.html",
     "https://googlefonts.github.io/gf-guide/making-pr.html",
     "https://github.com/google/fonts/blob/main/.github/ISSUE_TEMPLATE/1_add-font.md",
-    "https://github.com/google/fonts/pull/10596",
-    "https://github.com/google/fonts/pull/10591",
-    "https://github.com/google/fonts/pull/10613",
+    *RECENT_PR_MARKERS,
     "https://github.com/googlefonts/googlefonts-project-template",
     "https://github.com/googlefonts/glyphsets",
 ]
@@ -131,7 +131,7 @@ def main() -> int:
     reference_refresh_guidance = all(
         phrase in refs
         for phrase in [
-            "Last checked: 2026-06-13.",
+            EXPECTED_LAST_CHECKED,
             "Recent Merged Downstream PR Examples",
             "Taken from the upstream repo",
             "Fontspector checks are reviewed",

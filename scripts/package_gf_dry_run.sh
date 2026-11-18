@@ -9,7 +9,7 @@ WORK_DIR="${PACKAGER_WORK_DIR:-$ROOT/out/google-fonts-packager}"
 METADATA_PB="$WORK_DIR/METADATA.pb"
 GFTOOLS_BIN="${GFTOOLS_BIN:-$ROOT/.venv/bin/gftools}"
 VENV_PYTHON="${VENV_PYTHON:-$ROOT/.venv/bin/python}"
-PACKAGER_RECORD_PATH="${PACKAGER_DRY_RUN_RECORD_PATH:-$ROOT/documentation/google-fonts-packager-dry-run-record.json}"
+PACKAGER_RECORD_PATH="${PACKAGER_DRY_RUN_RECORD_PATH:-$ROOT/output/google-fonts/packager-record.json}"
 PACKAGER_RECORD_OUTPUT="${PACKAGER_DRY_RUN_RECORD_OUTPUT:-$ROOT/documentation/packager-dry-run-record.md}"
 
 if [[ ! -d "$GF_REPO_PATH/.git" ]]; then
@@ -48,7 +48,11 @@ if not match:
 Path(sys.argv[2]).write_text(match.group(1).strip() + "\n", encoding="utf-8")
 PY
 
-"$GFTOOLS_BIN" packager "$METADATA_PB" "$GF_REPO_PATH"
+packager_args=(packager "$METADATA_PB" "$GF_REPO_PATH")
+if grep -Eq '^[[:space:]]*config_yaml:' "$METADATA_PB"; then
+    packager_args+=(--build-from-source)
+fi
+"$GFTOOLS_BIN" "${packager_args[@]}"
 "$VENV_PYTHON" "$ROOT/scripts/report_packager_dry_run_record.py" \
     --record-success \
     --strict \

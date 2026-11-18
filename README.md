@@ -31,7 +31,7 @@ make proof
 
 The pinned Font.Garden tools build the variable font and 18 static proofs from the existing designspace. Blocksync uses the fontmake compiler with its original metadata step. The default fontc recipe produces only the variable font for this config. The family design and its inherited QA findings are in [CONTEXT.md](CONTEXT.md).
 
-Open the [print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) or the [two-axis specimen](https://eliheuer.github.io/blocksync/proof/widths.html). Local copies are in `output/proof/`. CI updates the existing GitHub Pages branch after the checks pass on main. Release events attach the built fonts and reports to the tagged release.
+Open the [print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) or the [two-axis specimen](https://eliheuer.github.io/blocksync/proof/widths.html). The [design review](https://eliheuer.github.io/blocksync/proof/design.html) shows the spacing, weight and character-shape issues holding the Google Fonts submission. Local copies are in `output/proof/`. CI updates the existing GitHub Pages branch after the checks pass on main. Release events attach the built fonts and reports to the tagged release.
 
 Use `make runebender` to open the designspace in the native Runebender checkout at `~/GH/repos/runebender`. Set `RUNEBENDER_REPO` for another checkout location. Use `make queue` for draft candidates and `make status` for the source grade inventory. The [agent workflow](AGENTS.md) covers assignments, protected donors and independent review. The [Font.Garden guide](https://font.garden/docs/start/) describes the shared workflow.
 

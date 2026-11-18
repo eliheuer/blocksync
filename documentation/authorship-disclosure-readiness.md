@@ -9,8 +9,8 @@ AI-use disclosure, RFN, and designer-string readiness for Blocksync.
 - Authorship/disclosure final-ready for submission: no
 - AUTHORS.txt entries: `Eli Heuer`
 - CONTRIBUTORS.txt entries: `Eli Heuer`
-- Designer string final confirmation recorded: no
-- AI-use disclosure final wording recorded: no
+- Designer string final confirmation recorded: yes
+- AI-use disclosure final wording recorded: yes
 - Authorship/CLA/RFN final confirmation recorded: no
 
 ## Issue Draft Coverage
@@ -24,9 +24,9 @@ AI-use disclosure, RFN, and designer-string readiness for Blocksync.
 
 ## Open Final Decisions
 
-- Designer string: Confirm or replace
-- AI-use disclosure: Confirm wording
-- Authorship/CLA/RFN status: Confirm
+- Designer string: Eli Heuer
+- AI-use disclosure: Eli confirmed the issue disclosure covers earlier work, engineering, components, mark positioning, QA and proof review.
+- Authorship/CLA/RFN status: Pending confirmation of the downstream contributor’s CLA identity
 
 ## Finalization
 

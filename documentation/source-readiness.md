@@ -23,13 +23,13 @@ files are archived, and each active UFO can be loaded and inspected.
 
 | UFO | Family | Style | UFO format | Glyphs | Component refs | Historical layers | Features |
 | --- | --- | --- | ---: | ---: | ---: | ---: | --- |
-| `Blocksync-Regular.ufo` | Blocksync | Regular | 3.0 | 628 | 973 | 0 | latn |
-| `Blocksync-CondensedRegular.ufo` | Blocksync | Condensed Regular | 3.0 | 628 | 973 | 26 | latn |
-| `Blocksync-CondensedBold.ufo` | Blocksync | Condensed Bold | 3.0 | 628 | 973 | 26 | latn |
-| `Blocksync-CondensedBlack.ufo` | Blocksync | Condensed Black | 3.0 | 628 | 973 | 2 | latn |
-| `Blocksync-ExpandedRegular.ufo` | Blocksync | Expanded Regular | 3.0 | 628 | 973 | 26 | latn |
-| `Blocksync-ExpandedBold.ufo` | Blocksync | Expanded Bold | 3.0 | 628 | 973 | 26 | latn |
-| `Blocksync-ExpandedBlack.ufo` | Blocksync | Expanded Black | 3.0 | 628 | 973 | 2 | latn |
+| `Blocksync-Regular.ufo` | Blocksync | Regular | 3.0 | 629 | 980 | 0 | latn |
+| `Blocksync-CondensedRegular.ufo` | Blocksync | Condensed Regular | 3.0 | 629 | 980 | 26 | latn |
+| `Blocksync-CondensedBold.ufo` | Blocksync | Condensed Bold | 3.0 | 629 | 980 | 26 | latn |
+| `Blocksync-CondensedBlack.ufo` | Blocksync | Condensed Black | 3.0 | 629 | 980 | 2 | latn |
+| `Blocksync-ExpandedRegular.ufo` | Blocksync | Expanded Regular | 3.0 | 629 | 980 | 26 | latn |
+| `Blocksync-ExpandedBold.ufo` | Blocksync | Expanded Bold | 3.0 | 629 | 980 | 26 | latn |
+| `Blocksync-ExpandedBlack.ufo` | Blocksync | Expanded Black | 3.0 | 629 | 980 | 2 | latn |
 
 ## Archived Glyphs Sources
 

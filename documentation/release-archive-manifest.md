@@ -18,16 +18,16 @@ release files.
 - Local release archive has extra files: no
 - Local release archive hashes match source files: yes
 - Local release archive metadata deterministic: yes
-- Local release archive SHA-256: `1ea3cce3b125b5fa315120f7c6e641d1030e361f7043b9cedcd9a57a239ecfad`
+- Local release archive SHA-256: `9f27875f08342f384fec880e47d80d42978c5492d537558a4d6d495d7b80c6a4`
 - Final GitHub release archive URL recorded: pending
 
 ## Archive Inputs
 
 | Source file | Destination in package | Exists | Size bytes | SHA-256 |
 | --- | --- | --- | ---: | --- |
-| `OFL.txt` | `OFL.txt` | yes | 4393 | `4b6ed05e5d8eae7161df728438a0ea114ae735552e969df5099c5785b91aa219` |
-| `fonts/variable/Blocksync[wdth,wght].ttf` | `Blocksync[wdth,wght].ttf` | yes | 81160 | `5a31cc7b62823ea28ec241d27ccb376d70afa77e82e101979aa2953589694025` |
-| `documentation/DESCRIPTION.en_us.html` | `DESCRIPTION.en_us.html` | yes | 528 | `2e5e902626af170dc9e61fcda21036c13bb05ea28fcb58a2c4689069dce31a97` |
+| `OFL.txt` | `OFL.txt` | yes | 4391 | `63ca62a9ac81bb373fe70dd6730789d997a8d106004df6d54408a018299ade4b` |
+| `fonts/variable/Blocksync[wdth,wght].ttf` | `Blocksync[wdth,wght].ttf` | yes | 94968 | `a88ba481b15a8ca6fe8c4a7a716c16a9094ec13ea3b19e57ffdc44414a65fb0e` |
+| `documentation/DESCRIPTION.en_us.html` | `DESCRIPTION.en_us.html` | yes | 496 | `252b3b6428976dc9ff5882cda17a84eb97dd81792c69d6f342a10071b33f4e85` |
 
 ## Archive Entries
 

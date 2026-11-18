@@ -76,6 +76,7 @@ def main() -> int:
             "Keep proof-only unless Google Fonts asks",
             "unknown",
         }
+        and not answer.lower().startswith("pending")
         for answer in [proof_answer, composite_answer, warning_answer, static_answer]
     )
 
@@ -95,7 +96,7 @@ def main() -> int:
         f"- Missing linked proof pages: {len(missing_links)}",
         f"- Missing linked proof fonts: {len(missing_fonts)}",
         f"- Visual proof final decision recorded: {yes_no(proof_answer != 'Maintainer review required')}",
-        f"- Generated composite final decision recorded: {yes_no(composite_answer != 'Accept, revise, or defer')}",
+        f"- Generated composite final decision recorded: {yes_no(composite_answer != 'Accept, revise, or defer' and not composite_answer.lower().startswith('pending'))}",
         f"- Fontspector warning-floor final decision recorded: {yes_no(warning_answer != 'Accept for first review or schedule source cleanup')}",
         f"- Static TTF final decision recorded: {yes_no(static_answer != 'Keep proof-only unless Google Fonts asks')}",
         "",

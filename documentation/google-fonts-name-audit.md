@@ -1,16 +1,16 @@
 # Google Fonts Name Audit
 
-Checked: 2026-05-30
+FontData checked 2026-11-18
 
 ## Result
 
-`Blocksync` is clear in the 2026-05-30 `namecheck.fontdata.com` API result.
+`Blocksync` is clear in the 2026-11-18 `namecheck.fontdata.com` API result.
 
 ## Current Evidence
 
-- Live web search did not show an obvious existing typeface family named
+- The May 2026 web search did not show an obvious existing typeface family named
   `Blocksync`.
-- Live web search did show non-font uses of `BlockSync`/`Blocksync`, including
+- The May 2026 web search did show non-font uses of `BlockSync`/`Blocksync`, including
   blockchain infrastructure, file synchronization, and protocol/software
   contexts.
 - `namecheck.fontdata.com/api/?q=Blocksync` returned zero matches in every
@@ -20,6 +20,6 @@ Checked: 2026-05-30
 
 ## Submission Decision
 
-Proceed with the local package name `Blocksync` unless a later
+Eli confirmed the final family name on November 18. Revisit the clearance if a later
 `namecheck.fontdata.com` refresh or Google Fonts reviewer feedback shows a
 typeface-name conflict.

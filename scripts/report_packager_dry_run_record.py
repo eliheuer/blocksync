@@ -17,7 +17,8 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 METADATA = Path(os.environ.get("METADATA_DRAFT_PATH", ROOT / "documentation" / "google-fonts-downstream-metadata-draft.md"))
-RECORD = Path(os.environ.get("PACKAGER_DRY_RUN_RECORD_PATH", ROOT / "documentation" / "google-fonts-packager-dry-run-record.json"))
+DEFAULT_RECORD = ROOT / "output" / "google-fonts" / "packager-record.json"
+RECORD = Path(os.environ.get("PACKAGER_DRY_RUN_RECORD_PATH", DEFAULT_RECORD))
 OUTPUT = Path(os.environ.get("PACKAGER_DRY_RUN_RECORD_OUTPUT", ROOT / "documentation" / "packager-dry-run-record.md"))
 GF_REPO_PATH = Path(os.environ.get("GF_REPO_PATH", "/Users/eli/GH/forks/fonts"))
 PACKAGE_DIR = Path("ofl/blocksync")
@@ -156,6 +157,11 @@ def yes_no(value: bool) -> str:
 
 def report(record_path: Path, output_path: Path, metadata_path: Path) -> bool:
     record = load_record(record_path)
+    if not record and record_path == DEFAULT_RECORD:
+        # A fresh checkout can validate the published evidence without generated files.
+        embedded = re.search(r"^```json\n(.*?)\n```$", read(output_path), re.MULTILINE | re.DOTALL)
+        if embedded:
+            record = json.loads(embedded[1])
     facts = metadata_facts(metadata_path)
     blockers: list[str] = []
 
@@ -212,6 +218,10 @@ def report(record_path: Path, output_path: Path, metadata_path: Path) -> bool:
     else:
         lines.append("- none")
     lines.append("")
+
+    if record:
+        lines.extend(["## Recorded evidence", "", "```json",
+                      json.dumps(record, indent=2, sort_keys=True), "```", ""])
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(lines), encoding="utf-8")

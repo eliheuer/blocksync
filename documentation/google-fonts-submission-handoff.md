@@ -1,248 +1,42 @@
-# Google Fonts Submission Handoff
+# Google Fonts submission handoff
 
-This is the current handoff note for opening the Google Fonts Add Font issue
-and preparing the downstream package.
+**Submission is on hold pending Eli’s design review.** The maintainer requested preparation only. Keep the issue and pull request as drafts until he gives the go-ahead.
 
-## Current Status
+## Release candidate
 
-- Upstream repo: `https://github.com/eliheuer/blocksyncer`
+- Upstream repo: https://github.com/eliheuer/blocksync
+- Public branch: main
 - Google Fonts issue: pending
-- Family name: Blocksync
-- Namecheck: `documentation/namecheck-fontdata-result.json` records a
-  2026-05-30 `namecheck.fontdata.com` API clear result
-- License: SIL Open Font License v1.1, no Reserved Font Names declared
-- Source format: UFO masters plus `sources/Blocksync.designspace`
-- Archived sources: historical `.glyphs` files in `sources/archive/`
-- Build command: `make build`
-- Release gate: `make release-check`
-- Proof command: `make proof`
-- Variable font: `fonts/variable/Blocksync[wdth,wght].ttf`
-- Downstream subset draft: `latin`, `latin-ext`, `menu`, `vietnamese`
-- Current Fontspector status: 0 FAIL, 0 ERROR, 0 FATAL, 3 WARN in both
-  release variable and package-context checks
-- Current metadata blockers: `date_added` is `PENDING-YYYY-MM-DD` and
-  `source.commit` is `PENDING_FINAL_40_CHARACTER_COMMIT`
-- Final readiness gate: `make final-readiness-check` currently reports
-  blockers: 10
-- Final decision sheet:
-  `documentation/google-fonts-final-decision-sheet.md`
-- Final values packet:
-  `documentation/google-fonts-final-values-packet.md`
-- Downstream package preview:
-  `documentation/google-fonts-downstream-package-preview.md`
-- Downstream PR readiness:
-  `documentation/downstream-pr-readiness.md`
-- Package dry-run readiness:
-  `documentation/package-dry-run-readiness.md`
-- Current next-actions queue:
-  `documentation/next-actions.md`
-- Final submission blocker snapshot:
-  `documentation/final-submission-blockers.md`
-- Fallback release/archive manifest:
-  `documentation/release-archive-manifest.md`
-- Google Fonts live-reference refresh:
-  `documentation/google-fonts-reference-refresh.md`
+- Source commit: 46cd53e51744630b4f92e2a2e5957b41e6bd9294
+- Candidate package date: 2026-11-18
+- Source: seven UFO masters and `sources/Blocksync.designspace`. Earlier Glyphs sources are in `sources/archive/`.
+- Packager builds `sources/config.yaml` and ships the variable TTF, OFL, description and METADATA.pb in `ofl/blocksync`. The 18 static fonts are proof outputs.
+- FontData returned zero matches for Blocksync at all six reported confidence levels on 2026-11-18. The trademark flag was false. See `documentation/namecheck-fontdata-result.json`.
 
 ## Draft Add Font Issue
 
-Use `documentation/google-fonts-add-font-issue-draft.md` as the source of truth
-for the issue body. Before pasting it, replace draft status notes that still
-need maintainer confirmation:
+The issue text and maintainer confirmations are in `documentation/google-fonts-add-font-issue-draft.md` and `documentation/google-fonts-final-decision-sheet.md`. Google Fonts reviews the issue before requesting a downstream PR. The expected branch is `gftools_packager_ofl_blocksync` and the title is `Blocksync : 1.000 added`. The PR template uses `Taken from the upstream repo <repo-url> at commit <commit-url>.`
 
-- final public upstream URL and default branch;
-- AI-use disclosure;
-- namecheck result refresh if the Add Font issue is opened later;
-- package strategy if Google Fonts asks for release/archive packaging instead
-  of `sources/config.yaml`;
-- final `date_added` and source commit.
+## QA and visual review
 
-## Local QA Commands
+The [design review](design-review.md) identifies inconsistent capital weights, protected placeholder glyphs, fragile Black counters and verified letter collisions. The [live comparison](https://eliheuer.github.io/blocksync/proof/design.html) highlights intersecting outlines in red.
 
-```bash
-make release-check
-make proof
-make release-metadata-readiness
-make qa
-make reports
-make source-readiness
-make family-name-readiness
-make authorship-disclosure-readiness
-make packager-source-strategy
-make proof-review-readiness
-make proof-review-packet
-make warning-worklist
-make release-archive-build
-make prepare-gf-clean-checkout
-make final-values-packet
-make final-values-proposal
-make final-values-check VALUES=/path/to/final-values.json
-make apply-final-values VALUES=/path/to/final-values.json
-make package-dry-run-readiness
-make packager-dry-run-record
-make downstream-pr-draft
-make downstream-pr-readiness
-make submission-handoff-readiness
-make google-fonts-reference-refresh
-make agent-reuse-readiness
-make next-actions
-make blockers
-make script-gate-tests
-make final-readiness-check
-```
+The baseline and first migration build have identical outlines, metrics, axes and shaping. The release adds the heavier normal-width Black selected by Eli, two component-built fractions and zero-width U+0331 for Amarakaeri, Mezquital Otomi and Secoya. The printed and interactive proofs include both axes. Existing green glyphs, component donors and their anchors are protected. The inherited Font.Garden findings are documented in CONTEXT.md.
 
-`make qa` matches the Virtua Grotesk command surface and runs the release
-variable Fontspector profile after building. `make test` aliases `make qa`.
+Fontspector 1.9.0 reports **3 WARN, 0 FAIL, 0 FATAL, 0 ERROR** on the release variable font and **3 WARN, 6 FAIL, 0 FATAL, 0 ERROR** in the local package-context check. All six failures identify one absent serving codepoint. Besides the three specimen texts, the web subset check flags additional samples for Chickasaw, Siona and Ticuna. A controlled test with the same font and U+0331 added only to the validator’s Latin serving data passed. The published check still runs against Google's original data.
 
-`make reports` regenerates the release/readiness report bundle through the
-same report path used by `make agent-reuse-readiness`.
+The official no-PR Packager produced four files against google/fonts revision `5bd87dfc525c8a0d1d8529d3684716e00c3fc59a`. The packaged TTF and a clean build with the source commit timestamp were byte-identical (SHA-256 `401f5adf26abeff20caef3a4dcfa9570d5ef1f3624bb6d9464421e17bae0cb60`). The final font has 630 glyphs and 617 encoded codepoints. The full online Google Fonts profile on those four files returned 160 PASS, 10 INFO, 44 SKIP, 4 WARN and 6 FAIL. The fourth warning is the missing Google Fonts designer profile for Eli Heuer.
 
-`make release-check` builds once, then runs the release variable Fontspector
-profile, downstream metadata checker, package-context Fontspector probe, and
-release-structure preflight.
+The full font renders the three language samples. Google's web subset definitions omit U+0331 from the declared Latin subsets. Fontspector flags the resulting missing character in the simulated web fonts. The onboarding team tracks split-font mark attachment. [Subset tracking](https://github.com/googlefonts/nam-files/issues/6) · [Fontspector tracking](https://github.com/fonttools/fontspector/issues/946)
 
-`make proof` regenerates `out/proof/index.html`; review it before treating the
-generated Vietnamese and Latin Extended component glyphs as final drawings.
+[Print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) · [Two-axis specimen](https://eliheuer.github.io/blocksync/proof/widths.html)
 
-`make release-metadata-readiness` regenerates
-`documentation/release-metadata-readiness.md`, which records the current source
-version, built font version, git HEAD, dirty state, and final
-`date_added`/`source.commit` placeholder status.
+## Reproducing the handoff
 
-`make family-name-readiness` and `make authorship-disclosure-readiness`
-regenerate local evidence reports for built family names, RFN status,
-authorship files, CLA/disclosure decisions, and Add Font issue checklist
-coverage.
+Run `make setup build test proof` and `make release-check`. Use a clean downstream checkout and `gftools packager` for a source-build rehearsal. Run the unexcluded Google Fonts profile over the resulting four-file family. Record the Packager source revision because it resolves the upstream branch at build time.
 
-`make packager-source-strategy` regenerates
-`documentation/packager-source-strategy.md`, which keeps the preferred
-`source.config_yaml` build-from-source path and release/archive fallback
-evidence in one place.
+The workflow also maintains the following records.
 
-`make proof-review-readiness` regenerates
-`documentation/proof-review-readiness.md`, which verifies the current proof
-index and summarizes open visual proof, generated composite, warning-floor,
-and static-output decisions.
-
-`make proof-review-packet` regenerates
-`documentation/proof-review-packet.md`, which groups proof pages, remaining
-Fontspector WARN items, and final-values keys for maintainer review.
-
-`make warning-worklist` regenerates
-`documentation/fontspector-zero-warning-worklist.md` from the current built
-font and Fontspector reports.
-
-`make release-archive-build` builds `dist/Blocksync-GF-review.zip` and updates
-`documentation/release-archive-manifest.md`. Use this only if Google Fonts asks
-for release/archive packaging instead of the preferred designspace/UFO
-`sources/config.yaml` build path.
-
-`make final-values-check VALUES=/path/to/final-values.json` validates a filled
-copy of `documentation/google-fonts-final-values.template.json`, or a reviewed
-copy of `documentation/google-fonts-final-values.proposal.json` after removing
-proposal-only `_...` keys.
-`make final-values-packet` regenerates
-`documentation/google-fonts-final-values-packet.md`, which maps each
-maintainer decision row to the JSON key that will apply it.
-`make final-values-proposal` regenerates
-`documentation/google-fonts-final-values.proposal.json`, a non-final starting
-point with evidence-backed values prefilled and blank strings where a real
-maintainer answer is still needed.
-`make apply-final-values VALUES=/path/to/final-values.json` applies those
-answers to the metadata draft, final decision sheet, Add Font issue draft,
-submission handoff, `OFL.txt`, and active UFO `fontinfo.plist` copyright URLs.
-When the Google Fonts Add Font issue exists, include it as
-`google_fonts_issue_url` so the handoff line changes from pending to the final
-issue URL.
-
-`make final-readiness-check` is stricter than `make release-check`; it should
-fail until final metadata values, maintainer decisions, proof review,
-namecheck, Packager dry run, and WARN acceptance are resolved.
-
-`make package-dry-run-readiness` reports whether the local `google/fonts`
-checkout and metadata draft are ready for a guarded no-PR Packager dry run.
-`make package-dry-run` refuses to run while final metadata placeholders remain.
-If the shared checkout has unrelated dirty work, run
-`make prepare-gf-clean-checkout` and rerun the readiness and dry-run commands
-with `GF_REPO_PATH=/private/tmp/blocksync-google-fonts`.
-For a rehearsal using a reviewed metadata copy, set
-`PACKAGE_METADATA_PATH=/path/to/metadata-draft.md` on both
-`make package-dry-run-readiness` and `make package-dry-run`; set
-`PACKAGER_WORK_DIR`, `PACKAGER_DRY_RUN_RECORD_PATH`, and
-`PACKAGER_DRY_RUN_RECORD_OUTPUT` when the rehearsal record should not replace
-the repo-local final record.
-After a successful no-PR run, the wrapper records
-`documentation/google-fonts-packager-dry-run-record.json` and regenerates
-`documentation/packager-dry-run-record.md`; `make packager-dry-run-record`
-rechecks that record against the current metadata draft. The wrapper performs
-that record check in strict mode after Packager so stale or mismatched dry-run
-evidence fails the run instead of only writing a negative report.
-
-`make downstream-pr-readiness` records whether the eventual downstream
-`google/fonts` PR is ready to open. It is read-only and checks the local
-`google/fonts` fork, package path, issue-first rule, expected branch/title/body,
-Packager readiness, and the clean-checkout escape hatch.
-
-`make downstream-pr-draft` generates
-`documentation/google-fonts-downstream-pr-draft.md`, including the final PR
-title, provenance body line, Google Fonts issue URL, and expected branch.
-
-`make google-fonts-reference-refresh` verifies that the repo-local reference
-map records the current Add Font issue template and the recent merged
-`google/fonts` PR examples used for this setup pass. Refresh those live
-references again before opening the issue or PR.
-
-`make next-actions` regenerates `documentation/next-actions.md`, a compact
-owner-grouped queue for resuming the remaining maintainer, proof, packaging,
-and downstream blockers.
-
-`make blockers` regenerates `documentation/final-submission-blockers.md`, the
-full final-submission blocker snapshot used for handoff and later resumption.
-
-## Expected Downstream PR Shape
-
-- Branch name: `gftools_packager_ofl_blocksync`
-- Family directory: `ofl/blocksync`
-- PR title: `Blocksync : 1.000 added`
-- PR body provenance line:
-  `Taken from the upstream repo <repo-url> at commit <commit-url>.`
-  Replace the placeholders with the line generated by
-  `make downstream-pr-draft` from the final source metadata.
-- Open or link the Google Fonts Add Font issue before creating the PR.
-- Keep the PR scoped to one family directory.
-- Match recent merged PR checklist expectations: Fontspector review, OFL URL
-  review, subset/primary-script review where applicable, designer profile
-  status, and tags for new fonts.
-
-## Packaging Notes
-
-The downstream metadata draft currently uses:
-
-```textproto
-source {
-  repository_url: "https://github.com/eliheuer/blocksyncer"
-  commit: "PENDING_FINAL_40_CHARACTER_COMMIT"
-  config_yaml: "sources/config.yaml"
-  branch: "main"
-}
-```
-
-Keep the `config_yaml` path if Google Fonts accepts the reproducible
-designspace/UFO build. If review asks for binary release packaging instead,
-create a release/archive package containing:
-
-- `OFL.txt`
-- `fonts/variable/Blocksync[wdth,wght].ttf`
-- `documentation/DESCRIPTION.en_us.html`
-
-Then update the metadata draft with the final archive URL and rerun
-`make release-check`.
-
-## Known Review Items
-
-- Review or accept the remaining Fontspector warning floor documented in
-  `documentation/fontspector-zero-warning-worklist.md`.
-- Review generated Vietnamese and Latin Extended composites in proof output.
-- Confirm that static TTFs remain proof-only outputs unless Google Fonts asks
-  for downstream static files.
-- Confirm designer profile, authorship, AI-use disclosure, and ongoing
-  maintenance statement before opening the issue.
+- Final values and package preview: `documentation/google-fonts-final-values-packet.md`, `documentation/google-fonts-downstream-package-preview.md`.
+- Packager and archive verification: `documentation/package-dry-run-readiness.md`, `documentation/packager-dry-run-record.md`, `documentation/release-archive-manifest.md`.
+- Downstream review: `documentation/downstream-pr-readiness.md`, `documentation/next-actions.md`, `documentation/final-submission-blockers.md`, `documentation/final-readiness-report.md`.

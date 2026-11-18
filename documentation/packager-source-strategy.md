@@ -9,11 +9,11 @@ strategies during Google Fonts handoff.
 - Preferred build-from-source path ready locally: yes
 - Release/archive fallback ready locally: yes
 - Package source strategy local evidence ready: yes
-- Package source strategy final-ready for submission: no
-- Final strategy decision recorded: no
-- Metadata repository_url: `https://github.com/eliheuer/blocksyncer`
+- Package source strategy final-ready for submission: yes
+- Final strategy decision recorded: yes
+- Metadata repository_url: `https://github.com/eliheuer/blocksync`
 - Metadata branch: `main`
-- Metadata commit final-looking: no
+- Metadata commit final-looking: yes
 - Metadata config_yaml: `sources/config.yaml`
 - Metadata archive_url: `not set`
 - Source files mapped: 3
@@ -24,7 +24,7 @@ strategies during Google Fonts handoff.
 | --- | --- | --- | --- | --- |
 | `OFL.txt` | `OFL.txt` | yes | yes | no |
 | `fonts/variable/Blocksync[wdth,wght].ttf` | `Blocksync[wdth,wght].ttf` | yes | no | yes |
-| `documentation/DESCRIPTION.en_us.html` | `DESCRIPTION.en_us.html` | yes | no | no |
+| `documentation/DESCRIPTION.en_us.html` | `DESCRIPTION.en_us.html` | yes | yes | no |
 
 ## Preferred Strategy
 
@@ -44,6 +44,6 @@ strategies during Google Fonts handoff.
 
 ## Finalization
 
-- Current final decision sheet answer: Confirm or switch to release/archive
+- Current final decision sheet answer: Build from source with `source.config_yaml` pointing to `sources/config.yaml`
 - Replace final `source.commit` before any Packager dry run.
 - Confirm package strategy before opening the Add Font issue.

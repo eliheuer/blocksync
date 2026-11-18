@@ -25,8 +25,6 @@ started safely. It does not write to the local `google/fonts` checkout.
 ## Blocking Items
 
 - google/fonts checkout has dirty paths outside ofl/blocksync
-- metadata date_added is still a placeholder
-- metadata source.commit is still a placeholder
 
 ## Dirty google/fonts Paths Outside Package
 

@@ -16,57 +16,43 @@ state from the full documentation set.
 - Proof review packet ready: yes
 - Reusable `.agents` workflow ready: yes
 - Final-ready for Google Fonts submission: no
-- Final readiness blockers: 10
+- Final readiness blockers: 6
 - Remaining Fontspector warning floor: `googlefonts/metadata/unreachable_subsetting`: 1, `contour_count`: 1, `outline_alignment_miss`: 1
 - No-PR Packager dry-run ready: no
-- No-PR Packager dry-run recorded: no
+- No-PR Packager dry-run recorded: yes
 - Downstream PR ready: no
 - Fallback archive URL status: pending
-- Public placeholder blocker count: 17
+- Public placeholder blocker count: 1
 - Decision rows tracked: 14
-- Unresolved final-answer rows: 13
+- Unresolved final-answer rows: 3
 
 ## Maintainer Decision Rows
 
 | Decision | Current evidence | Needed answer |
 | --- | --- | --- |
-| Google Fonts `date_added` | `PENDING-YYYY-MM-DD` | TBD |
-| Final source commit | `PENDING_FINAL_40_CHARACTER_COMMIT` | TBD |
-| Public upstream URL | `https://github.com/eliheuer/blocksyncer` | Confirm or replace |
-| Public default branch | `main` | Confirm or replace |
-| Package source strategy | preferred `source.config_yaml: "sources/config.yaml"` | Confirm or switch to release/archive |
-| Designer string | `Eli Heuer` | Confirm or replace |
-| AI-use disclosure | pending maintainer answer | Confirm wording |
-| Authorship/CLA/RFN status | local OFL/no-RFN drafts exist | Confirm |
-| Fontspector warning floor | `make release-check` passes with 3 WARN: metadata reachability, `uni01F5` contour count, outline alignment | Accept for first review or schedule source cleanup |
-| Visual proof | `make proof` writes `out/proof/index.html` with 73 proof pages and 19 fonts | Maintainer review required |
-| Generated Latin Extended and Vietnamese composites | Added to clear coverage/subset gates; documented as review glyphs | Accept, revise, or defer |
-| Static TTFs | Generated for local proofing, not listed as downstream package files | Keep proof-only unless Google Fonts asks |
-| Release/archive fallback | `dist/Blocksync-GF-review.zip` is built by `make release-check` and tracked in `documentation/release-archive-manifest.md` | Use only if Google Fonts rejects `source.config_yaml` path |
+| Authorship/CLA/RFN status | Eli confirmed rights to all styles, the OFL, continued maintenance, the absence of an applicable upstream RFN, and agreement to the contribution requirements. | Pending confirmation of the downstream contributor’s CLA identity |
+| Fontspector warning floor | Release VF has three warnings. Package-context QA reports the missing web-subset mark. | Accept for first review or schedule source cleanup |
+| Generated Latin Extended and Vietnamese composites | Added to clear coverage/subset gates; documented as review glyphs | Pending design review. Hold the submission until the placeholder identities and accent constructions have been reviewed. |
 
 ## Maintainer Decisions
 
 | Blocker | Next action |
 | --- | --- |
-| metadata `date_added` is still `PENDING-YYYY-MM-DD` | Choose the final Google Fonts package date, then update the metadata draft. |
-| metadata `source.commit` is still pending | Use the reviewed final upstream commit hash in metadata and issue/PR text. |
-| AI-use disclosure is still pending maintainer answer | Record the maintainer-approved AI-use disclosure wording. |
-| final decision sheet still has unresolved answer cells: 13 | Fill every final-answer cell in the maintainer decision sheet. |
+| final decision sheet still has unresolved answer cells: 3 | Fill every final-answer cell in the maintainer decision sheet. |
 
 ## Source And Proof Review
 
 | Blocker | Next action |
 | --- | --- |
 | zero-warning worklist says true zero is not currently achieved | Either fix the remaining warning buckets or explicitly accept them for first review. |
-| visual proof review is still marked maintainer-required | Review `out/proof/index.html` and record the proof decision. |
 | generated composite review glyphs are not finally accepted/revised/deferred | Accept, revise, or defer the generated Latin Extended and Vietnamese review glyphs. |
 
 ## Packaging And Downstream
 
 | Blocker | Next action |
 | --- | --- |
-| no-PR Packager dry run is not ready to start | Clear final metadata and review blockers, then run the guarded no-PR Packager dry run; use the clean checkout path if the shared fork is dirty. |
-| final no-PR Packager dry run has not been recorded | Clear final metadata and review blockers, then run the guarded no-PR Packager dry run; use the clean checkout path if the shared fork is dirty. |
+| package-context Fontspector report has FAIL/FATAL/ERROR results | Resolve the blocker and rerun `make final-readiness-check`. |
+| Fontspector warning floor is not resolved or accepted: release 3 WARN, package 3 WARN | Resolve the blocker and rerun `make final-readiness-check`. |
 | downstream Google Fonts PR readiness is not complete | Open the Google Fonts issue first, then prepare the one-family downstream PR. |
 
 ## Fast Resume Sequence

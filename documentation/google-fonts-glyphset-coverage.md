@@ -3,7 +3,7 @@
 Current evidence from:
 
 ```bash
-venv/bin/glyphsets coverage 'fonts/variable/Blocksync[wdth,wght].ttf'
+.venv/bin/glyphsets coverage 'fonts/variable/Blocksync[wdth,wght].ttf'
 ```
 
 ## Current Coverage Summary
@@ -12,10 +12,10 @@ venv/bin/glyphsets coverage 'fonts/variable/Blocksync[wdth,wght].ttf'
 - `GF_Latin_Kernel`: 100%
 - `GF_Latin_Vietnamese`: 100%
 - `GF_TransLatin_Pinyin`: 77%
-- `GF_Latin_PriAfrican`: 75%
-- `GF_Latin_African`: 57%
-- `GF_Latin_Beyond`: 51%
-- `GF_TransLatin_Arabic`: 51%
+- `GF_Latin_PriAfrican`: 73%
+- `GF_Latin_African`: 56%
+- `GF_Latin_Beyond`: 52%
+- `GF_TransLatin_Arabic`: 54%
 
 ## Packaging Impact
 

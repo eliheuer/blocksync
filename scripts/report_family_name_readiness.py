@@ -110,7 +110,7 @@ def main() -> int:
         "Confirm `namecheck.fontdata.com` result",
         "unknown",
     }
-    final_authorship = authorship_answer not in {"Confirm", "unknown"}
+    final_authorship = authorship_answer not in {"Confirm", "unknown"} and not authorship_answer.lower().startswith("pending")
     app_menu_ready = family_names == ["Blocksync"] and "Regular" in subfamily_names
     local_ready = (
         DEFAULT_FONT.exists()

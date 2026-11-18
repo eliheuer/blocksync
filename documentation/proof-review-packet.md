@@ -19,10 +19,10 @@ reject any review item on the maintainer's behalf.
 
 | Decision row | Current final answer | Final values key |
 | --- | --- | --- |
-| Visual proof | Maintainer review required | `visual_proof_decision` |
-| Generated Latin Extended and Vietnamese composites | Accept, revise, or defer | `generated_composites_decision` |
+| Visual proof | Eli approved the heavier normal-width Black after a side-by-side proof. Independent checks cover weight, width, fractions, mark stacks and the complete language specimens. | `visual_proof_decision` |
+| Generated Latin Extended and Vietnamese composites | Pending design review. Hold the submission until the placeholder identities and accent constructions have been reviewed. | `generated_composites_decision` |
 | Fontspector warning floor | Accept for first review or schedule source cleanup | `fontspector_warning_decision` |
-| Static TTFs | Keep proof-only unless Google Fonts asks | `static_ttf_decision` |
+| Static TTFs | Ship the variable TTF. Keep all 18 static instances for proofs. | `static_ttf_decision` |
 
 ## Proof Pages By Kind
 
@@ -51,6 +51,7 @@ reject any review item on the maintainer's behalf.
 - `U+0315 COMBINING COMMA ABOVE RIGHT`
 - `U+0326 COMBINING COMMA BELOW`
 - `U+0327 COMBINING CEDILLA`
+- `U+0331 COMBINING MACRON BELOW`
 - `U+25CC DOTTED CIRCLE`
 
 ### Contour Count

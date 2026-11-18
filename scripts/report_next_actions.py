@@ -78,7 +78,7 @@ def unresolved_decision_rows(decision_text: str) -> list[tuple[str, str, str]]:
         final_answer = cells[2]
         if final_answer in unresolved_values:
             rows.append((cells[0], cells[1], final_answer))
-        elif final_answer.startswith(("Confirm ", "Maintainer review")):
+        elif final_answer.startswith(("Confirm ", "Maintainer review", "Pending")):
             rows.append((cells[0], cells[1], final_answer))
     return rows
 

@@ -8,7 +8,7 @@ merged downstream PR conventions used for this release setup pass.
 
 - Reference refresh ready: yes
 - Expected live-check date recorded: yes
-- Add Font template markers present: 7 / 7
+- Add Font template markers present: 8 / 8
 - Recent merged PR references present: 3 / 3
 - Downstream PR convention markers present: 6 / 6
 - First blocker: none
@@ -20,9 +20,9 @@ merged downstream PR conventions used for this release setup pass.
 - Current Google Fonts contributing entrypoint:
   https://github.com/google/fonts/blob/main/CONTRIBUTING.md
 - Recent merged new-font/package PR examples:
-  - https://github.com/google/fonts/pull/10596
-  - https://github.com/google/fonts/pull/10591
-  - https://github.com/google/fonts/pull/10613
+  - https://github.com/google/fonts/pull/11222
+  - https://github.com/google/fonts/pull/11179
+  - https://github.com/google/fonts/pull/11123
 
 ## Missing Template Markers
 
@@ -39,7 +39,7 @@ merged downstream PR conventions used for this release setup pass.
 ## Handoff Notes
 
 - Refresh the live links again before opening the Google Fonts issue
-  or downstream PR; this report records the 2026-06-13 check only.
+  or downstream PR; this report records the 2026-11-18 check only.
 - Keep the issue draft aligned with the current Add Font checklist:
   source availability, OFL/RFN/authorship/AI disclosure, unique
   family name, Latin Core support, preferred upstream structure,

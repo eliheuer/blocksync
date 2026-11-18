@@ -251,7 +251,7 @@ def update_decisions(text: str, values: dict[str, str]) -> str:
 
 
 def update_issue(text: str, values: dict[str, str]) -> str:
-    text = text.replace("https://github.com/eliheuer/blocksyncer", values["repository_url"])
+    text = re.sub(r"https://github\.com/eliheuer/blocksync(?:er)?(?=[/)\s`]|$)", lambda _: values["repository_url"], text)
     text = text.replace(
         "This draft is not ready to paste until the final source commit, metadata date,\nand remaining QA warnings are reviewed.",
         "This draft has final maintainer values applied. Rerun `make final-readiness-check` before pasting.",
@@ -267,11 +267,17 @@ def update_issue(text: str, values: dict[str, str]) -> str:
     }
     for old, new in replacements.items():
         text = text.replace(old, new)
+    disclosure = (
+        f"**AI-use disclosure**\n\nThe designer string `{values['designer']}` is confirmed. "
+        f"{values['authorship_cla_rfn_status']}\n\nAI-use disclosure: {values['ai_use_disclosure']}\n\n"
+    )
+    text = re.sub(r"^\*\*AI-use disclosure(?: proposed for maintainer review)?\*\*\n.*?(?=^\*\*)",
+                  lambda _: disclosure, text, count=1, flags=re.MULTILINE | re.DOTALL)
     return text
 
 
 def update_handoff(text: str, values: dict[str, str]) -> str:
-    text = text.replace("https://github.com/eliheuer/blocksyncer", values["repository_url"])
+    text = re.sub(r"https://github\.com/eliheuer/blocksync(?:er)?(?=[/)\s`]|$)", lambda _: values["repository_url"], text)
     issue_url = values.get("google_fonts_issue_url", "")
     if issue_url:
         text = re.sub(

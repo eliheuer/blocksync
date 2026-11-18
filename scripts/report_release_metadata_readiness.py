@@ -120,15 +120,19 @@ def main() -> int:
         and bool(repository_url)
         and bool(branch)
     )
-    final_ready = local_ready and date_final and commit_final and dirty_total == 0 and commit == head
+    inputs = ["sources/*.ufo/**", "sources/*.designspace", "sources/config.yaml", "sources/build_interpolation.py", "requirements.txt", "requirements.in", "build.sh", "Makefile",
+              "scripts/fix_gf_metadata.py", "OFL.txt", "documentation/DESCRIPTION.en_us.html"]
+    matches_package_inputs = commit_final and all(
+        subprocess.run(["git", *args], cwd=ROOT, capture_output=True).returncode == 0
+        for args in (["merge-base", "--is-ancestor", commit, "HEAD"],
+                     ["diff", "--quiet", commit, "--", *inputs])
+    ) and not git_output(["ls-files", "--others", "--exclude-standard", "--", *inputs])
+    final_ready = local_ready and date_final and matches_package_inputs
 
     lines = [
         "# Release Metadata Readiness",
         "",
-        "This generated report ties the Google Fonts metadata placeholders to",
-        "the current source version, built font version, and git state. It",
-        "documents why `date_added` and `source.commit` cannot be final while",
-        "the release tree is still under review.",
+        "The candidate revision identifies the reviewed font and package inputs. Later handoff documentation can refer to that revision.",
         "",
         "## Summary",
         "",
@@ -143,6 +147,7 @@ def main() -> int:
         f"- Metadata branch: `{branch or 'missing'}`",
         f"- Metadata date_added final-looking: {yes_no(date_final)}",
         f"- Metadata source.commit final-looking: {yes_no(commit_final)}",
+        f"- Packaged revision matches current build and package inputs: {yes_no(matches_package_inputs)}",
         f"- Metadata source.commit equals current HEAD: {yes_no(commit == head and bool(head))}",
         f"- Source UFO version: `{source_version_value}`",
         f"- Built variable font matches source version: {yes_no(built_versions_match)}",

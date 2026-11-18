@@ -5,30 +5,54 @@ Packager dry run against the current downstream metadata draft.
 
 ## Summary
 
-- Final no-PR Packager dry run recorded: no
-- Record path: `documentation/google-fonts-packager-dry-run-record.json`
-- Recorded at UTC: `missing`
-- Recorded GF_REPO_PATH: `missing`
-- Recorded google/fonts branch: `missing`
-- Recorded google/fonts HEAD: `missing`
-- Recorded package dir: `missing`
-- Current metadata hash matches record: no
-- Recorded package file count: 0
-- Dirty paths outside package in record: unknown
-- First blocker: no Packager dry-run record exists: /Users/eli/GH/repos/blocksync/documentation/google-fonts-packager-dry-run-record.json
+- Final no-PR Packager dry run recorded: yes
+- Record path: `output/google-fonts/packager-record.json`
+- Recorded at UTC: `2026-11-18T17:55:00+00:00`
+- Recorded GF_REPO_PATH: `/private/tmp/blocksync-gf-rehearsal.O2uTdZ/full`
+- Recorded google/fonts branch: `gftools_packager_ofl_blocksync`
+- Recorded google/fonts HEAD: `e65905198786f4b58941de15eaebab5027840308`
+- Recorded package dir: `ofl/blocksync`
+- Current metadata hash matches record: yes
+- Recorded package file count: 4
+- Dirty paths outside package in record: 0
+- First blocker: none
 
 ## Blocking Items
 
-- no Packager dry-run record exists: /Users/eli/GH/repos/blocksync/documentation/google-fonts-packager-dry-run-record.json
-- record family is not Blocksync
-- record is not for a no-PR Packager run
-- record status is not success
-- record package_dir is not ofl/blocksync
-- record metadata hash does not match current metadata draft
-- record metadata date_added is not final-looking
-- record metadata source commit is not a 40-character hash
-- record has no package files
+- none
 
 ## Recorded Package Files
 
-- none
+- `ofl/blocksync/Blocksync[wdth,wght].ttf`
+- `ofl/blocksync/DESCRIPTION.en_us.html`
+- `ofl/blocksync/METADATA.pb`
+- `ofl/blocksync/OFL.txt`
+
+## Recorded evidence
+
+```json
+{
+  "dirty_paths_inside_package": [],
+  "dirty_paths_outside_package": [],
+  "family": "Blocksync",
+  "gf_repo_branch": "gftools_packager_ofl_blocksync",
+  "gf_repo_head": "e65905198786f4b58941de15eaebab5027840308",
+  "gf_repo_path": "/private/tmp/blocksync-gf-rehearsal.O2uTdZ/full",
+  "metadata_branch": "main",
+  "metadata_date_added": "2026-11-18",
+  "metadata_repository_url": "https://github.com/eliheuer/blocksync",
+  "metadata_sha256": "52f6528863208f9b5920d88a677de9f7c3907c4550c54155d8263382d2411866",
+  "metadata_source_commit": "46cd53e51744630b4f92e2a2e5957b41e6bd9294",
+  "mode": "no-pr",
+  "package_dir": "ofl/blocksync",
+  "package_files": [
+    "ofl/blocksync/Blocksync[wdth,wght].ttf",
+    "ofl/blocksync/DESCRIPTION.en_us.html",
+    "ofl/blocksync/METADATA.pb",
+    "ofl/blocksync/OFL.txt"
+  ],
+  "recorded_at_utc": "2026-11-18T17:55:00+00:00",
+  "schema_version": 1,
+  "status": "success"
+}
+```

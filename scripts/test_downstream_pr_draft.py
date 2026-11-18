@@ -4,10 +4,11 @@
 from __future__ import annotations
 
 from pathlib import Path
-import shutil
 import subprocess
 import sys
 import tempfile
+
+from test_packager_dry_run_record import write_metadata_fixture
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,31 +19,14 @@ def run(command: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(command, cwd=ROOT, check=False, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 
-def final_metadata(path: Path) -> None:
-    text = (ROOT / "documentation" / "google-fonts-downstream-metadata-draft.md").read_text(encoding="utf-8")
-    text = text.replace('date_added: "PENDING-YYYY-MM-DD"', 'date_added: "2026-05-30"')
-    text = text.replace(
-        'commit: "PENDING_FINAL_40_CHARACTER_COMMIT"',
-        'commit: "0123456789abcdef0123456789abcdef01234567"',
-    )
-    path.write_text(text, encoding="utf-8")
-
-
 def main() -> int:
     with tempfile.TemporaryDirectory(prefix="blocksync-pr-draft.") as tmp:
         work = Path(tmp)
         metadata = work / "metadata.md"
+        write_metadata_fixture(metadata)
         handoff = work / "handoff.md"
         output = work / "pr-draft.md"
-        final_metadata(metadata)
-        shutil.copyfile(ROOT / "documentation" / "google-fonts-submission-handoff.md", handoff)
-        handoff.write_text(
-            handoff.read_text(encoding="utf-8").replace(
-                "- Google Fonts issue: pending",
-                "- Google Fonts issue exists: https://github.com/google/fonts/issues/1234",
-            ),
-            encoding="utf-8",
-        )
+        handoff.write_text("- Google Fonts issue exists: https://github.com/google/fonts/issues/1234\n", encoding="utf-8")
 
         result = run([
             "env",
@@ -59,7 +43,7 @@ def main() -> int:
         checks = {
             "ready": "Downstream PR draft ready: yes" in text,
             "title": "Blocksync : 1.000 added" in text,
-            "provenance": "https://github.com/eliheuer/blocksyncer/commit/0123456789abcdef0123456789abcdef01234567" in text,
+            "provenance": "https://github.com/example/blocksync/commit/0123456789abcdef0123456789abcdef01234567" in text,
             "issue": "https://github.com/google/fonts/issues/1234" in text,
         }
         failed = [name for name, ok in checks.items() if not ok]

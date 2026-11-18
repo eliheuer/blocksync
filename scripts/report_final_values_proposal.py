@@ -64,20 +64,24 @@ def main() -> int:
     proof_fonts = summary_value("Proof fonts linked", proof)
     archive_ready = summary_value("Local release archive hashes match source files", archive)
 
+    date = scalar(metadata, "date_added")
+    commit = scalar(metadata, "commit")
+    issue = read(ROOT / "documentation" / "google-fonts-add-font-issue-draft.md")
+    disclosure = re.search(r"^\*\*AI-use disclosure\*\*\s*\n(.*?)(?=^\*\*|^## |\Z)", issue, re.M | re.S)
     values = {
         "_note": (
             "Non-final proposal generated from local evidence. Empty strings still "
             "need maintainer values before make final-values-check can pass."
         ),
-        "date_added": "",
-        "source_commit": "",
+        "date_added": date if re.fullmatch(r"\d{4}-\d{2}-\d{2}", date) else "",
+        "source_commit": commit if re.fullmatch(r"[0-9a-f]{40}", commit) else "",
         "repository_url": scalar(metadata, "repository_url"),
         "branch": scalar(metadata, "branch"),
         "designer": scalar(metadata, "designer"),
         "package_source_strategy": "config_yaml",
         "archive_url": "",
         "namecheck_result": namecheck_result,
-        "ai_use_disclosure": "",
+        "ai_use_disclosure": disclosure[1].strip() if disclosure else "",
         "authorship_cla_rfn_status": (
             f"AUTHORS.txt: {authors}; CONTRIBUTORS.txt: {contributors}; "
             "OFL declares no project-specific Reserved Font Names. "

@@ -1,6 +1,6 @@
 # Google Fonts Official Reference Map
 
-Last checked: 2026-06-13.
+Last checked: 2026-11-18.
 
 Refresh these before final issue or PR work because Google Fonts requirements,
 templates, and downstream PR conventions can change.
@@ -24,6 +24,8 @@ templates, and downstream PR conventions can change.
 
 Reference: https://github.com/google/fonts/blob/main/.github/ISSUE_TEMPLATE/1_add-font.md
 
+The checked google/fonts main revision is `5bd87dfc525c8a0d1d8529d3684716e00c3fc59a`. The template permits opening with pending checkboxes, then completing them on the issue page. [Checked revision](https://github.com/google/fonts/blob/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/.github/ISSUE_TEMPLATE/1_add-font.md)
+
 Current checked template details:
 
 - issue title pattern: `Add [Font Name]`;
@@ -32,6 +34,7 @@ Current checked template details:
 - super short description field;
 - checkbox for entire project availability in a GitHub repository and OFL
   licensing;
+- separate confirmation that no larger retail Plus, Pro or other edition of the project exists;
 - checkbox that source files are available in the repo;
 - checkbox for copyright authorship/licensing plus clear disclosure if
   AI tools were used;
@@ -64,15 +67,13 @@ Reference: https://github.com/google/fonts/blob/main/CONTRIBUTING.md
 
 ## Recent Merged Downstream PR Examples
 
-These were checked on 2026-06-13 as recent merged examples in
-`google/fonts`:
+The GitHub API confirmed that each PR added a family directory and merged.
 
-| PR | Merged | Pattern used |
+| PR | Merged | Relevant evidence |
 | --- | --- | --- |
-| https://github.com/google/fonts/pull/10596 | 2026-06-08 | New font package for Yuyu Short; `METADATA.pb`, `OFL.txt`, TTF, and article; source block maps upstream repo, commit, files, and branch. |
-| https://github.com/google/fonts/pull/10591 | 2026-06-05 | New family submission for Geist Pixel; PR body records upstream repo, commit/config, GF Latin Core coverage, namecheck, copyright, designers, and category. |
-| https://github.com/google/fonts/pull/10613 | 2026-06-10 | Follow-up metadata update for Geist Pixel; adds final `date_added` and metadata ordering cleanup. |
-| https://github.com/google/fonts/pull/10546 | 2026-05-22 | New font package for Pliant; PR checklist includes designer profile, minisite, and tags review items. |
+| https://github.com/google/fonts/pull/11222 | 2026-11-06 | Geist Serif linked the source commit and preparation PR, described verified QA and requested specific custom-axis waivers. |
+| https://github.com/google/fonts/pull/11179 | 2026-10-29 | Madhuban shipped a variable TTF, metadata, OFL and illustrated article. Its source record gives the upstream commit, branch, config and file mappings. |
+| https://github.com/google/fonts/pull/11123 | 2026-10-15 | Firjar shipped a variable TTF with width and weight, alongside metadata, OFL and article. The source record maps the VF, OFL and article and identifies the build config. |
 
 Recent downstream PR body conventions to keep in Blocksync handoff:
 
@@ -86,6 +87,14 @@ Recent downstream PR body conventions to keep in Blocksync handoff:
 - Designers bio info/profile status and designer ordering are reviewed.
 - `tags` are added for NEW FONTS.
 - PRs are scoped to the affected family directory and linked Add Font issue.
+
+## Blocksync evidence
+
+The public source repo is `eliheuer/blocksync` and its default branch is `main`. Full-text GitHub searches across issue and PR titles, bodies and comments for both Blocksync and its historical spelling Blocksyncer returned zero matches on November 18. Search again before creating an issue. [Upstream](https://github.com/eliheuer/blocksync) · [Blocksync search](https://github.com/google/fonts/issues?q=Blocksync) · [Blocksyncer search](https://github.com/google/fonts/issues?q=Blocksyncer)
+
+FontData returned zero matches in all six confidence groups and a false trademark flag for Blocksync. The local evidence captures the API response. [Name search](https://namecheck.fontdata.com/api/?q=Blocksync)
+
+A previous Google Fonts PR submitted by eliheuer was merged. Its currently visible checks provide no explicit CLA result. Confirm the agreement for the identity used by the downstream commit through Google's agreement manager. [Prior PR](https://github.com/google/fonts/pull/6850) · [Google Fonts PR guide](https://googlefonts.github.io/gf-guide/making-pr.html) · [Google CLA](https://cla.developers.google.com/)
 
 ## GitHub References
 

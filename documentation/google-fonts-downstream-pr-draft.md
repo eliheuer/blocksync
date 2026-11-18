@@ -10,14 +10,13 @@ metadata after the no-PR Packager run has been reviewed.
 - Expected package directory: `ofl/blocksync`
 - Expected PR title: `Blocksync : 1.000 added`
 - Google Fonts issue URL: `pending`
-- Upstream repository URL: `https://github.com/eliheuer/blocksyncer`
-- Upstream source commit: `PENDING_FINAL_40_CHARACTER_COMMIT`
-- Upstream commit URL final: no
-- First blocker: source.commit is not a final 40-character hash
+- Upstream repository URL: `https://github.com/eliheuer/blocksync`
+- Upstream source commit: `46cd53e51744630b4f92e2a2e5957b41e6bd9294`
+- Upstream commit URL final: yes
+- First blocker: Google Fonts Add Font issue URL is not recorded
 
 ## Blocking Items
 
-- source.commit is not a final 40-character hash
 - Google Fonts Add Font issue URL is not recorded
 
 ## PR Title
@@ -29,7 +28,7 @@ Blocksync : 1.000 added
 ## PR Body
 
 ```text
-Taken from the upstream repo <repo-url> at commit <commit-url>.
+Taken from the upstream repo https://github.com/eliheuer/blocksync at commit https://github.com/eliheuer/blocksync/commit/46cd53e51744630b4f92e2a2e5957b41e6bd9294.
 
 Related issue: <google-fonts-issue-url>
 ```

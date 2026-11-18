@@ -2,7 +2,7 @@
 
 ## Current Package Shape
 
-- Upstream repo: `https://github.com/eliheuer/blocksyncer`
+- Upstream repo: `https://github.com/eliheuer/blocksync`
 - Active source path: `sources/config.yaml` -> `sources/Blocksync.designspace`
 - Active sources: seven UFO masters, including generated normal-width default
   `sources/Blocksync-Regular.ufo`

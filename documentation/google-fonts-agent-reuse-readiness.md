@@ -97,9 +97,9 @@ next font repository with family-specific edits.
 - https://googlefonts.github.io/gf-guide/article.html: yes
 - https://googlefonts.github.io/gf-guide/making-pr.html: yes
 - https://github.com/google/fonts/blob/main/.github/ISSUE_TEMPLATE/1_add-font.md: yes
-- https://github.com/google/fonts/pull/10596: yes
-- https://github.com/google/fonts/pull/10591: yes
-- https://github.com/google/fonts/pull/10613: yes
+- https://github.com/google/fonts/pull/11222: yes
+- https://github.com/google/fonts/pull/11179: yes
+- https://github.com/google/fonts/pull/11123: yes
 - https://github.com/googlefonts/googlefonts-project-template: yes
 - https://github.com/googlefonts/glyphsets: yes
 

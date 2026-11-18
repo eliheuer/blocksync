@@ -1,0 +1,15 @@
+# Blocksync design review
+
+Eli has placed Google Fonts submission on hold. This review covers the compiled font from `46cd53e51744630b4f92e2a2e5957b41e6bd9294`. The heavier normal-width Black has design approval. The remaining weight system, letter identities and spacing still need work. [Live design proof](https://eliheuer.github.io/blocksync/proof/design.html)
+
+| Priority | Evidence in the release font | First repair batch |
+| --- | --- | --- |
+| Regular and Bold | In Condensed Regular, D and I have approximately 115-unit verticals at mid-height, alongside 206-unit strokes in O and U. At expanded width all 26 capitals have identical outlines at weights 400 and 700. At the other two proof widths, only D, E, I, L and P change. The contrast within words is visible in both original poster titles. | Establish D/I/O/U at each width endpoint, then check the rest of the capitals and their lowercase dependents. |
+| Distinct letters | Ʒ and ʒ use Z and z, and ſ uses f. Those are separate Unicode letters with exactly matching drawings in Blocksync. The caron forms repeat the Ezh substitution. Eng has a proper descender, but its 568-unit advance and outline stay fixed across the seven masters. | Assign Ʒ/ʒ and ſ first, including dependent composites. In Ǥ the centered hyphen blocks the counter. In Ơ/Ư the quote-derived horn sits almost inside the letter. Retest all dependent accents when their donors change. |
+| Black counters | A, B, O, P and R have interior openings only about 33–35 units wide at Black. At 18 px, that is roughly 0.6 px. The counters remain geometrically open but can disappear on screen. | Preserve the approved heavy silhouette. Establish the minimum intended display size before opening counters. Compare at both 18 px and 36 px. |
+| Letter pairs | Condensed Regular A/F in *DIE GNU TYPOGRAFIE* overlaps by 5,506 square units. At normal-width Black, T/A overlaps by 7,439. The proof colors only the ink shared by the two positioned glyphs. | The same −114-unit T/A adjustment applies at every width. With kerning disabled, these overlaps clear. Retest A/F, T/A, A/T, W/A and V/A after correcting master widths. Verify class members in real words. |
+| Marks and fractions | Acute on x floats beyond the base. The new fractions and macron below render throughout the designspace. At Black the fraction numerals remain much lighter than the letters. | Review x/X attachment and the numeral weight alongside the repaired capitals. |
+
+The source has two protected green grades and extensive component reuse. Keep corrections to protected donors in a separately assigned drawing batch. The next design decision is the intended Regular-to-Bold progression and minimum display size for Black. Correcting the build alone cannot supply those drawings.
+
+The migration reproduces the earlier typeface before the separately committed interpolation, fraction and accent corrections. Google Fonts web-served subsets also omit U+0331, which is present in the complete font. That serving issue is independent of the drawing defects. [Google Fonts handoff](google-fonts-submission-handoff.md)

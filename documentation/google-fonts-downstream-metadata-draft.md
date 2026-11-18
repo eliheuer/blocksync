@@ -1,14 +1,13 @@
 # Google Fonts Downstream Metadata Draft
 
-This is the current downstream `METADATA.pb` preview for review. Replace the
-pending date and commit before applying it in a local `google/fonts` checkout.
+This is the current downstream `METADATA.pb` preview for review. The date and source revision identify the upstream package candidate. Google Fonts may assign a later date during onboarding.
 
 ```textproto
 name: "Blocksync"
 designer: "Eli Heuer"
 license: "OFL"
 category: "DISPLAY"
-date_added: "PENDING-YYYY-MM-DD"
+date_added: "2026-11-18"
 fonts {
   name: "Blocksync"
   style: "normal"
@@ -34,7 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/eliheuer/blocksync"
-  commit: "PENDING_FINAL_40_CHARACTER_COMMIT"
+  commit: "46cd53e51744630b4f92e2a2e5957b41e6bd9294"
   config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
@@ -55,16 +54,6 @@ stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 ```
 
-## Open Values
+## Package source
 
-- `date_added`: final Google Fonts date.
-- `source.commit`: final source commit hash after the release tree is reviewed.
-- `source.branch`: confirm the public default branch name before applying.
-- `source.files`: decide whether the first PR ships generated variable TTFs
-  from a release/archive or uses the reproducible `sources/config.yaml` build
-  path. Keep `config_yaml` because this repo is being prepared around
-  designspace/UFO sources.
-- `subsets`: current draft includes `latin-ext` and `vietnamese` because the
-  font already encodes many Latin Extended and Vietnamese-related codepoints.
-  Package-context probing now shows both declared broad subsets clear the local
-  Google Fonts support thresholds.
+Packager builds the version 1.000 variable font from the public main branch with `sources/config.yaml`. The OFL and description travel with the font. Latin Extended and Vietnamese both clear the declared subset coverage thresholds.

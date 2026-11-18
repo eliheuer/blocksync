@@ -12,6 +12,8 @@ import subprocess
 import sys
 import tempfile
 
+from test_packager_dry_run_record import write_metadata_fixture
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / "scripts" / "apply_final_values.py"
@@ -44,6 +46,14 @@ def assert_final_readiness_uses_applied_answers(work: Path, metadata: Path, deci
     module = load_module(FINAL_READINESS, "check_final_readiness_for_test")
     summary = "Summary: SKIP: 0 INFO: 0 PASS: 1 WARN: 3 FAIL: 0 FATAL: 0 ERROR: 0\n"
 
+    modern = "### Summary\n\n| 🔥 FAIL | ⚠️ WARN | ✅ PASS |\n| ---|---|---|\n| 2 | 3 | 156 |\n"
+    assert module.report_summary(modern) == (3, 2, 0)
+    try:
+        module.report_summary("")
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("An empty report must not pass Fontspector readiness")
     module.METADATA = metadata
     module.DECISIONS = decisions
     module.WARNINGS = write(work / "warnings.md", "- Honest zero-warning state possible with current scope: no\n")
@@ -54,6 +64,8 @@ def assert_final_readiness_uses_applied_answers(work: Path, metadata: Path, deci
     module.AUTHORSHIP_DISCLOSURE_READINESS = write(work / "authorship.md", "- Local authorship/disclosure evidence ready: yes\n")
     module.PACKAGER_SOURCE_STRATEGY = write(work / "strategy.md", "- Package source strategy local evidence ready: yes\n")
     module.PROOF_REVIEW_READINESS = write(work / "proof-review.md", "- Proof review local evidence ready: yes\n")
+    module.PROOF_REVIEW_PACKET = write(work / "proof-packet.md", "- Proof review packet ready: yes\n")
+    module.SUBMISSION_HANDOFF_READINESS = write(work / "handoff-readiness.md", "- Submission handoff local evidence ready: yes\n")
     module.RELEASE_REPORT = write(work / "release-report.md", summary)
     module.PACKAGE_REPORT = write(work / "package-report.md", summary)
     module.ARCHIVE_MANIFEST = write(
@@ -269,10 +281,22 @@ def main() -> int:
         sources = work / "sources"
         values_path = work / "values.json"
 
-        shutil.copyfile(ROOT / "documentation" / "google-fonts-downstream-metadata-draft.md", metadata)
-        shutil.copyfile(ROOT / "documentation" / "google-fonts-final-decision-sheet.md", decisions)
-        shutil.copyfile(ROOT / "documentation" / "google-fonts-add-font-issue-draft.md", issue)
-        shutil.copyfile(ROOT / "documentation" / "google-fonts-submission-handoff.md", handoff)
+        write_metadata_fixture(metadata)
+        decision_names = (
+            "Google Fonts `date_added`", "Final source commit", "Public upstream URL",
+            "Public default branch", "Package source strategy", "Family name uniqueness",
+            "Designer string", "AI-use disclosure", "Authorship/CLA/RFN status",
+            "Fontspector warning floor", "Visual proof", "Generated Latin Extended and Vietnamese composites",
+            "Static TTFs", "Release/archive fallback",
+        )
+        write(decisions, "".join(f"| {name} | fixture | Pending |\n" for name in decision_names))
+        write(
+            issue,
+            "- clearly disclosing if AI tools were used\n- no Reserved Font Names\n"
+            "- maintain the repository\n\n**AI-use disclosure proposed for maintainer review**\n\n"
+            "Pending.\n\n**Repository**\n\nhttps://github.com/eliheuer/blocksync\n",
+        )
+        write(handoff, "- Google Fonts issue: pending\n\n## Draft Add Font Issue\n")
         shutil.copyfile(ROOT / "OFL.txt", ofl)
         (sources / "Blocksync-Regular.ufo").mkdir(parents=True)
         shutil.copyfile(
@@ -281,8 +305,8 @@ def main() -> int:
         )
 
         values = {
-            "date_added": "2026-05-30",
-            "source_commit": "0123456789abcdef0123456789abcdef01234567",
+            "date_added": "2026-05-31",
+            "source_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
             "repository_url": "https://github.com/example/blocksync-final",
             "branch": "main",
             "designer": "Example Designer",
@@ -354,14 +378,14 @@ def main() -> int:
         fontinfo_text = (sources / "Blocksync-Regular.ufo" / "fontinfo.plist").read_text(encoding="utf-8")
 
         checks = {
-            "date_added applied": 'date_added: "2026-05-30"' in metadata_text,
-            "commit applied": 'commit: "0123456789abcdef0123456789abcdef01234567"' in metadata_text,
+            "date_added applied": 'date_added: "2026-05-31"' in metadata_text,
+            "commit applied": 'commit: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"' in metadata_text,
             "designer applied": 'designer: "Example Designer"' in metadata_text,
             "repository URL applied": 'repository_url: "https://github.com/example/blocksync-final"' in metadata_text,
             "metadata copyright URL applied": "Copyright 2023 The Blocksyncer Project Authors (https://github.com/example/blocksync-final)" in metadata_text,
-            "decision sheet date answered": "| Google Fonts `date_added` | `PENDING-YYYY-MM-DD` | 2026-05-30 |" in decision_text,
-            "decision sheet designer answered": "| Designer string | `Eli Heuer` | Example Designer |" in decision_text,
-            "issue designer applied": "designer string `Example Designer` confirmed" in issue_text,
+            "decision sheet date answered": bool(re.search(r"^\| Google Fonts `date_added` \|[^|]+\| 2026-05-31 \|", decision_text, re.M)),
+            "decision sheet designer answered": bool(re.search(r"^\| Designer string \|[^|]+\| Example Designer \|", decision_text, re.M)),
+            "issue designer applied": "designer string `Example Designer` is confirmed" in issue_text,
             "issue AI disclosure applied": "AI-use disclosure: No generative AI was used to draw final outlines." in issue_text,
             "handoff applied values section": "## Applied Final Values" in handoff_text,
             "handoff issue URL applied": "Google Fonts issue exists: https://github.com/google/fonts/issues/1234" in handoff_text,

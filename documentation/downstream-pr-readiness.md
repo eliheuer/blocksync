@@ -14,9 +14,9 @@ push commits, or write to the local `google/fonts` checkout.
 - Expected PR body provenance line: `Taken from the upstream repo <repo-url> at commit <commit-url>.`
 - Downstream PR draft ready: no
 - Google Fonts issue pending: yes
-- Metadata has final-value placeholders: yes
+- Metadata has final-value placeholders: no
 - Guarded no-PR Packager dry run ready: no
-- Final no-PR Packager dry run recorded: no
+- Final no-PR Packager dry run recorded: yes
 - Local google/fonts checkout exists: yes
 - Current google/fonts branch: `main`
 - google/fonts tracking branch: `origin/main`
@@ -38,10 +38,8 @@ push commits, or write to the local `google/fonts` checkout.
 ## Blocking Items
 
 - google/fonts checkout has dirty paths outside ofl/blocksync
-- downstream metadata still has final-value placeholders
 - Google Fonts Add Font issue has not been recorded
 - guarded no-PR Packager dry run is not ready
-- final no-PR Packager dry run has not been recorded
 - downstream PR draft is not final
 
 ## Handoff Coverage
@@ -50,9 +48,9 @@ push commits, or write to the local `google/fonts` checkout.
 - Handoff includes expected PR title: yes
 - Handoff includes expected PR provenance body line: yes
 - Downstream PR draft includes final title: yes
-- Downstream PR draft includes final provenance: no
-- Handoff records issue-first rule: yes
-- Handoff records one-family-directory rule: yes
+- Downstream PR draft includes final provenance: yes
+- Handoff records issue-first rule: no
+- Handoff records one-family-directory rule: no
 
 ## google/fonts Fork Evidence
 

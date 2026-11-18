@@ -12,10 +12,10 @@ remaining human review decisions visible for Google Fonts submission.
 - Proof fonts linked: 19
 - Missing linked proof pages: 0
 - Missing linked proof fonts: 0
-- Visual proof final decision recorded: no
+- Visual proof final decision recorded: yes
 - Generated composite final decision recorded: no
 - Fontspector warning-floor final decision recorded: no
-- Static TTF final decision recorded: no
+- Static TTF final decision recorded: yes
 
 ## Review Targets
 
@@ -33,14 +33,14 @@ remaining human review decisions visible for Google Fonts submission.
 
 ## Open Final Decisions
 
-- Visual proof: Maintainer review required
-- Generated Latin Extended and Vietnamese composites: Accept, revise, or defer
+- Visual proof: Eli approved the heavier normal-width Black after a side-by-side proof. Independent checks cover weight, width, fractions, mark stacks and the complete language specimens.
+- Generated Latin Extended and Vietnamese composites: Pending design review. Hold the submission until the placeholder identities and accent constructions have been reviewed.
 - Fontspector warning floor: Accept for first review or schedule source cleanup
-- Static TTFs: Keep proof-only unless Google Fonts asks
+- Static TTFs: Ship the variable TTF. Keep all 18 static instances for proofs.
 
 ## Finalization
 
-- Rerun `make proof` after any source, spacing, glyph, or build-output
+- Rerun `make proof-legacy` after any source, spacing, glyph, or build-output
   change that affects visual review.
 - Record maintainer decisions in
   `documentation/google-fonts-final-decision-sheet.md`, then rerun

@@ -10,16 +10,16 @@ maintainer decisions are complete.
 - Submission handoff local evidence ready: yes
 - Handoff file: `documentation/google-fonts-submission-handoff.md`
 - Issue draft file: `documentation/google-fonts-add-font-issue-draft.md`
-- Current repository URL: `https://github.com/eliheuer/blocksyncer`
+- Current repository URL: `https://github.com/eliheuer/blocksync`
 - Current branch: `main`
-- Current `date_added`: `PENDING-YYYY-MM-DD`
-- Current source commit: `PENDING_FINAL_40_CHARACTER_COMMIT`
+- Current `date_added`: `2026-11-18`
+- Current source commit: `46cd53e51744630b4f92e2a2e5957b41e6bd9294`
 - Source UFO version: `1.000`
-- Final readiness blockers: 10
+- Final readiness blockers: 6
 - Namecheck clear: yes
-- Namecheck checked at: `2026-05-30`
+- Namecheck checked at: `2026-11-18`
 - Release Fontspector WARN/FAIL/FATAL/ERROR: 3/0/0/0
-- Package-context Fontspector WARN/FAIL/FATAL/ERROR: 3/0/0/0
+- Package-context Fontspector WARN/FAIL/FATAL/ERROR: 3/6/0/0
 
 ## Checks
 
@@ -31,13 +31,13 @@ maintainer decisions are complete.
 | Issue labels are current | yes |
 | Issue includes current repository URL | yes |
 | Issue includes current namecheck evidence | yes |
-| Issue includes current Fontspector zero-fail status | yes |
+| Issue includes current package-context QA outcome | yes |
 | Handoff includes current repository URL | yes |
 | Handoff includes current branch | yes |
 | Handoff includes current source strategy | yes |
 | Handoff includes current metadata placeholders | yes |
 | Handoff includes current Fontspector status | yes |
-| Handoff includes current final blocker count | yes |
+| Handoff links the generated final readiness report | yes |
 | Handoff includes expected downstream branch | yes |
 | Handoff includes expected downstream PR title | yes |
 | Handoff includes provenance line template | yes |

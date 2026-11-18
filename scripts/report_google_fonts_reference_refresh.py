@@ -15,11 +15,12 @@ ROOT = Path(__file__).resolve().parents[1]
 MAP = ROOT / ".agents" / "google-fonts-official-reference-map.md"
 OUTPUT = ROOT / "documentation" / "google-fonts-reference-refresh.md"
 
-EXPECTED_LAST_CHECKED = "Last checked: 2026-06-13."
+EXPECTED_LAST_CHECKED = "Last checked: 2026-11-18."
 
 TEMPLATE_MARKERS = [
     "labels: `I New Font, II Submission`",
     "AI tools were used",
+    "larger retail Plus, Pro",
     "no Reserved Font Names",
     "namecheck.fontdata.com",
     "GF_Latin_Core.txt",
@@ -28,9 +29,9 @@ TEMPLATE_MARKERS = [
 ]
 
 RECENT_PR_MARKERS = [
-    "https://github.com/google/fonts/pull/10596",
-    "https://github.com/google/fonts/pull/10591",
-    "https://github.com/google/fonts/pull/10613",
+    "https://github.com/google/fonts/pull/11222",
+    "https://github.com/google/fonts/pull/11179",
+    "https://github.com/google/fonts/pull/11123",
 ]
 
 DOWNSTREAM_MARKERS = [
@@ -106,7 +107,7 @@ def main() -> int:
             "## Handoff Notes",
             "",
             "- Refresh the live links again before opening the Google Fonts issue",
-            "  or downstream PR; this report records the 2026-06-13 check only.",
+            "  or downstream PR; this report records the 2026-11-18 check only.",
             "- Keep the issue draft aligned with the current Add Font checklist:",
             "  source availability, OFL/RFN/authorship/AI disclosure, unique",
             "  family name, Latin Core support, preferred upstream structure,",

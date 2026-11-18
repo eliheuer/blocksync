@@ -11,6 +11,8 @@ from pathlib import Path
 from fontTools.ttLib import TTFont
 from gfsubsets import CodepointsInSubset
 
+from check_final_readiness import fontspector_counts
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FONT = ROOT / "fonts" / "variable" / "Blocksync[wdth,wght].ttf"
@@ -29,18 +31,12 @@ def report_text(path: Path) -> str:
 
 
 def summary_counts(text: str) -> tuple[int, int, int, int, int]:
-    match = re.search(
-        r"\|\s*([0-9]+)\s*\|\s*([0-9]+)\s*\|\s*([0-9]+)\s*\|\s*([0-9]+)\s*\|",
-        text,
-    )
-    if not match:
-        return 0, 0, 0, 0, 0
-    warn, info, passed, skip = (int(group) for group in match.groups())
-    return 0, warn, info, passed, skip
+    counts = fontspector_counts(text)
+    return tuple(counts[key] for key in ("FAIL", "WARN", "INFO", "PASS", "SKIP"))
 
 
 def check_ids(text: str) -> dict[str, int]:
-    ids = re.findall(r"\(([^()]+)\)</summary>", text)
+    ids = re.findall(r"<summary>[^<]*<b>WARN</b>[^<]*?\(([^()]+)\)</summary>", text)
     result: dict[str, int] = {}
     for check_id in ids:
         result[check_id] = result.get(check_id, 0) + 1
@@ -111,8 +107,8 @@ def markdown() -> str:
             "",
             f"Font: `{FONT.relative_to(ROOT)}`",
             "",
-            "This report records the remaining warning floor after the release gate",
-            "passes. It is a worklist for real cleanup and reviewer decisions, not",
+            "This report records the remaining warning floor in both checked profiles.",
+            "It is a worklist for real cleanup and reviewer decisions, not",
             "a recommendation to hide supported codepoints or narrow the package",
             "scope just to reduce warning count.",
             "",
@@ -120,10 +116,10 @@ def markdown() -> str:
             "",
             "- Honest zero-warning state possible with current scope: no",
             "- Release variable Fontspector summary: "
-            f"0 FAIL, {variable_summary[1]} WARN, {variable_summary[2]} INFO, "
+            f"{variable_summary[0]} FAIL, {variable_summary[1]} WARN, {variable_summary[2]} INFO, "
             f"{variable_summary[3]} PASS, {variable_summary[4]} SKIP",
             "- Package-context Fontspector summary: "
-            f"0 FAIL, {package_summary[1]} WARN, {package_summary[2]} INFO, "
+            f"{package_summary[0]} FAIL, {package_summary[1]} WARN, {package_summary[2]} INFO, "
             f"{package_summary[3]} PASS, {package_summary[4]} SKIP",
             "- Package-context warning checks: " + package_warning_line,
             "",

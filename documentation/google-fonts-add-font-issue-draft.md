@@ -1,87 +1,51 @@
-# Google Fonts Add Font Issue Draft
+# Google Fonts Add Font issue draft
 
-This draft is not ready to paste until the final source commit, metadata date,
-and remaining QA warnings are reviewed.
+## Issue title
 
-## Issue Title
-
-```text
 Add Blocksync
-```
 
 ## Labels
 
-```text
 I New Font, II Submission
-```
 
-## Draft Body
+## Draft body
 
-**Font Project Git Repo URL:**
+**Font Project Git Repo URL**
 
-https://github.com/eliheuer/blocksyncer
+[eliheuer/blocksync](https://github.com/eliheuer/blocksync)
 
-**Super short description of the Font Family:**
+**Super short description**
 
-Blocksync is a block-like variable display typeface with Width and Weight axes.
+Blocksync is a block-like Latin display face by Eli Heuer. Its weight axis runs from 400 to 900 and its width axis from 75 to 125.
 
-**Requirements:**
+**Requirements**
 
-By opening this issue, I confirm the project meets the following requirements:
+- [x] The font project is available in a Github repository and licensed under the OFL. [License](https://github.com/eliheuer/blocksync/blob/main/OFL.txt)
+- [x] I confirm that the public repository contains the entire family and that no larger retail, Plus or Pro edition exists.
+- [x] The editable UFO masters, designspace and build configuration are publicly available. [Sources](https://github.com/eliheuer/blocksync/tree/main/sources)
+- [x] I control the rights to all styles of Blocksync and license the family under the OFL. The submission includes a statement clearly disclosing if AI tools were used.
+- [x] I confirm there are no Reserved Font Names affecting Blocksync in the project or its upstream materials, or will raise any applicable RFNs for discussion.
+- [x] The FontData service returned zero matches at all six confidence levels for Blocksync on 2026-11-18. Its trademark flag was false. [Name search](https://namecheck.fontdata.com/api/?q=Blocksync)
+- [x] I confirm the definitive app-menu family name is **Blocksync** and that it contains no copyright holder’s full name or acronym.
+- [x] The variable font encodes the Google Fonts Latin Core glyphset. [Coverage](https://github.com/eliheuer/blocksync/blob/main/documentation/google-fonts-glyphset-coverage.md)
+- [x] The project follows the Google Fonts preferred upstream repo structure and documents its build. [Build instructions](https://github.com/eliheuer/blocksync#building)
+- [x] I have read and agree to the Google Fonts contribution requirements. The family is undergoing design and production review.
+- [x] I will maintain the repository and participate in onboarding.
 
-- [ ] The entire font project is available in a Github repository and licensed
-  under the OFL.
-  - Draft status: local OFL and source path are in place; public upstream URL
-    still needs final confirmation.
-- [ ] The source files are available in the repo.
-  - Draft status: active designspace/UFO sources are present; historical
-    `.glyphs` files are archived.
-- [ ] I am the sole copyright author of the entire project, or all other
-  copyright authors have licensed their work to me under the OFL, and I commit
-  to clearly disclosing if AI tools were used in the creation of this project.
-  - Draft status: `AUTHORS.txt` and `CONTRIBUTORS.txt` list Eli Heuer; final
-    AI-use disclosure still needs maintainer confirmation.
-- [ ] There are no Reserved Font Names, or RFNs are not used in whole or in
-  part in this family name.
-  - Draft status: no RFN is declared in `OFL.txt`.
-- [ ] The family name is unique according to `namecheck.fontdata.com`.
-  - Draft status: `namecheck.fontdata.com` API clear on 2026-05-30; refresh
-    if this issue is opened later.
-- [ ] The app-menu family name is clearly communicated and definitive.
-  - Draft status: built default names resolve to `Blocksync Regular`.
-- [ ] The font supports at least Google Fonts Latin Core.
-  - Draft status: Fontspector has no FAIL results, and local glyphsets coverage
-    reports `GF_Latin_Core 100%`.
-- [ ] The repo has the Google Fonts preferred upstream repo structure.
-  - Draft status: source/build structure is in place; downstream package
-    strategy still needs final confirmation.
-- [ ] I have read, agree with, and comply with the Google Fonts contributing
-  requirements.
-  - Draft status: remaining WARNs and package metadata placeholders must be
-    reviewed before opening.
-- [ ] I will maintain the repository and participate in onboarding.
-  - Draft status: maintainer confirmation required.
+**AI-use disclosure**
 
-## Current QA Evidence
+AI tools assisted with build and CI configuration, documentation, QA, proof comparison and draft component construction. In this release, the quarter and three-quarter fractions use Blocksync’s existing numeral and slash drawings. Eli selected the heavier normal-width Black from rendered alternatives. The build interpolates the heavier styles from existing masters. New OpenType positioning and a combining macron below support accent sequences. The sources include Latin Extended and Vietnamese composites assembled by project scripts. The maintainer confirmed that this disclosure also covers earlier work.
 
-- Build command: `make build`
-- QA command: `make test`
-- Current Fontspector report:
-  `out/fontspector/fontspector-report.html`
-- Current release variable status: 0 FAIL, 0 ERROR, 0 FATAL.
-- Remaining WARN groups: metadata reachability/subsetting, `uni01F5`
-  contour-count review, and outline alignment review.
-- Downstream metadata draft currently includes `latin`, `latin-ext`, `menu`,
-  and `vietnamese`. Remaining subsetting WARNs are mainly encoded combining
-  marks, spacing modifier marks, and dotted circle. Package-context probing
-  now shows both `latin-ext` and `vietnamese` clear the local Google Fonts
-  support thresholds.
+**Current proof and QA**
 
-## Finalize Before Opening
+The upstream design review has identified inconsistent Bold capitals, placeholder letterforms and colliding letter pairs. These remain open before submission. The candidate package contains one variable font. The project also builds 18 static instances for proofing. The release restores the weight progression at normal width and fills ¼ and ¾ from the family’s original numeral and slash components. The full font renders the Amarakaeri, Mezquital Otomi and Secoya specimens. Their combining macron below (U+0331) falls outside Google's Latin web subsets. We would appreciate onboarding guidance on serving those specimens. Package-context Fontspector reports 6 FAIL, 0 FATAL, 0 ERROR. The six failures are all the same serving issue. Standalone variable-font QA has three warnings for subset coverage, contour counts and outline alignment. [Print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) · [Two-axis proof](https://eliheuer.github.io/blocksync/proof/widths.html) · [Project QA details](https://github.com/eliheuer/blocksync/blob/main/CONTEXT.md#baseline-qa)
 
-- Replace pending values in
-  `documentation/google-fonts-downstream-metadata-draft.md`.
-- Decide whether generated TTFs are supplied from a release/archive or via the
-  `sources/config.yaml` build path.
-- Review `documentation/google-fonts-package-checklist.md`.
-- Rerun `make release-check`.
+**Image**
+
+![Blocksync display specimen](https://raw.githubusercontent.com/eliheuer/blocksync/7d9f23747de0edf20522f46c5fa741948a9348bd/documentation/archive/drawbot/image-005.png)
+
+## Maintainer review before posting
+
+**Submission is on hold at the maintainer’s request.** On November 18, 2026, Eli confirmed the final name, upstream RFN status, rights to the full family, absence of a larger proprietary edition, maintenance commitment, agreement to the contribution requirements and scope of the AI disclosure. The public authors and contributors lists name Eli Heuer. The OFL header retains the historical Blocksyncer project name. Review the font quality and obtain Eli’s release decision before posting. [Add Font template](https://github.com/google/fonts/blob/main/.github/ISSUE_TEMPLATE/1_add-font.md)
+
+The signed CLA identity matters when making a downstream PR. Eli has previously contributed to google/fonts, but the inspected public PR did not expose a CLA check result. Verify the agreement and matching Git identity before submitting a PR. [Past contribution](https://github.com/google/fonts/pull/6850) · [Google CLA](https://cla.developers.google.com/)

@@ -14,7 +14,7 @@ from maintainer-only final clearance for Google Fonts onboarding.
 - OFL declares no project-specific Reserved Font Names: yes
 - Namecheck final confirmation recorded: yes
 - namecheck.fontdata.com API result clear: yes
-- namecheck.fontdata.com checked at: `2026-05-30`
+- namecheck.fontdata.com checked at: `2026-11-18`
 - Authorship/CLA/RFN final confirmation recorded: no
 
 ## Built Name Records
