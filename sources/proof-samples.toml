@@ -11,8 +11,15 @@ label = "Poster"
 scripts = ["Latin"]
 text = "DIE GNU TYPOGRAFIE"
 
-# Source composites and equivalent sequences, plus the fractions with open QA.
+# Source composites and equivalent sequences, beside the restored quarter fractions.
 [sample.marks]
 label = "Accents"
 scripts = ["Latin"]
 text = "Ç Ç ǵ ǵ Ắ Ắ ắ ắ ¼ ½ ¾"
+
+
+# Words from the Google Fonts Amarakaeri, Mezquital Otomi and Secoya specimens.
+[sample.below]
+label = "Macron below"
+scripts = ["Latin"]
+text = "ko̱nigti mo'e̱  mu̱i  ko̱kaijë"

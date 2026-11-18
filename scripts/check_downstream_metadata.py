@@ -246,7 +246,10 @@ def check(args: argparse.Namespace) -> int:
 
     description_text = DESCRIPTION.read_text(encoding="utf-8")
     expected_repo_url = EXPECTED["repository_url"]
-    if f'href="{expected_repo_url}"' in description_text:
+    # Fontspector 1.9 compares raw whitespace-delimited HTML tokens. An explicit
+    # default HTTPS port keeps its URL check compatible with a clickable link.
+    repo_links = {expected_repo_url, expected_repo_url.replace("github.com/", "github.com:443/")}
+    if any(f'href="{url}"' in description_text for url in repo_links):
         record("OK", "DESCRIPTION links the canonical upstream repository", failures, blockers, warnings)
     else:
         record("FAIL", "DESCRIPTION must link the canonical upstream repository URL", failures, blockers, warnings)

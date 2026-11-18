@@ -1,2 +1,47 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+
+# U+0331 carries the shared optical-center shift of E/O/U/X across widths.
+# Its own bottom anchor shifts with the ink for bases using automatic positioning.
+markClass uni0331 <anchor 0 0> @BSMacronBelow;
+# The mark origins and ink tops used here agree in all seven masters.
+# The A-breve + acute/grave/tilde composites use a 150-unit tone lift.
+@BSBreveTones = [acutecomb gravecomb tildecomb];
+@BSOtherAbove = [circumflexcomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb];
+markClass acutecomb <anchor 137 800> @BSBreveTone;
+markClass [gravecomb tildecomb] <anchor 143 800> @BSBreveTone;
+markClass [circumflexcomb caroncomb] <anchor 149 800> @BSAboveMark;
+markClass [macroncomb dotaccentcomb dieresiscomb] <anchor 146 800> @BSAboveMark;
+markClass [brevecomb hungarumlautcomb] <anchor 137 800> @BSAboveMark;
+markClass ringcomb <anchor 143 800> @BSAboveMark;
+markClass brevecomb <anchor 137 800> @BSUpperBreve;
+
+# A base with an embedded mark needs the same clearance as a separate mark.
+# Its existing mark anchor supplies the horizontal position.
+@BSBreveBase = [Abreve abreve Ebreve ebreve Gbreve gbreve Ibreve ibreve Obreve obreve Ubreve ubreve];
+@BSDoubleAcuteBase = [Ohungarumlaut ohungarumlaut Uhungarumlaut uhungarumlaut];
+
+feature mark {
+    # Automatic Code
+    pos base [E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek etilde uni0228 uni0229 uni1E14 uni1E15 uni1E16 uni1E17 uni1E1C uni1E1D uni1EB8 uni1EB9 uni1EBA uni1EBB uni1EBE uni1EBF uni1EC0 uni1EC1 uni1EC2 uni1EC3 uni1EC4 uni1EC5 uni1EC6 uni1EC7] <anchor 250 0> mark @BSMacronBelow;
+    pos base [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde uni01A0 uni01A1 uni01EA uni01EB uni01EC uni01ED uni022A uni022B uni022C uni022D uni022E uni022F uni0230 uni0231 uni1E4C uni1E4D uni1E4E uni1E4F uni1E50 uni1E51 uni1E52 uni1E53 uni1ECC uni1ECD uni1ECE uni1ECF uni1ED0 uni1ED1 uni1ED2 uni1ED3 uni1ED4 uni1ED5 uni1ED6 uni1ED7 uni1ED8 uni1ED9 uni1EDA uni1EDB uni1EDC uni1EDD uni1EDE uni1EDF uni1EE0 uni1EE1 uni1EE2 uni1EE3] <anchor 306 0> mark @BSMacronBelow;
+    pos base [U Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde u uacute ubreve ucaron ucircumflex udieresis ugrave uhungarumlaut umacron uni01AF uni01B0 uni1E78 uni1E79 uni1E7A uni1E7B uni1EE4 uni1EE5 uni1EE6 uni1EE7 uni1EE8 uni1EE9 uni1EEA uni1EEB uni1EEC uni1EED uni1EEE uni1EEF uni1EF0 uni1EF1 uogonek uring utilde] <anchor 299 0> mark @BSMacronBelow;
+    pos base [X uni1E8A uni1E8B uni1E8C uni1E8D x] <anchor 286 0> mark @BSMacronBelow;
+    pos @BSBreveBase @BSBreveTones' <0 150 0 0>;
+    pos @BSBreveBase @BSOtherAbove' <0 172 0 0>;
+    pos @BSDoubleAcuteBase @BSBreveTones' <0 205 0 0>;
+    pos @BSDoubleAcuteBase @BSOtherAbove' <0 205 0 0>;
+    pos [Aring aring Uring uring] brevecomb' <0 27 0 0>;
+} mark;
+feature mkmk {
+    # Automatic Code
+    lookup BSAboveBreveOrDoubleAcute {
+        pos mark brevecomb <anchor 137 950> mark @BSBreveTone
+                           <anchor 137 972> mark @BSAboveMark;
+        pos mark hungarumlautcomb <anchor 137 1005> mark @BSBreveTone
+                                  <anchor 137 1005> mark @BSAboveMark;
+    } BSAboveBreveOrDoubleAcute;
+    lookup BSRingThenBreve {
+        pos mark ringcomb <anchor 143 1017> mark @BSUpperBreve;
+    } BSRingThenBreve;
+} mkmk;

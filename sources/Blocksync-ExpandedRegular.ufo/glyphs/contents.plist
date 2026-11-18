@@ -1258,5 +1258,7 @@
 	<string>zdotaccent.glif</string>
 	<key>zero</key>
 	<string>zero.glif</string>
+	<key>uni0331</key>
+	<string>uni0331.glif</string>
 </dict>
 </plist>

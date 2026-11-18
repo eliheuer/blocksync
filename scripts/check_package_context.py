@@ -68,8 +68,6 @@ def main(argv: list[str]) -> int:
         "googlefonts/repo/dirname_matches_nameid_1",
         "--exclude-checkid",
         "googlefonts/axes_match",
-        "--exclude-checkid",
-        "googlefonts/metadata/consistent_repo_urls",
         "--succinct",
         "--loglevel",
         "warn",

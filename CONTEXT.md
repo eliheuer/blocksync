@@ -57,8 +57,7 @@ The pinned profile ran on the seven-master baseline and its 18 static proofs bef
 "fontgarden/unitsperem" = "The original em is 1000."
 "fontgarden/grid" = "The sources retain fractional coordinates and optical corrections."
 "fontgarden/marks_attach" = "Existing combining marks fail attachment tests including the lowercase x."
-"fontgarden/stacked_marks" = "Existing mark stacks touch, including breve and acute above n."
-"fontgarden/precomposed_match" = "Composite placement differs from shaped sequences, including cedilla and ogonek letters."
+"fontgarden/precomposed_match" = "When a subset drops precomposed letters, anchor-built fallback differs from existing drawings, including cedilla and ogonek forms."
 "googlefonts/font_names" = "The proof-only static fonts carry Condensed and Expanded style names."
 # Family-wide online check. Its service rejected repeated identical requests
 # across the static proofs. Run it once on the release VF with make namecheck-live.
