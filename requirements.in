@@ -1,0 +1,10 @@
+# Top-level Python packages for the local Google Fonts build and proof workflow.
+# Fontspector is a separate executable used by scripts/check_gf_fonts.sh.
+fontmake
+fonttools
+gftools
+GitPython
+glyphsets
+PyYAML
+diffenator2
+uharfbuzz

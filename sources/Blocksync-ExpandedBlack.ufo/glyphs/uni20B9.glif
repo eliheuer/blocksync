@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20B9" format="2">
+  <advance width="549" />
+  <unicode hex="20B9" />
+  <outline>
+    <component base="R" />
+    <component base="minus" xScale="0.58" yScale="0.42" xOffset="102.24" yOffset="565" />
+    <component base="minus" xScale="0.58" yScale="0.42" xOffset="102.24" yOffset="460" />
+  </outline>
+  <anchor x="274" y="0" name="bottom" />
+  <anchor x="274" y="800" name="top" />
+</glyph>

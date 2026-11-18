@@ -1,3 +1,11 @@
 sources:
-  - Blocksync-Com.glyphs
+  - Blocksync.designspace
+axisOrder:
+  - wght
+  - wdth
 familyName: Blocksync
+outputDir: ../fonts
+buildOTF: false
+buildWebfont: false
+flattenComponents: true
+decomposeTransformedComponents: true

@@ -1,0 +1,14 @@
+# Generated build outputs
+build/
+build.ninja
+.ninja_log
+sources/build.ninja
+sources/.ninja_log
+sources/.fontc-build/
+fonts/
+sources/instance_ufos/
+
+# Local environment/cache files
+venv/
+__pycache__/
+*.pyc

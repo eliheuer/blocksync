@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EBE" format="2">
+  <advance width="491.5" />
+  <unicode hex="1EBE" />
+  <anchor x="224.0" y="1017" name="top" />
+  <outline>
+    <component base="E" />
+    <component base="circumflexcomb.case" xOffset="75.0" />
+    <component base="acutecomb.case" xOffset="87.0" yOffset="160" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

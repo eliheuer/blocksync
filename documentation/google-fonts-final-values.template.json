@@ -1,0 +1,18 @@
+{
+  "date_added": "YYYY-MM-DD",
+  "source_commit": "40_CHARACTER_FINAL_COMMIT_HASH",
+  "repository_url": "https://github.com/eliheuer/blocksyncer",
+  "branch": "main",
+  "designer": "Eli Heuer",
+  "package_source_strategy": "config_yaml",
+  "archive_url": "",
+  "namecheck_result": "FINAL_NAMECHECK_RESULT",
+  "ai_use_disclosure": "FINAL_AI_USE_DISCLOSURE",
+  "authorship_cla_rfn_status": "FINAL_AUTHORSHIP_CLA_RFN_STATUS",
+  "fontspector_warning_decision": "FINAL_FONTSPECTOR_WARNING_DECISION",
+  "visual_proof_decision": "FINAL_VISUAL_PROOF_DECISION",
+  "generated_composites_decision": "FINAL_GENERATED_COMPOSITES_DECISION",
+  "static_ttf_decision": "FINAL_STATIC_TTF_DECISION",
+  "release_archive_fallback_decision": "FINAL_RELEASE_ARCHIVE_FALLBACK_DECISION",
+  "google_fonts_issue_url": ""
+}

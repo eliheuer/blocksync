@@ -1,7 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="currency" format="2">
-  <advance width="686"/>
-  <unicode hex="00A4"/>
+  <advance width="686" />
+  <unicode hex="00A4" />
   <outline>
+    <component base="zero" xScale="0.64" yScale="0.64" xOffset="169.56" yOffset="145" />
+    <component base="minus" xScale="0.34" yScale="0.32" xOffset="70" yOffset="565" />
+    <component base="minus" xScale="0.34" yScale="0.32" xOffset="414.04" yOffset="565" />
+    <component base="minus" xScale="0.34" yScale="0.32" xOffset="70" yOffset="110" />
+    <component base="minus" xScale="0.34" yScale="0.32" xOffset="414.04" yOffset="110" />
   </outline>
 </glyph>

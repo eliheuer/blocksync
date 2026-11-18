@@ -4,6 +4,7 @@
   <unicode hex="006C"/>
   <anchor x="211" y="0" name="bottom"/>
   <anchor x="223" y="800" name="topright"/>
+  <anchor x="223.0" y="800.0" name="top"/>
   <outline>
     <component base="L"/>
   </outline>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trademark" format="2">
+  <advance width="940.5"/>
+  <unicode hex="2122"/>
+  <anchor x="205.74939999999998" y="184.0" name="bottom"/>
+  <anchor x="205.74939999999998" y="800.1600000000001" name="top"/>
+  <outline>
+    <component base="T" xScale="0.7702" yScale="0.7702" yOffset="184.0"/>
+    <component base="M" xScale="0.7702" yScale="0.7702" xOffset="381.0" yOffset="184.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

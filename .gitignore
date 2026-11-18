@@ -2,10 +2,21 @@
 venv
 build.stamp
 proof
-#fonts
+fonts
+build
+build.ninja
+.ninja_log
+sources/build.ninja
+sources/.ninja_log
+sources/.fontc-build
+sources/instance_ufos
+out
+dist
 node_modules
 package-lock.json
 package.json
+__pycache__
+*.pyc
 
 # OS generated files #
 ######################

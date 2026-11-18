@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="section" format="2">
-  <advance width="686"/>
-  <unicode hex="00A7"/>
+  <advance width="686" />
+  <unicode hex="00A7" />
   <outline>
+    <component base="S" xScale="0.62" yScale="0.62" xOffset="140.88" yOffset="300" />
+    <component base="S" xScale="0.62" yScale="-0.62" xOffset="545.12" yOffset="484" />
   </outline>
 </glyph>

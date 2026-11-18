@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb.alt" format="2">
+  <unicode hex="0315"/>
+  <anchor x="223.0" y="800.0" name="_topright" />
+  <outline>
+    <component base="commaaccentcomb.case" xOffset="23.0" yOffset="863.0" />
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>686</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+  <anchor x="137" y="800" name="_top" />
+</glyph>

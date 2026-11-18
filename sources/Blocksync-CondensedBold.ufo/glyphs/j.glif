@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j" format="2">
-  <advance width="349"/>
-  <unicode hex="006A"/>
+  <advance width="349" />
+  <unicode hex="006A" />
   <outline>
-    <component base="J"/>
+    <component base="J" />
   </outline>
   <lib>
     <dict>
@@ -11,4 +11,5 @@
       <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
+  <anchor x="174.5" y="800" name="top" />
 </glyph>
