@@ -1,6 +1,6 @@
 # Blocksync
 
-Blocksync is a block-like Latin display face by Eli Heuer. The archived Knowledge Triumphant and DIE GNU TYPOGRAFIE posters show it in short, tightly set lines. Capitals supply the construction of many lowercase forms. Width and weight vary independently.
+Blocksync is a block-like Latin display face by Eli Heuer. The archived Knowledge Triumphant and DIE GNU TYPOGRAFIE posters show it in short, tightly set lines. Capitals supply the construction of many lowercase forms. The designspace has width and weight axes.
 
 ## Contents
 
@@ -13,7 +13,7 @@ Blocksync is a block-like Latin display face by Eli Heuer. The archived Knowledg
 
 **R1.** Work in the original 1000-unit em. For example, the Regular O has long vertical sides, cubic shoulders and extrema at −11 and 812 around the 800-unit cap height. Preserve fractional coordinates, optical overshoot and contour correspondence.
 
-**R2.** Read each master at its own width and weight. The normal-width Regular is the designspace default. The six remaining sources cover Regular, Bold and Black at each width extreme. Match the existing weight map (400–900) and width range (75–125). A display test needs both axes, including their intersections.
+**R2.** Read each master at its own width and weight. The normal-width Regular is the designspace default. The six remaining sources cover Regular, Bold and Black at each width extreme. Match the existing weight map (400–900) and width range (75–125). A display test needs both axes, including their intersections. In the inherited variable font all 629 glyphs retain the same outlines and horizontal metrics from Regular to Black at width 100. The condensed and expanded extremes do change weight. Preserve this behavior pending a design decision.
 
 **R3.** Preserve the distinction between contours and component-built forms. For example, Regular n takes its shape from N. A request to change a lowercase composite requires inspection of its uppercase donor and all other users of that donor.
 
@@ -50,7 +50,7 @@ policy = "Agent draft awaiting designer review."
 
 ## Baseline QA
 
-The pinned profile ran on the seven-master baseline and its 18 static proofs before migration. These checks had existing failures. The normal gate uses the template's exclusions. The full profile remains relevant for glyph and release review.
+The pinned profile ran on the seven-master baseline and its 18 static proofs before migration. These checks had existing failures. The normal gate uses the Blocksync-specific exclusions below. The full profile remains relevant for glyph and release review.
 
 ```toml
 [qa.exclude]
@@ -61,5 +61,8 @@ The pinned profile ran on the seven-master baseline and its 18 static proofs bef
 "fontgarden/stacked_marks" = "Existing mark stacks touch, including breve and acute above n."
 "fontgarden/precomposed_match" = "Composite placement differs from shaped sequences, including cedilla and ogonek letters."
 "googlefonts/font_names" = "The proof-only static fonts carry Condensed and Expanded style names."
+# Family-wide online check. Its service rejected repeated identical requests
+# across the static proofs. Run it once on the release VF with make namecheck-live.
+"fontdata_namecheck" = "Separate live family-name gate before submission."
 "googlefonts/repo/dirname_matches_nameid_1" = "The local fonts/ttf and fonts/variable folders are build outputs. Check the downstream package separately."
 ```

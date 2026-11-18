@@ -122,7 +122,7 @@ def main() -> int:
         "",
         "## Finalization",
         "",
-        "- Rerun `make proof` after any source, spacing, glyph, or build-output",
+        "- Rerun `make proof-legacy` after any source, spacing, glyph, or build-output",
         "  change that affects visual review.",
         "- Record maintainer decisions in",
         "  `documentation/google-fonts-final-decision-sheet.md`, then rerun",

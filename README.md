@@ -2,15 +2,15 @@
 
 [![][Fontspector]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
 [![][Universal]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
-[![][GF Profile]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
-[![][Outline Correctness]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][Font File Checks]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][Outline Checks]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
 [![][Shaping]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
 
 [Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Font File Checks]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FFontFileChecks.json
+[Outline Checks]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FOutlineChecks.json
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FUniversal.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FUniversalProfileChecks.json
 
 ![Sample Image](documentation/archive/drawbot/image-005.png)
 

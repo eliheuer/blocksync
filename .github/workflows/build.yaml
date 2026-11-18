@@ -31,7 +31,12 @@ jobs:
             .venv/.crates2.json
             ~/.designbot/cache
           key: designbot-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
-      - run: sudo apt-get update && sudo apt-get install -y libfontconfig1-dev pkg-config ttfautohint
+      - name: Check DesignBot build dependencies
+        run: |
+          if ! pkg-config --exists fontconfig; then
+            sudo apt-get update
+            sudo apt-get install -y libfontconfig1-dev pkg-config
+          fi
       - run: make setup SETUP_PYTHON=python
       - run: make build
       - run: make test NO_BUILD=1
@@ -71,6 +76,11 @@ jobs:
           path: bundle
       - name: Update the existing Pages branch
         run: |
+          current=$(git -C published ls-remote origin refs/heads/main | cut -f1)
+          if [ "$current" != "$GITHUB_SHA" ]; then
+            echo "A later main revision superseded this proof."
+            exit 0
+          fi
           cp -R bundle/output/proof/. published/proof/
           cp -R bundle/output/qa published/
           cp -R bundle/out/fontspector published/

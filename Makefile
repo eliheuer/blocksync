@@ -83,8 +83,12 @@ qa: $(BUILD)
 	./scripts/check_gf_fonts.sh
 
 test: $(BUILD) preflight-only
+	$(VENV_PYTHON) sources/test_assignment.py
 	$(VENV_PYTHON) sources/check_layout.py
 	$(FGTOOLS) qa
+
+namecheck-live: $(BUILD)
+	$(VENV)/bin/fontspector -p googlefonts --checkid fontdata_namecheck --error-code-on fail fonts/variable/*.ttf
 
 test-google-fonts: $(BUILD)
 	$(FGTOOLS) qa --checks google-fonts
@@ -145,7 +149,7 @@ site: proof specimen media
 	cp output/proof/widths.html output/site/widths.html
 	cp fonts/variable/*.ttf output/site/
 
-.PHONY: proof-legacy test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender proof-web specimen media formats site
+.PHONY: namecheck-live proof-legacy test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender proof-web specimen media formats site
 
 reports: agent-reuse-readiness
 
