@@ -2,7 +2,9 @@ PYTHON ?= python3
 SETUP_PYTHON ?= python3.13
 FGTOOLS = .venv/bin/fgtools
 BASE ?= main
-PORT ?= 8765
+RUNEBENDER_REPO ?= $(HOME)/GH/repos/runebender
+RUN_NATIVE = cd "$(RUNEBENDER_REPO)" && cargo run --quiet --locked --
+DESIGNSPACE = $(CURDIR)/sources/Blocksync.designspace
 BUILD = $(if $(NO_BUILD),,build)
 VENV = .venv
 VENV_PYTHON = $(VENV)/bin/python
@@ -18,7 +20,7 @@ help:
 	@printf '%s\n' \
 		'Blocksync / Font.Garden workflow:' \
 		'  make status / queue    Show grades and component dependencies' \
-		'  make runebender PORT=N Open the designspace in the web editor' \
+		'  make runebender       Open the designspace in the native checkout' \
 		'  make check-changes BASE=... GLYPHS=... MASTERS=...  Verify a draft batch' \
 		'  make diff / render / proof-web / specimen / media / site  Proofing tools' \
 		'  make setup          Create venv and install requirements' \
@@ -111,7 +113,16 @@ proof-legacy: $(BUILD)
 	$(VENV_PYTHON) scripts/report_proof_review_packet.py
 
 runebender:
-	runebender-serve sources/Blocksync.designspace --port $(PORT) --open
+	$(RUN_NATIVE) "$(DESIGNSPACE)"
+
+runebender-mcp:
+	@$(RUN_NATIVE) mcp --live
+
+runebender-font-mcp:
+	@$(RUN_NATIVE) mcp --font "$(DESIGNSPACE)"
+
+runebender-cli:
+	cd "$(RUNEBENDER_REPO)" && cargo build --quiet --locked --bin runebender
 
 status:
 	$(FGTOOLS) status
@@ -119,15 +130,15 @@ status:
 queue:
 	$(FGTOOLS) queue
 
-check-design:
-	$(FGTOOLS) check-design $(if $(GLYPHS),$(GLYPHS),--not-green)
+check-design: runebender-cli
+	PATH="$(RUNEBENDER_REPO)/target/debug:$$PATH" $(FGTOOLS) check-design $(if $(GLYPHS),$(GLYPHS),--not-green)
 
 check-changes:
 	$(VENV_PYTHON) sources/check_assignment.py --base "$(BASE)" --glyphs "$(GLYPHS)" --masters "$(MASTERS)"
 
-render:
+render: runebender-cli
 	@test -n "$(GLYPHS)"
-	$(FGTOOLS) render "$(GLYPHS)" --base "$(BASE)"
+	PATH="$(RUNEBENDER_REPO)/target/debug:$$PATH" $(FGTOOLS) render "$(GLYPHS)" --base "$(BASE)"
 
 diff:
 	$(FGTOOLS) diff --base "$(BASE)"
@@ -149,7 +160,7 @@ site: proof specimen media
 	cp output/proof/widths.html output/site/widths.html
 	cp fonts/variable/*.ttf output/site/
 
-.PHONY: namecheck-live proof-legacy test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender proof-web specimen media formats site
+.PHONY: namecheck-live proof-legacy test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender runebender-mcp runebender-font-mcp runebender-cli proof-web specimen media formats site
 
 reports: agent-reuse-readiness
 

@@ -17,7 +17,7 @@ Use [.agents/tasks/glyph-drafts.md](.agents/tasks/glyph-drafts.md) or [.agents/t
 
 Run `make setup` to install the template pins in .venv. The assignment gate compares the starting revision with the working tree and checks the allowed master/glyph pairs, green glyphs, donors and purple drafts. Pass the master names as a comma-separated list. The shared check-design tool also reports its own two-unit-grid findings. Refer those to R1 before editing any point.
 
-The project MCP configuration starts Runebender's live MCP transport. Open the designspace with runebender-serve on a free port. Check the project and source identity in editor_sessions before using live tools. When the web editor has no matching live socket, use the runebender-blocksync MCP server. Its project_info and read_glyph tools target this designspace on disk. Review the served sources in the browser. Keep other projects' servers running.
+Use `make runebender` to open Blocksync in the native editor from the current local Runebender checkout. Both project MCP commands use this checkout as well. Set RUNEBENDER_REPO to override its location. Select the session matching the absolute Blocksync designspace path and verify its document epoch and master before each live assignment. The runebender-blocksync endpoint also provides a disk view of the designspace. Preserve editors already open for other families.
 
 ## Quick Start
 

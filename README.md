@@ -33,7 +33,7 @@ The pinned Font.Garden tools build the variable font and 18 static proofs from t
 
 Open the [print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) or the [two-axis specimen](https://eliheuer.github.io/blocksync/proof/widths.html). Local copies are in `output/proof/`. CI updates the existing GitHub Pages branch after the checks pass on main. Release events attach the built fonts and reports to the tagged release.
 
-Use `make runebender PORT=8766` with an available port for the web editor. Use `make queue` for draft candidates and `make status` for the source grade inventory. The [agent workflow](AGENTS.md) covers assignments, protected donors and independent review. The [Font.Garden guide](https://font.garden/docs/start/) describes the shared workflow.
+Use `make runebender` to open the designspace in the native Runebender checkout at `~/GH/repos/runebender`. Set `RUNEBENDER_REPO` for another checkout location. Use `make queue` for draft candidates and `make status` for the source grade inventory. The [agent workflow](AGENTS.md) covers assignments, protected donors and independent review. The [Font.Garden guide](https://font.garden/docs/start/) describes the shared workflow.
 
 ## Google Fonts Release Work
 

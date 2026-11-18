@@ -1,18 +1,17 @@
 {
   "mcpServers": {
     "runebender": {
-      "command": "runebender",
+      "command": "make",
       "args": [
-        "mcp",
-        "--live"
+        "-s",
+        "runebender-mcp"
       ]
     },
     "runebender-blocksync": {
-      "command": "runebender",
+      "command": "make",
       "args": [
-        "mcp",
-        "--font",
-        "sources/Blocksync.designspace"
+        "-s",
+        "runebender-font-mcp"
       ]
     }
   }
