@@ -1,0 +1,192 @@
+## FontSpector report
+
+fontspector version: 1.9.0
+
+
+
+
+
+
+## Check results
+
+
+
+
+<details><summary>[1] fonts/variable</summary>
+<div>
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. (googlefonts/metadata/unreachable_subsetting)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** fonts/variable/Blocksync[wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
+
+* U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+* U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+* U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+* U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+* U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+* U+0307 COMBINING DOT ABOVE: try adding one of: todhri, canadian-aboriginal, duployan, tifinagh, malayalam, syriac, math, tai-le, old-permic, coptic, hebrew
+* U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan
+* U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+* U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+* U+0312 COMBINING TURNED COMMA ABOVE: try adding math
+* U+0315 COMBINING COMMA ABOVE RIGHT: try adding math
+* U+0326 COMBINING COMMA BELOW: try adding math
+* U+0327 COMBINING CEDILLA: try adding math
+* U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, batak, gurmukhi, hanunoo, meetei-mayek, takri, osage, canadian-aboriginal, cham, lao, buhid, sinhala, gunjala-gondi, bengali, khudawadi, phags-pa, masaram-gondi, old-permic, hebrew, limbu, mende-kikakui, rejang, caucasian-albanian, nko, gujarati, myanmar, mandaic, tagbanwa, lepcha, tai-viet, saurashtra, tamil, telugu, bhaiksuki, oriya, tirhuta, zanabazar-square, sharada, math, thai, bassa-vah, armenian, malayalam, soyombo, sundanese, tibetan, balinese, ahom, khmer, khojki, kaithi, mongolian, new-tai-lue, brahmi, kayah-li, modi, syloti-nagri, tai-le, hanifi-rohingya, adlam, tai-tham, wancho, devanagari, tifinagh, syriac, javanese, duployan, siddham, mahajani, miao, dogra, grantha, manichaean, newa, pahawh-hmong, tagalog, warang-citi, elbasan, music, psalter-pahlavi, yi, kannada, buginese, coptic, chakma, symbols, sogdian, marchen, thaana
+
+Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin, vietnamese [code: unreachable-subsetting]
+  
+  
+
+</div>
+</details>
+
+
+</div>
+</details>
+
+
+<details><summary>[3] fonts/variable/Blocksync[wdth,wght].ttf</summary>
+<div>
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check that OS/2 fsSelection WWS bit is set correctly. (opentype/fsselection_wws)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** OS/2 fsSelection WWS bit is not set, and the font does not have name IDs 21/22 (WWS Family/Subfamily). If the font's naming is WWS-conformant, the WWS bit should be set. [code: no-wws-without-wws-names]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. (contour_count)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are
+     inferred from the typical amounts of contours observed in a
+     large collection of reference font families. The divergences
+     listed below may simply indicate a significantly different
+     design on some of your glyphs. On the other hand, some of these
+     may flag actual bugs in the font such as glyphs mapped to an
+     incorrect codepoint. Please consider reviewing the design and
+     codepoint assignment of these to make sure they are correct.
+
+
+    The following glyphs do not have the recommended number of contours:
+* uni01F5 (U+01F5): found 2, expected one of: [3, 4, 5] [code: contour-count]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? (outline_alignment_miss)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+* - Ccedilla (U+00C7): X=387.5,Y=2.5 (should be at baseline 0?)
+* - G (U+0047): X=349,Y=-2.5 (should be at baseline 0?)
+* - Gbreve (U+011E): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni0122 (U+0122): X=349,Y=-2.5 (should be at baseline 0?)
+* - Gdotaccent (U+0120): X=349,Y=-2.5 (should be at baseline 0?)
+* - S (U+0053): X=180,Y=2.5 (should be at baseline 0?)
+* - Sacute (U+015A): X=180,Y=2.5 (should be at baseline 0?)
+* - Scaron (U+0160): X=180,Y=2.5 (should be at baseline 0?)
+* - Scircumflex (U+015C): X=180,Y=2.5 (should be at baseline 0?)
+* - uni0218 (U+0218): X=180,Y=2.5 (should be at baseline 0?)
+* - ccedilla (U+00E7): X=387.5,Y=2.5 (should be at baseline 0?)
+* - g (U+0067): X=349,Y=-2.5 (should be at baseline 0?)
+* - gbreve (U+011F): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni0123 (U+0123): X=349,Y=-2.5 (should be at baseline 0?)
+* - gdotaccent (U+0121): X=349,Y=-2.5 (should be at baseline 0?)
+* - s (U+0073): X=180,Y=2.5 (should be at baseline 0?)
+* - sacute (U+015B): X=180,Y=2.5 (should be at baseline 0?)
+* - scaron (U+0161): X=180,Y=2.5 (should be at baseline 0?)
+* - uni0219 (U+0219): X=180,Y=2.5 (should be at baseline 0?)
+* - section (U+00A7): X=801.5,Y=-1 (should be at baseline 0?)
+* - section (U+00A7): X=625.5,Y=-2 (should be at baseline 0?)
+* - Gcaron (U+01E6): X=349,Y=-2.5 (should be at baseline 0?)
+* - Gstroke (U+01E4): X=349,Y=-2.5 (should be at baseline 0?)
+* - gcaron (U+01E7): X=349,Y=-2.5 (should be at baseline 0?)
+* - gstroke (U+01E5): X=349,Y=-2.5 (should be at baseline 0?)
+* - scircumflex (U+015D): X=180,Y=2.5 (should be at baseline 0?)
+* - uni01F4 (U+01F4): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni01F5 (U+01F5): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni1E08 (U+1E08): X=387.5,Y=2.5 (should be at baseline 0?)
+* - uni1E09 (U+1E09): X=387.5,Y=2.5 (should be at baseline 0?)
+* - uni1E20 (U+1E20): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni1E21 (U+1E21): X=349,Y=-2.5 (should be at baseline 0?)
+* - uni1E60 (U+1E60): X=180,Y=2.5 (should be at baseline 0?)
+* - uni1E61 (U+1E61): X=180,Y=2.5 (should be at baseline 0?)
+* - uni1E64 (U+1E64): X=180,Y=2.5 (should be at baseline 0?)
+* - uni1E65 (U+1E65): X=180,Y=2.5 (should be at baseline 0?)
+* - uni1E66 (U+1E66): X=180,Y=2.5 (should be at baseline 0?)
+* - uni1E67 (U+1E67): X=180,Y=2.5 (should be at baseline 0?) [code: found-misalignments]
+  
+  
+
+</div>
+</details>
+
+
+</div>
+</details>
+
+
+
+
+
+
+### Summary
+
+| ⚠️ WARN | ℹ️ INFO | ✅ PASS | ⏩ SKIP | 
+| ---|---|---|---|
+| 4 | 8 | 130 | 60 | 
+| 2% | 4% | 64% | 30% | 
+
+
+
