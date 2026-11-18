@@ -33,8 +33,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Regular, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Condensed Regular, Latin and other, contour
 
@@ -44,8 +45,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Condensed Regular, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Condensed Bold, Latin and other, contour
 
@@ -55,8 +57,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Condensed Bold, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Condensed Black, Latin and other, contour
 
@@ -69,8 +72,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Condensed Black, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Expanded Regular, Latin and other, contour
 
@@ -80,8 +84,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Expanded Regular, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Expanded Bold, Latin and other, contour
 
@@ -91,8 +96,9 @@ Total: 3367 of 4396 master glyphs are green.
 ### Expanded Bold, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`
 
 ### Expanded Black, Latin and other, contour
 
@@ -102,5 +108,6 @@ Total: 3367 of 4396 master glyphs are green.
 ### Expanded Black, Latin and other, composite or empty
 
 - blue (121): `a`, `aacute`, `abreve`, `acaron`, `acircumflex`, `adieresis`, `ae`, `agrave`, `amacron`, `aogonek`, `aring`, `atilde`, `b`, `c`, `cacute`, `ccaron`, `ccedilla`, `cdotaccent`, `d`, `dcaron`, `dcroat`, `eacute`, `ebreve`, `ecaron`, `ecircumflex`, `edieresis`, `edotaccent`, `egrave`, `emacron`, `eng`, `eogonek`, `eth`, `f`, `g`, `gbreve`, `gcommaaccent`, `gdotaccent`, `germandbls`, `h`, `hbar`, `i`, `iacute`, `ibreve`, `icircumflex`, `idieresis`, `idotless`, `igrave`, `imacron`, `iogonek`, `j`, `jdotless`, `k`, `kcommaaccent`, `l`, `lacute`, `lcaron`, `lcommaaccent`, `lj`, `lslash`, `m`, `n`, `nacute`, `ncaron`, `ncommaaccent`, `ntilde`, `o`, `oacute`, `obreve`, `ocircumflex`, `odieresis`, `oe`, `ograve`, `ohungarumlaut`, `omacron`, `ordfeminine`, `ordmasculine`, `oslash`, `otilde`, `p`, `q`, `r`, `racute`, `rcaron`, `rcommaaccent`, `s`, `sacute`, `scaron`, `scedilla`, `scommaaccent`, `t`, `tcaron`, `tcedilla`, `tcommaaccent`, `thorn`, `u`, `uacute`, `ubreve`, `ucircumflex`, `udieresis`, `ugrave`, `uhungarumlaut`, `umacron`, `uogonek`, `uring`, `utilde`, `v`, `w`, `wacute`, `wcircumflex`, `wdieresis`, `wgrave`, `x`, `y`, `yacute`, `ycircumflex`, `ydieresis`, `ygrave`, `z`, `zacute`, `zcaron`, `zdotaccent`
-- none (17): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `onequarter`, `scircumflex`, `section`, `space`, `threequarters`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
+- none (15): `Ibreve`, `LJ`, `Lj`, `ccircumflex`, `currency`, `itilde`, `nbspace`, `onehalf`, `scircumflex`, `section`, `space`, `uni2028`, `uni2029`, `uni20B9`, `uni25CC`
 - orange (2): `cedillacomb`, `ogonekcomb`
+- purple (2): `onequarter`, `threequarters`

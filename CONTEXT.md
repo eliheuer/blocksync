@@ -56,7 +56,6 @@ The pinned profile ran on the seven-master baseline and its 18 static proofs bef
 [qa.exclude]
 "fontgarden/unitsperem" = "The original em is 1000."
 "fontgarden/grid" = "The sources retain fractional coordinates and optical corrections."
-"fontgarden/visible_ink" = "The inherited quarter and three-quarter fraction glyphs lack ink."
 "fontgarden/marks_attach" = "Existing combining marks fail attachment tests including the lowercase x."
 "fontgarden/stacked_marks" = "Existing mark stacks touch, including breve and acute above n."
 "fontgarden/precomposed_match" = "Composite placement differs from shaped sequences, including cedilla and ogonek letters."

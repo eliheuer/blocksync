@@ -3,5 +3,14 @@
   <advance width="686"/>
   <unicode hex="00BE"/>
   <outline>
+    <component base="three" xScale="0.42" yScale="0.42" xOffset="31.57" yOffset="440" />
+    <component base="fraction" xScale="0.82" yScale="0.82" xOffset="62" yOffset="66" />
+    <component base="four" xScale="0.42" yScale="0.42" xOffset="375.32" yOffset="10" />
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.54,0.44,0.88,1</string>
+    </dict>
+  </lib>
 </glyph>
