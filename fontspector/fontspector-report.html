@@ -279,10 +279,10 @@ you're checking.</p>
         <th>⚠️ WARN</th><th>ℹ️ INFO</th><th>✅ PASS</th><th>⏩ SKIP</th>
     </tr>
     <tr>
-        <td>4 </td> <td>8 </td> <td>130 </td> <td>60 </td> 
+        <td>3 </td> <td>8 </td> <td>131 </td> <td>60 </td> 
     </tr>
     <tr>
-        <td>2%</td> <td>4%</td> <td>64%</td> <td>30%</td> 
+        <td>1%</td> <td>4%</td> <td>65%</td> <td>30%</td> 
     </tr>
 </table>
 
@@ -309,151 +309,6 @@ immediately.
     are also always welcome, of course!)</p>
 
 <p>Fontspector version: 1.9.0</p>
-        
-            <h2>Opentype Specification Checks</h2>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3>Check that OS&#x2F;2 fsSelection WWS bit is set correctly.</h3>
-<div class='check__idlabel'>Check ID: opentype&#x2F;fsselection_wws</div>
-
-<div class="rationale">
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                ⚠️
-                Blocksync[wdth,wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                                
-                                    <p>OS/2 fsSelection WWS bit is not set, and the font does not have name IDs 21/22 (WWS Family/Subfamily). If the font's naming is WWS-conformant, the WWS bit should be set.</p>
-                                
-                                
-                                     [code: no-wws-without-wws-names]
-                                
-                            </span>
-                        </li>
-                
-                
-                </ul>
-            </div>
-        </details>
-    
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
         
             <h2>Universal Profile Checks</h2>
 
@@ -708,12 +563,12 @@ codepoint assignment of these to make sure they are correct.</p>
                                 
                                     <p>fonts/variable/Blocksync[wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, canadian-aboriginal, duployan, tifinagh, malayalam, syriac, math, tai-le, old-permic, coptic, hebrew</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, tai-le, todhri, malayalam, tifinagh, duployan, math, syriac, old-permic, hebrew</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -721,7 +576,8 @@ codepoint assignment of these to make sure they are correct.</p>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, batak, gurmukhi, hanunoo, meetei-mayek, takri, osage, canadian-aboriginal, cham, lao, buhid, sinhala, gunjala-gondi, bengali, khudawadi, phags-pa, masaram-gondi, old-permic, hebrew, limbu, mende-kikakui, rejang, caucasian-albanian, nko, gujarati, myanmar, mandaic, tagbanwa, lepcha, tai-viet, saurashtra, tamil, telugu, bhaiksuki, oriya, tirhuta, zanabazar-square, sharada, math, thai, bassa-vah, armenian, malayalam, soyombo, sundanese, tibetan, balinese, ahom, khmer, khojki, kaithi, mongolian, new-tai-lue, brahmi, kayah-li, modi, syloti-nagri, tai-le, hanifi-rohingya, adlam, tai-tham, wancho, devanagari, tifinagh, syriac, javanese, duployan, siddham, mahajani, miao, dogra, grantha, manichaean, newa, pahawh-hmong, tagalog, warang-citi, elbasan, music, psalter-pahlavi, yi, kannada, buginese, coptic, chakma, symbols, sogdian, marchen, thaana</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, syriac, thai, cherokee, gothic, sunuwar</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mahajani, khmer, tamil, thai, hanifi-rohingya, masaram-gondi, wancho, tirhuta, buginese, mongolian, sinhala, symbols, kayah-li, syloti-nagri, kaithi, modi, tifinagh, malayalam, gurmukhi, sundanese, armenian, kharoshthi, balinese, brahmi, sogdian, tagbanwa, gunjala-gondi, mende-kikakui, dogra, siddham, tai-tham, duployan, math, bengali, music, kannada, meetei-mayek, coptic, grantha, hanunoo, mandaic, oriya, osage, sharada, soyombo, tai-le, devanagari, elbasan, nko, phags-pa, telugu, thaana, javanese, takri, cham, canadian-aboriginal, yi, tibetan, adlam, lao, miao, hebrew, ahom, lepcha, batak, caucasian-albanian, gujarati, myanmar, new-tai-lue, old-permic, pahawh-hmong, limbu, syriac, tai-viet, khojki, psalter-pahlavi, rejang, bhaiksuki, chakma, tagalog, saurashtra, buhid, bassa-vah, marchen, warang-citi, zanabazar-square, khudawadi, newa, manichaean</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin, vietnamese</p>
                                 
