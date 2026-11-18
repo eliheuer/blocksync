@@ -15,8 +15,9 @@ SCRIPT_TAGS = "Latn"
 def set_name(font: TTFont, name_id: int, value: str) -> None:
     # Windows Unicode BMP, en-US.
     font["name"].setName(value, name_id, 3, 1, 0x409)
-    # Macintosh Roman, English.
-    font["name"].setName(value, name_id, 1, 0, 0)
+    # Keep the platform set emitted by the source builder.
+    if font["name"].getName(name_id, 1, 0, 0) is not None:
+        font["name"].setName(value, name_id, 1, 0, 0)
 
 
 def add_identity_avar(font: TTFont) -> None:

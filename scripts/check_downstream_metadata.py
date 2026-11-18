@@ -29,7 +29,7 @@ EXPECTED = {
     "designer": "Eli Heuer",
     "license": "OFL",
     "category": "DISPLAY",
-    "repository_url": "https://github.com/eliheuer/blocksyncer",
+    "repository_url": "https://github.com/eliheuer/blocksync",
     "branch": "main",
     "config_yaml": "sources/config.yaml",
     "primary_script": "Latn",
@@ -246,7 +246,7 @@ def check(args: argparse.Namespace) -> int:
 
     description_text = DESCRIPTION.read_text(encoding="utf-8")
     expected_repo_url = EXPECTED["repository_url"]
-    if f'href="{expected_repo_url}"' in description_text and "github.com/eliheuer/blocksyncer" in description_text:
+    if f'href="{expected_repo_url}"' in description_text:
         record("OK", "DESCRIPTION links the canonical upstream repository", failures, blockers, warnings)
     else:
         record("FAIL", "DESCRIPTION must link the canonical upstream repository URL", failures, blockers, warnings)

@@ -89,8 +89,8 @@ test: $(BUILD) preflight-only
 	$(VENV_PYTHON) sources/check_layout.py
 	$(FGTOOLS) qa
 
-namecheck-live: $(BUILD)
-	$(VENV)/bin/fontspector -p googlefonts --checkid fontdata_namecheck --error-code-on fail fonts/variable/*.ttf
+namecheck-live: setup
+	$(VENV_PYTHON) sources/namecheck.py
 
 test-google-fonts: $(BUILD)
 	$(FGTOOLS) qa --checks google-fonts

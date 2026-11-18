@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>800</integer>
 	<key>copyright</key>
-	<string>Copyright 2023 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksyncer)</string>
+	<string>Copyright 2023 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksync)</string>
 	<key>descender</key>
 	<integer>-200</integer>
 	<key>familyName</key>
@@ -37,6 +37,7 @@
 	<key>openTypeOS2Selection</key>
 	<array>
 		<integer>7</integer>
+		<integer>8</integer>
 	</array>
 	<key>openTypeOS2Type</key>
 	<array/>

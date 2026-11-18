@@ -1,7 +1,7 @@
 {
   "date_added": "YYYY-MM-DD",
   "source_commit": "40_CHARACTER_FINAL_COMMIT_HASH",
-  "repository_url": "https://github.com/eliheuer/blocksyncer",
+  "repository_url": "https://github.com/eliheuer/blocksync",
   "branch": "main",
   "designer": "Eli Heuer",
   "package_source_strategy": "config_yaml",

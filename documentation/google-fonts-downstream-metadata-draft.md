@@ -16,7 +16,7 @@ fonts {
   filename: "Blocksync[wdth,wght].ttf"
   post_script_name: "Blocksync-Regular"
   full_name: "Blocksync Regular"
-  copyright: "Copyright 2023 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksyncer)"
+  copyright: "Copyright 2023 The Blocksyncer Project Authors (https://github.com/eliheuer/blocksync)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -33,7 +33,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/eliheuer/blocksyncer"
+  repository_url: "https://github.com/eliheuer/blocksync"
   commit: "PENDING_FINAL_40_CHARACTER_COMMIT"
   config_yaml: "sources/config.yaml"
   files {
