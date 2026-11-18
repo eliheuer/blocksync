@@ -19,3 +19,5 @@ generated mark positioning is active for Latin shaping. Some active UFOs still
 contain historical non-default layers from older Glyphs exports; the designspace
 does not reference those layers, so the Google Fonts build uses only each UFO's
 `public.default` layer. Keep the active build path in designspace/UFO form.
+
+The release compiler computes two temporary normal-width supports, Bold and Black, from the original width extremes. The same recipe runs under make and Google Fonts Packager. The designspace above remains the seven-master editing source.

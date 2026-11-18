@@ -13,7 +13,7 @@ Blocksync is a block-like Latin display face by Eli Heuer. The archived Knowledg
 
 **R1.** Work in the original 1000-unit em. For example, the Regular O has long vertical sides, cubic shoulders and extrema at −11 and 812 around the 800-unit cap height. Preserve fractional coordinates, optical overshoot and contour correspondence.
 
-**R2.** Read each master at its own width and weight. The normal-width Regular is the designspace default. The six remaining sources cover Regular, Bold and Black at each width extreme. Match the existing weight map (400–900) and width range (75–125). A display test needs both axes, including their intersections. In the inherited variable font all 629 glyphs retain the same outlines and horizontal metrics from Regular to Black at width 100. The condensed and expanded extremes do change weight. Preserve this behavior pending a design decision.
+**R2.** Read each master at its own width and weight. The normal-width Regular is the designspace default. The six remaining sources cover Regular, Bold and Black at each width extreme. Match the existing weight map (400–900) and width range (75–125). A display test needs both axes, including their intersections. At width 100 the weight must progress from Regular to Black. The compiler interpolates its normal-width Bold and Black supports halfway between the corresponding original width masters. Eli approved the heavier Black after comparing the two proofs.
 
 **R3.** Preserve the distinction between contours and component-built forms. For example, Regular n takes its shape from N. A request to change a lowercase composite requires inspection of its uppercase donor and all other users of that donor.
 

@@ -9,3 +9,14 @@ buildOTF: false
 buildWebfont: false
 flattenComponents: true
 decomposeTransformedComponents: true
+# Both the Font.Garden build and Google Fonts Packager enter this recipe.
+# The inner Google Fonts recipe writes the variable font and all static
+# instances. cleanUp clears the Ninja state after each build.
+cleanUp: true
+recipe:
+  "../fonts/variable/Blocksync[wdth,wght].ttf":
+    - source: Blocksync.designspace
+    - operation: exec
+      exe: python3
+      args: build_interpolation.py
+      needs: build_interpolation.py
