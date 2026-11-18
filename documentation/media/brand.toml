@@ -1,0 +1,11 @@
+[colors]
+ground = "#ffffff"
+ink = "#151515"
+accent = "#555555"
+
+[text]
+tagline = "A block-like variable typeface"
+designer = "Eli Heuer"
+url = "https://github.com/eliheuer/blocksync"
+words = ["Blocksync", "Knowledge", "Triumphant", "DIE", "GNU", "TYPOGRAFIE"]
+glyphs = ["O", "N", "R", "g", "¼", "Ắ"]

@@ -89,7 +89,7 @@ env \
     GF_REPO_PATH="$GF_REPO" \
     GF_CLEAN_REPO_PATH="$CLEAN_REPO" \
     PACKAGE_DRY_RUN_READINESS_OUTPUT="$PACKAGE_REPORT" \
-    "$ROOT/venv/bin/python" "$ROOT/scripts/report_package_dry_run_readiness.py" >/dev/null
+    "$ROOT/.venv/bin/python" "$ROOT/scripts/report_package_dry_run_readiness.py" >/dev/null
 assert_contains "package report clean checkout" "Clean checkout avoids shared dirty paths: yes" "$PACKAGE_REPORT"
 assert_contains "package report effective checkout" "Effective checkout path for final dry run: \`$CLEAN_REPO_DISPLAY\`" "$PACKAGE_REPORT"
 assert_not_contains "package report dirty outside blocker" "- google/fonts checkout has dirty paths outside ofl/blocksync" "$PACKAGE_REPORT"
@@ -109,7 +109,7 @@ env \
     RELEASE_ARCHIVE_MANIFEST_PATH="$FINAL_ARCHIVE" \
     BUILT_VARIABLE_FONT_PATH="$FINAL_FONT" \
     PACKAGE_DRY_RUN_READINESS_OUTPUT="$FINAL_PACKAGE_REPORT" \
-    "$ROOT/venv/bin/python" "$ROOT/scripts/report_package_dry_run_readiness.py" >/dev/null
+    "$ROOT/.venv/bin/python" "$ROOT/scripts/report_package_dry_run_readiness.py" >/dev/null
 assert_contains "final package report ready" "Ready to run final no-PR Packager dry run: yes" "$FINAL_PACKAGE_REPORT"
 assert_contains "final package report clean checkout" "Clean checkout avoids shared dirty paths: yes" "$FINAL_PACKAGE_REPORT"
 assert_contains "final package report effective checkout" "Effective checkout path for final dry run: \`$CLEAN_REPO_DISPLAY\`" "$FINAL_PACKAGE_REPORT"
@@ -121,7 +121,7 @@ env \
     GF_REPO_PATH="$GF_REPO" \
     GF_CLEAN_REPO_PATH="$CLEAN_REPO" \
     DOWNSTREAM_PR_READINESS_OUTPUT="$DOWNSTREAM_REPORT" \
-    "$ROOT/venv/bin/python" "$ROOT/scripts/report_downstream_pr_readiness.py" >/dev/null
+    "$ROOT/.venv/bin/python" "$ROOT/scripts/report_downstream_pr_readiness.py" >/dev/null
 assert_contains "downstream report clean base" "Suggested clean checkout base ready: yes" "$DOWNSTREAM_REPORT"
 assert_contains "downstream report effective base" "Effective clean fork base ready for branch: yes" "$DOWNSTREAM_REPORT"
 assert_contains "downstream report clean dry-run command" "GF_REPO_PATH=$CLEAN_REPO_DISPLAY make package-dry-run" "$DOWNSTREAM_REPORT"

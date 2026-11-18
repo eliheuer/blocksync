@@ -7,8 +7,8 @@ METADATA_DRAFT="${PACKAGE_METADATA_PATH:-${METADATA_DRAFT_PATH:-$ROOT/documentat
 PACKAGE_DIR="ofl/blocksync"
 WORK_DIR="${PACKAGER_WORK_DIR:-$ROOT/out/google-fonts-packager}"
 METADATA_PB="$WORK_DIR/METADATA.pb"
-GFTOOLS_BIN="${GFTOOLS_BIN:-$ROOT/venv/bin/gftools}"
-VENV_PYTHON="${VENV_PYTHON:-$ROOT/venv/bin/python}"
+GFTOOLS_BIN="${GFTOOLS_BIN:-$ROOT/.venv/bin/gftools}"
+VENV_PYTHON="${VENV_PYTHON:-$ROOT/.venv/bin/python}"
 PACKAGER_RECORD_PATH="${PACKAGER_DRY_RUN_RECORD_PATH:-$ROOT/documentation/google-fonts-packager-dry-run-record.json}"
 PACKAGER_RECORD_OUTPUT="${PACKAGER_DRY_RUN_RECORD_OUTPUT:-$ROOT/documentation/packager-dry-run-record.md}"
 

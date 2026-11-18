@@ -9,6 +9,16 @@ License v1.1. The Google Fonts-ready build path uses UFO masters plus
 `sources/Blocksync.designspace`; `.glyphs` files are archived reference
 snapshots only.
 
+## Font.Garden drafting workflow
+
+Read [CONTEXT.md](CONTEXT.md) for the family design and historical grades. The designer assigns glyphs and masters. Start every writer from the same tested commit in a separate worktree. Split by component family, record the read-only donors, and keep assignments disjoint. Both green swatches and every glyph used as a component are frozen for drafting. A donor edit requires a separate design task and review of its dependents.
+
+Use [.agents/tasks/glyph-drafts.md](.agents/tasks/glyph-drafts.md) or [.agents/tasks/accented-letters.md](.agents/tasks/accented-letters.md), then [.agents/tasks/visual-review.md](.agents/tasks/visual-review.md). Give the reviewer clean before/after images and the rules. Only Eli approves a grade. Commit tested batches individually before integration.
+
+Run `make setup` to install the template pins in .venv. The assignment gate compares the starting revision with the working tree and checks the allowed master/glyph pairs, green glyphs, donors and purple drafts. Pass the master names as a comma-separated list. The shared check-design tool also reports its own two-unit-grid findings. Refer those to R1 before editing any point.
+
+The project MCP configuration starts Runebender's live MCP transport. Open the designspace with runebender-serve on a free port. Check the project and source identity in editor_sessions before using live tools. If the web editor has no matching MCP session, inspect the served sources on disk and review in the browser. Keep other projects' servers running.
+
 ## Quick Start
 
 ```bash
@@ -60,11 +70,9 @@ source generated from the corner masters.
 
 ## Build And QA
 
-Built fonts go to `fonts/` and are ignored. Use `make build` to run
-`gftools builder sources/config.yaml` when available, with a `fontmake`
-fallback. Use `make preflight-only` for the fast structure check that does not
+Built fonts go to `fonts/` and are ignored. Use `make build` for the pinned fgtools fontmake build and Blocksync metadata step. Use `make preflight-only` for the fast structure check that does not
 need the Python font toolchain. Use `make source-readiness` for the fuller
-designspace/UFO source validation pass. Use `make qa` or `make test` for
+designspace/UFO source validation pass. Use `make test` for the pinned Font.Garden suite across the family, and `make qa` for
 Fontspector Google Fonts QA on the release variable font; use
 `CHECK_STATIC=1 ./scripts/check_gf_fonts.sh`
 when static TTF proofing outputs also need to be checked. Use

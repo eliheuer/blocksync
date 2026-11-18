@@ -21,7 +21,7 @@ Default: `all`
    make build
    ```
 
-   This creates `venv` if needed, runs `gftools builder sources/config.yaml`
+   This creates the pinned environment if needed, runs fgtools with fontmake
    through `build.sh`, and applies `scripts/fix_gf_metadata.py`.
 
 4. For release QA, run:
@@ -30,7 +30,7 @@ Default: `all`
    make test
    ```
 
-5. For proof HTML, run:
+5. For print and two-axis proofs, run:
 
    ```bash
    make proof

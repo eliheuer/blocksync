@@ -1,6 +1,12 @@
 PYTHON ?= python3
-VENV ?= venv
+SETUP_PYTHON ?= python3.13
+FGTOOLS = .venv/bin/fgtools
+BASE ?= main
+PORT ?= 8765
+BUILD = $(if $(NO_BUILD),,build)
+VENV = .venv
 VENV_PYTHON = $(VENV)/bin/python
+export PATH := $(CURDIR)/.venv/bin:$(PATH)
 
 GF_REPO_PATH ?= /Users/eli/GH/forks/fonts
 GF_CLEAN_REPO_PATH ?= /private/tmp/blocksync-google-fonts
@@ -10,12 +16,16 @@ VALUES ?= documentation/google-fonts-final-values.template.json
 
 help:
 	@printf '%s\n' \
-		'Blocksync Google Fonts workflow:' \
+		'Blocksync / Font.Garden workflow:' \
+		'  make status / queue    Show grades and component dependencies' \
+		'  make runebender PORT=N Open the designspace in the web editor' \
+		'  make check-changes BASE=... GLYPHS=... MASTERS=...  Verify a draft batch' \
+		'  make diff / render / proof-web / specimen / media / site  Proofing tools' \
 		'  make setup          Create venv and install requirements' \
 		'  make build          Build variable and static TTFs into fonts/' \
 		'  make qa             Build, then run Fontspector Google Fonts profile' \
-		'  make test           Build, then run the Google Fonts QA profile' \
-		'  make proof          Build, then generate HTML proof documents' \
+		'  make test           Check project structure and pinned Font.Garden QA' \
+		'  make proof          Build, then generate the Font.Garden PDF and width proof' \
 		'  make reports        Regenerate release/readiness reports' \
 		'  make source-readiness Validate designspace/UFO source readiness' \
 		'  make warning-worklist Generate the Fontspector warning worklist' \
@@ -56,28 +66,86 @@ help:
 		'  make preflight-only Run release-structure checks without building' \
 		'  make clean          Remove generated build outputs and venv'
 
-setup: venv
+setup: $(VENV)/.fontgarden-tools
 
-venv: $(VENV)/touchfile
+venv: setup
 
-$(VENV)/touchfile: requirements.in
-	test -d $(VENV) || $(PYTHON) -m venv $(VENV)
-	. $(VENV)/bin/activate; pip install -Ur requirements.in
-	touch $(VENV)/touchfile
+$(VENV)/.fontgarden-tools: requirements.txt requirements.in
+	test -x $(VENV_PYTHON) || $(SETUP_PYTHON) -m venv $(VENV)
+	$(VENV_PYTHON) -m pip install -r requirements.txt
+	$(FGTOOLS) install-tools
+	touch $@
 
-build: venv
-	. $(VENV)/bin/activate; ./build.sh
+build: setup
+	./build.sh
 
-qa: build
+qa: $(BUILD)
 	./scripts/check_gf_fonts.sh
 
-test: qa
+test: $(BUILD) preflight-only
+	$(VENV_PYTHON) sources/check_layout.py
+	$(FGTOOLS) qa
 
-proof: build
-	. $(VENV)/bin/activate; mkdir -p out/proof; diffenator2 proof $$(find fonts -type f -name '*.ttf') -o out/proof
+test-google-fonts: $(BUILD)
+	$(FGTOOLS) qa --checks google-fonts
+
+test-fontgarden: $(BUILD)
+	$(FGTOOLS) qa --checks fontgarden
+
+proof: $(BUILD)
+	$(FGTOOLS) media --proof $(PAGE)
+	$(VENV_PYTHON) sources/width_proof.py
+
+# The existing GF handoff checks its separate Diffenator2 proof bundle.
+proof-legacy: $(BUILD)
+	test -x venv/bin/diffenator2 || $(SETUP_PYTHON) -m venv venv
+	test -x venv/bin/diffenator2 || venv/bin/python -m pip install diffenator2==0.5.0
+	mkdir -p out/proof
+	PATH="$(CURDIR)/venv/bin:$$PATH" venv/bin/diffenator2 proof fonts/variable/*.ttf fonts/ttf/*.ttf -o out/proof
 	$(VENV_PYTHON) scripts/build_proof_index.py
 	$(VENV_PYTHON) scripts/report_proof_review_readiness.py
 	$(VENV_PYTHON) scripts/report_proof_review_packet.py
+
+runebender:
+	runebender-serve sources/Blocksync.designspace --port $(PORT) --open
+
+status:
+	$(FGTOOLS) status
+
+queue:
+	$(FGTOOLS) queue
+
+check-design:
+	$(FGTOOLS) check-design $(if $(GLYPHS),$(GLYPHS),--not-green)
+
+check-changes:
+	$(VENV_PYTHON) sources/check_assignment.py --base "$(BASE)" --glyphs "$(GLYPHS)" --masters "$(MASTERS)"
+
+render:
+	@test -n "$(GLYPHS)"
+	$(FGTOOLS) render "$(GLYPHS)" --base "$(BASE)"
+
+diff:
+	$(FGTOOLS) diff --base "$(BASE)"
+
+proof-web: $(BUILD)
+	$(FGTOOLS) proof-web --current
+
+specimen: $(BUILD)
+	$(FGTOOLS) media --specimen $(PAGE)
+
+media: $(BUILD)
+	$(FGTOOLS) media $(FORMAT) $(if $(CANVAS),--canvas $(CANVAS),)
+
+formats:
+	$(FGTOOLS) media --list
+
+site: proof specimen media
+	$(FGTOOLS) site
+	cp output/proof/widths.html output/site/widths.html
+	cp fonts/variable/*.ttf output/site/
+
+.PHONY: proof-legacy test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender proof-web specimen media formats site
 
 reports: agent-reuse-readiness
 
@@ -252,5 +320,5 @@ preflight-only:
 	$(PYTHON) scripts/gf_preflight.py
 
 clean:
-	rm -rf $(VENV) build build.ninja .ninja_log fonts out dist build.stamp
+	rm -rf $(VENV) output build build.ninja .ninja_log fonts out dist build.stamp
 	find . -name "*.pyc" -delete

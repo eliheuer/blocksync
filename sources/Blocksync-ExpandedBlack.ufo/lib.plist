@@ -605,7 +605,7 @@
       <string>macron</string>
       <string>cedilla</string>
       <string>ogonek</string>
-    </array>
+	</array>
     <key>public.postscriptNames</key>
     <dict>
       <key>Acaron</key>

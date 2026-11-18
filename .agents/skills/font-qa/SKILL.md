@@ -16,7 +16,7 @@ Default: `all`
   make preflight-only
   ```
 
-- Build plus release variable Fontspector gate:
+- Build plus Font.Garden and Google Fonts QA on the variable and static outputs:
 
   ```bash
   make test
@@ -40,7 +40,7 @@ Default: `all`
   CHECK_STATIC=1 ./scripts/check_gf_fonts.sh
   ```
 
-- Visual proof output:
+- Print and two-axis proof output:
 
   ```bash
   make proof

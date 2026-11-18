@@ -1,0 +1,18 @@
+defaults = true
+
+# DrawBot posters in documentation/archive
+[sample.knowledge]
+label = "Book title"
+scripts = ["Latin"]
+text = "Knowledge Triumphant"
+
+[sample.typografie]
+label = "Poster"
+scripts = ["Latin"]
+text = "DIE GNU TYPOGRAFIE"
+
+# Source composites and equivalent sequences, plus the fractions with open QA.
+[sample.marks]
+label = "Accents"
+scripts = ["Latin"]
+text = "Ç Ç ǵ ǵ Ắ Ắ ắ ắ ¼ ½ ¾"

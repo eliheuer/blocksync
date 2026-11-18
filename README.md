@@ -1,16 +1,16 @@
 # Blocksync
 
-[![][Fontspector]](https://eliheuer.github.io/blocksyncer/fontspector/fontspector-report.html)
-[![][Universal]](https://eliheuer.github.io/blocksyncer/fontspector/fontspector-report.html)
-[![][GF Profile]](https://eliheuer.github.io/blocksyncer/fontspector/fontspector-report.html)
-[![][Outline Correctness]](https://eliheuer.github.io/blocksyncer/fontspector/fontspector-report.html)
-[![][Shaping]](https://eliheuer.github.io/blocksyncer/fontspector/fontspector-report.html)
+[![][Fontspector]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][Universal]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][GF Profile]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][Outline Correctness]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
+[![][Shaping]](https://eliheuer.github.io/blocksync/fontspector/fontspector-report.html)
 
-[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksyncer%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fblocksync%2Fgh-pages%2Fbadges%2FUniversal.json
 
 ![Sample Image](documentation/archive/drawbot/image-005.png)
 
@@ -20,17 +20,20 @@ A block-like variable font designed and engineered by Eli Heuer. In-development,
 
 ## Building
 
-Fonts are built automatically by GitHub Actions - take a look in the [Actions](https://github.com/eliheuer/blocksyncer/actions) tab for the latest build.
+Install Python 3.13, Rust/Cargo and the system fontconfig headers (Linux). From the repository root run:
 
-If you want to build fonts manually on your own computer:
+```sh
+make setup
+make build
+make test
+make proof
+```
 
-* `make preflight-only` will run the fast Google Fonts source-structure check.
-* `make source-readiness` will validate the active designspace/UFO sources.
-* `make build` will produce font files from `sources/Blocksync.designspace`.
-* `make test` will run the [Fontspector](https://github.com/fonttools/fontspector) Google Fonts QA profile on the release variable font.
-* `make proof` will generate HTML proof files.
+The pinned Font.Garden tools build the variable font and 18 static proofs from the existing designspace. Blocksync uses the fontmake compiler with its original metadata step. The default fontc recipe produces only the variable font for this config. The family design and its inherited QA findings are in [CONTEXT.md](CONTEXT.md).
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://eliheuer.github.io/blocksyncer.
+Open the [print proof](https://eliheuer.github.io/blocksync/proof/proof.pdf) or the [two-axis specimen](https://eliheuer.github.io/blocksync/proof/widths.html). Local copies are in `output/proof/`. CI updates the existing GitHub Pages branch after the checks pass on main. Release events attach the built fonts and reports to the tagged release.
+
+Use `make runebender PORT=8766` with an available port for the web editor. Use `make queue` for draft candidates and `make status` for the source grade inventory. The [agent workflow](AGENTS.md) covers assignments, protected donors and independent review. The [Font.Garden guide](https://font.garden/docs/start/) describes the shared workflow.
 
 ## Google Fonts Release Work
 
