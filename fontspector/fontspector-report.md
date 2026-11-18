@@ -12,6 +12,51 @@ fontspector version: 1.9.0
 
 
 
+<details><summary>[1] fonts/variable</summary>
+<div>
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. (googlefonts/metadata/unreachable_subsetting)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** fonts/variable/Blocksync[wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
+
+* U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+* U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+* U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+* U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+* U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+* U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, todhri, syriac, tifinagh, canadian-aboriginal, hebrew, duployan, malayalam, math, tai-le, coptic
+* U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac
+* U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+* U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+* U+0312 COMBINING TURNED COMMA ABOVE: try adding math
+* U+0315 COMBINING COMMA ABOVE RIGHT: try adding math
+* U+0326 COMBINING COMMA BELOW: try adding math
+* U+0327 COMBINING CEDILLA: try adding math
+* U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, syriac, caucasian-albanian, sunuwar, tifinagh, gothic
+* U+25CC DOTTED CIRCLE: try adding one of: khojki, batak, khudawadi, new-tai-lue, symbols, myanmar, old-permic, tagalog, soyombo, miao, zanabazar-square, coptic, mandaic, takri, canadian-aboriginal, oriya, phags-pa, sinhala, lepcha, modi, meetei-mayek, sundanese, tai-le, bhaiksuki, balinese, tifinagh, sogdian, grantha, tai-tham, yi, gunjala-gondi, hanifi-rohingya, dogra, kayah-li, math, masaram-gondi, mende-kikakui, adlam, mahajani, bengali, siddham, ahom, bassa-vah, limbu, khmer, tai-viet, telugu, armenian, newa, gujarati, kaithi, music, nko, elbasan, buginese, buhid, pahawh-hmong, syriac, marchen, tagbanwa, brahmi, manichaean, thai, chakma, kharoshthi, osage, caucasian-albanian, lao, javanese, tirhuta, rejang, cham, duployan, kannada, wancho, psalter-pahlavi, tibetan, mongolian, syloti-nagri, hanunoo, devanagari, warang-citi, gurmukhi, saurashtra, malayalam, sharada, hebrew, thaana, tamil
+
+Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin, vietnamese [code: unreachable-subsetting]
+  
+  
+
+</div>
+</details>
+
+
+</div>
+</details>
+
+
 <details><summary>[2] fonts/variable/Blocksync[wdth,wght].ttf</summary>
 <div>
 
@@ -100,51 +145,6 @@ fontspector version: 1.9.0
 * - uni1E65 (U+1E65): X=180,Y=2.5 (should be at baseline 0?)
 * - uni1E66 (U+1E66): X=180,Y=2.5 (should be at baseline 0?)
 * - uni1E67 (U+1E67): X=180,Y=2.5 (should be at baseline 0?) [code: found-misalignments]
-  
-  
-
-</div>
-</details>
-
-
-</div>
-</details>
-
-
-<details><summary>[1] fonts/variable</summary>
-<div>
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. (googlefonts/metadata/unreachable_subsetting)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** fonts/variable/Blocksync[wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
-
-* U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
-* U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
-* U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
-* U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
-* U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
-* U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, tai-le, todhri, malayalam, tifinagh, duployan, math, syriac, old-permic, hebrew
-* U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan
-* U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
-* U+030C COMBINING CARON: try adding one of: cherokee, tai-le
-* U+0312 COMBINING TURNED COMMA ABOVE: try adding math
-* U+0315 COMBINING COMMA ABOVE RIGHT: try adding math
-* U+0326 COMBINING COMMA BELOW: try adding math
-* U+0327 COMBINING CEDILLA: try adding math
-* U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, syriac, thai, cherokee, gothic, sunuwar
-* U+25CC DOTTED CIRCLE: try adding one of: mahajani, khmer, tamil, thai, hanifi-rohingya, masaram-gondi, wancho, tirhuta, buginese, mongolian, sinhala, symbols, kayah-li, syloti-nagri, kaithi, modi, tifinagh, malayalam, gurmukhi, sundanese, armenian, kharoshthi, balinese, brahmi, sogdian, tagbanwa, gunjala-gondi, mende-kikakui, dogra, siddham, tai-tham, duployan, math, bengali, music, kannada, meetei-mayek, coptic, grantha, hanunoo, mandaic, oriya, osage, sharada, soyombo, tai-le, devanagari, elbasan, nko, phags-pa, telugu, thaana, javanese, takri, cham, canadian-aboriginal, yi, tibetan, adlam, lao, miao, hebrew, ahom, lepcha, batak, caucasian-albanian, gujarati, myanmar, new-tai-lue, old-permic, pahawh-hmong, limbu, syriac, tai-viet, khojki, psalter-pahlavi, rejang, bhaiksuki, chakma, tagalog, saurashtra, buhid, bassa-vah, marchen, warang-citi, zanabazar-square, khudawadi, newa, manichaean
-
-Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin, vietnamese [code: unreachable-subsetting]
   
   
 
